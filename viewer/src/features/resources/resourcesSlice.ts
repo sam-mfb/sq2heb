@@ -3,6 +3,7 @@ import { scanResources, loadResourceFile, loadBinaryResourceFile } from './resou
 import { parsePictureResource } from '../../utils/parsers/pictureParser'
 import { parseViewResource } from '../../utils/parsers/viewParser'
 import { parseSoundResource } from '../../utils/parsers/soundParser'
+import { parseLogicResource } from '../../utils/parsers/logicParser'
 import { resourceCache } from '../../services/resourceCache'
 
 export interface FileTree {
@@ -88,6 +89,18 @@ export const loadSoundResource = createAsyncThunk(
   }
 )
 
+// Async thunk to load a logic resource
+export const loadLogicResource = createAsyncThunk(
+  'resources/loadLogicResource',
+  async (id: number) => {
+    const fileContent = await loadResourceFile('logic', id)
+    const logicResource = await parseLogicResource(fileContent)
+    // Store in cache instead of Redux state
+    resourceCache.set('logic', id, logicResource)
+    return { id }
+  }
+)
+
 const resourcesSlice = createSlice({
   name: 'resources',
   initialState,
@@ -157,6 +170,23 @@ const resourcesSlice = createSlice({
         state.currentResource.loading = false
         state.currentResource.loaded = false
         state.currentResource.error = action.error.message || 'Failed to load sound'
+      })
+      // Logic resource loading
+      .addCase(loadLogicResource.pending, (state) => {
+        state.currentResource.loading = true
+        state.currentResource.error = null
+      })
+      .addCase(loadLogicResource.fulfilled, (state, action) => {
+        state.currentResource.type = 'logic'
+        state.currentResource.id = action.payload.id
+        state.currentResource.loaded = true
+        state.currentResource.loading = false
+        state.currentResource.error = null
+      })
+      .addCase(loadLogicResource.rejected, (state, action) => {
+        state.currentResource.loading = false
+        state.currentResource.loaded = false
+        state.currentResource.error = action.error.message || 'Failed to load logic'
       })
   },
 })
