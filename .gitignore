@@ -1,8 +1,11 @@
 # Ignore node modules
 node_modules/
 
+# Ignore copyrighted game files
+orig/
+project/
+
 # Ignore build output
-project/build/
 viewer/dist/
 
 # Ignore copied resources (duplicates of project/src)
