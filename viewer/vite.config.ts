@@ -9,6 +9,16 @@ export default defineConfig({
       '@': '/src',
     }
   },
+  define: {
+    'global': 'globalThis',
+  },
+  optimizeDeps: {
+    esbuildOptions: {
+      define: {
+        global: 'globalThis'
+      }
+    }
+  },
   server: {
     host: '0.0.0.0',
     port: 3000,

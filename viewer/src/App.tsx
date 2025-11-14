@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { ResourceBrowser } from './features/browser/ResourceBrowser'
+import { PictureViewer } from './features/viewers/PictureViewer'
 import './App.css'
 
 // Import agikit styles
@@ -29,7 +30,7 @@ function App() {
         <div className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/pic/:id" element={<div>Picture viewer (Phase 3)</div>} />
+            <Route path="/pic/:id" element={<PictureViewer />} />
             <Route path="/view/:id" element={<div>View viewer (Phase 4)</div>} />
             <Route path="/sound/:id" element={<div>Sound viewer (Phase 5)</div>} />
             <Route path="/logic/:id" element={<div>Logic viewer (Phase 6)</div>} />

@@ -1,5 +1,6 @@
-import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit'
-import { scanResources } from './resourcesAPI'
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
+import { scanResources, loadResourceFile } from './resourcesAPI'
+import { parsePictureResource } from '../../utils/parsers/pictureParser'
 
 export interface FileTree {
   pics: number[]
@@ -48,6 +49,16 @@ export const loadFileTree = createAsyncThunk(
   }
 )
 
+// Async thunk to load a picture resource
+export const loadPictureResource = createAsyncThunk(
+  'resources/loadPictureResource',
+  async (id: number) => {
+    const fileContent = await loadResourceFile('pic', id)
+    const pictureResource = await parsePictureResource(fileContent)
+    return { id, data: pictureResource }
+  }
+)
+
 const resourcesSlice = createSlice({
   name: 'resources',
   initialState,
@@ -61,11 +72,27 @@ const resourcesSlice = createSlice({
       .addCase(loadFileTree.pending, (state) => {
         state.fileTree.loaded = false
       })
-      .addCase(loadFileTree.fulfilled, (state, action: PayloadAction<FileTree>) => {
+      .addCase(loadFileTree.fulfilled, (state, action) => {
         state.fileTree = { ...action.payload, loaded: true }
       })
       .addCase(loadFileTree.rejected, (state) => {
         state.fileTree.loaded = false
+      })
+      // Picture resource loading
+      .addCase(loadPictureResource.pending, (state) => {
+        state.currentResource.loading = true
+        state.currentResource.error = null
+      })
+      .addCase(loadPictureResource.fulfilled, (state, action) => {
+        state.currentResource.type = 'pic'
+        state.currentResource.id = action.payload.id
+        state.currentResource.data = action.payload.data
+        state.currentResource.loading = false
+        state.currentResource.error = null
+      })
+      .addCase(loadPictureResource.rejected, (state, action) => {
+        state.currentResource.loading = false
+        state.currentResource.error = action.error.message || 'Failed to load picture'
       })
   },
 })
