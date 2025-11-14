@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { ResourceBrowser } from './features/browser/ResourceBrowser'
 import './App.css'
 
 // Import agikit styles
@@ -23,7 +24,7 @@ function App() {
       <div className="app">
         <div className="sidebar">
           <h2>Resources</h2>
-          <p>Browser will go here (Phase 2)</p>
+          <ResourceBrowser />
         </div>
         <div className="main-content">
           <Routes>

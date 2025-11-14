@@ -4,3 +4,6 @@ node_modules/
 # Ignore build output
 project/build/
 viewer/dist/
+
+# Ignore copied resources (duplicates of project/src)
+viewer/public/resources/

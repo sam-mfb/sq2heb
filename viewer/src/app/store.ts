@@ -1,8 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit'
+import resourcesReducer from '../features/resources/resourcesSlice'
 
 export const store = configureStore({
   reducer: {
-    // We'll add slices here in Phase 2
+    resources: resourcesReducer,
   },
 })
 
