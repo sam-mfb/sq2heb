@@ -1,6 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-import { scanResources, loadResourceFile } from './resourcesAPI'
+import { scanResources, loadResourceFile, loadBinaryResourceFile } from './resourcesAPI'
 import { parsePictureResource } from '../../utils/parsers/pictureParser'
+import { parseViewResource } from '../../utils/parsers/viewParser'
 
 export interface FileTree {
   pics: number[]
@@ -59,6 +60,16 @@ export const loadPictureResource = createAsyncThunk(
   }
 )
 
+// Async thunk to load a view resource
+export const loadViewResource = createAsyncThunk(
+  'resources/loadViewResource',
+  async (id: number) => {
+    const fileContent = await loadBinaryResourceFile('view', id)
+    const viewResource = await parseViewResource(fileContent)
+    return { id, data: viewResource }
+  }
+)
+
 const resourcesSlice = createSlice({
   name: 'resources',
   initialState,
@@ -93,6 +104,22 @@ const resourcesSlice = createSlice({
       .addCase(loadPictureResource.rejected, (state, action) => {
         state.currentResource.loading = false
         state.currentResource.error = action.error.message || 'Failed to load picture'
+      })
+      // View resource loading
+      .addCase(loadViewResource.pending, (state) => {
+        state.currentResource.loading = true
+        state.currentResource.error = null
+      })
+      .addCase(loadViewResource.fulfilled, (state, action) => {
+        state.currentResource.type = 'view'
+        state.currentResource.id = action.payload.id
+        state.currentResource.data = action.payload.data
+        state.currentResource.loading = false
+        state.currentResource.error = null
+      })
+      .addCase(loadViewResource.rejected, (state, action) => {
+        state.currentResource.loading = false
+        state.currentResource.error = action.error.message || 'Failed to load view'
       })
   },
 })
