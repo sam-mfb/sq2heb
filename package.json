@@ -1,0 +1,19 @@
+{
+  "name": "sq2heb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "extract": "agikit extract ./orig/ ./output/",
+    "build": "agikit build ./project",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@agikit/cli": "^0.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
