@@ -6,18 +6,29 @@ import type { RootState, AppDispatch } from '../../app/store'
 import { ViewEditor } from '@agikit/react-editors/dist/ViewEditor'
 import { ViewEditorControlContext } from '@agikit/react-editors/dist/ViewEditorControlContext'
 import type { ViewEditorCommand } from '@agikit/react-editors/dist/ViewEditorCommands'
+import type { EditingView } from '@agikit/react-editors/dist/EditingViewTypes'
+import { resourceCache } from '../../services/resourceCache'
 
 export function ViewViewer() {
   const { id } = useParams<{ id: string }>()
   const dispatch = useDispatch<AppDispatch>()
   const { currentResource } = useSelector((state: RootState) => state.resources)
   const [zoom, setZoom] = useState(2)
+  const [viewResource, setViewResource] = useState<EditingView | null>(null)
 
   useEffect(() => {
     if (id) {
       dispatch(loadViewResource(Number(id)))
     }
   }, [id, dispatch])
+
+  // Get data from cache when loaded
+  useEffect(() => {
+    if (currentResource.loaded && currentResource.type === 'view' && currentResource.id !== null) {
+      const data = resourceCache.get('view', currentResource.id) as EditingView
+      setViewResource(data)
+    }
+  }, [currentResource.loaded, currentResource.type, currentResource.id])
 
   if (currentResource.loading) {
     return <div style={{ padding: '20px' }}>Loading view {id}...</div>
@@ -31,7 +42,7 @@ export function ViewViewer() {
     )
   }
 
-  if (!currentResource.data || currentResource.type !== 'view') {
+  if (!viewResource || currentResource.type !== 'view') {
     return <div style={{ padding: '20px' }}>No view loaded</div>
   }
 
@@ -49,7 +60,7 @@ export function ViewViewer() {
     <div style={{ padding: '20px' }}>
       <h2>View {id}</h2>
       <ViewEditorControlContext.Provider value={contextValue}>
-        <ViewEditor view={currentResource.data} />
+        <ViewEditor view={viewResource} />
       </ViewEditorControlContext.Provider>
     </div>
   )

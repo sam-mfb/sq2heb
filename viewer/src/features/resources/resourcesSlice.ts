@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 import { scanResources, loadResourceFile, loadBinaryResourceFile } from './resourcesAPI'
 import { parsePictureResource } from '../../utils/parsers/pictureParser'
 import { parseViewResource } from '../../utils/parsers/viewParser'
+import { resourceCache } from '../../services/resourceCache'
 
 export interface FileTree {
   pics: number[]
@@ -14,7 +15,7 @@ export interface FileTree {
 export interface CurrentResource {
   type: 'pic' | 'view' | 'sound' | 'logic' | null
   id: number | null
-  data: any | null
+  loaded: boolean  // Whether the resource is loaded in the cache
   loading: boolean
   error: string | null
 }
@@ -35,7 +36,7 @@ const initialState: ResourcesState = {
   currentResource: {
     type: null,
     id: null,
-    data: null,
+    loaded: false,
     loading: false,
     error: null,
   },
@@ -56,7 +57,9 @@ export const loadPictureResource = createAsyncThunk(
   async (id: number) => {
     const fileContent = await loadResourceFile('pic', id)
     const pictureResource = await parsePictureResource(fileContent)
-    return { id, data: pictureResource }
+    // Store in cache instead of Redux state
+    resourceCache.set('pic', id, pictureResource)
+    return { id }
   }
 )
 
@@ -66,7 +69,9 @@ export const loadViewResource = createAsyncThunk(
   async (id: number) => {
     const fileContent = await loadBinaryResourceFile('view', id)
     const viewResource = await parseViewResource(fileContent)
-    return { id, data: viewResource }
+    // Store in cache instead of Redux state
+    resourceCache.set('view', id, viewResource)
+    return { id }
   }
 )
 
@@ -97,12 +102,13 @@ const resourcesSlice = createSlice({
       .addCase(loadPictureResource.fulfilled, (state, action) => {
         state.currentResource.type = 'pic'
         state.currentResource.id = action.payload.id
-        state.currentResource.data = action.payload.data
+        state.currentResource.loaded = true
         state.currentResource.loading = false
         state.currentResource.error = null
       })
       .addCase(loadPictureResource.rejected, (state, action) => {
         state.currentResource.loading = false
+        state.currentResource.loaded = false
         state.currentResource.error = action.error.message || 'Failed to load picture'
       })
       // View resource loading
@@ -113,12 +119,13 @@ const resourcesSlice = createSlice({
       .addCase(loadViewResource.fulfilled, (state, action) => {
         state.currentResource.type = 'view'
         state.currentResource.id = action.payload.id
-        state.currentResource.data = action.payload.data
+        state.currentResource.loaded = true
         state.currentResource.loading = false
         state.currentResource.error = null
       })
       .addCase(loadViewResource.rejected, (state, action) => {
         state.currentResource.loading = false
+        state.currentResource.loaded = false
         state.currentResource.error = action.error.message || 'Failed to load view'
       })
   },
