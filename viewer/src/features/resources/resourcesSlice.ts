@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 import { scanResources, loadResourceFile, loadBinaryResourceFile } from './resourcesAPI'
 import { parsePictureResource } from '../../utils/parsers/pictureParser'
 import { parseViewResource } from '../../utils/parsers/viewParser'
+import { parseSoundResource } from '../../utils/parsers/soundParser'
 import { resourceCache } from '../../services/resourceCache'
 
 export interface FileTree {
@@ -75,6 +76,18 @@ export const loadViewResource = createAsyncThunk(
   }
 )
 
+// Async thunk to load a sound resource
+export const loadSoundResource = createAsyncThunk(
+  'resources/loadSoundResource',
+  async (id: number) => {
+    const fileContent = await loadBinaryResourceFile('sound', id)
+    const soundResource = await parseSoundResource(fileContent)
+    // Store in cache instead of Redux state
+    resourceCache.set('sound', id, soundResource)
+    return { id }
+  }
+)
+
 const resourcesSlice = createSlice({
   name: 'resources',
   initialState,
@@ -127,6 +140,23 @@ const resourcesSlice = createSlice({
         state.currentResource.loading = false
         state.currentResource.loaded = false
         state.currentResource.error = action.error.message || 'Failed to load view'
+      })
+      // Sound resource loading
+      .addCase(loadSoundResource.pending, (state) => {
+        state.currentResource.loading = true
+        state.currentResource.error = null
+      })
+      .addCase(loadSoundResource.fulfilled, (state, action) => {
+        state.currentResource.type = 'sound'
+        state.currentResource.id = action.payload.id
+        state.currentResource.loaded = true
+        state.currentResource.loading = false
+        state.currentResource.error = null
+      })
+      .addCase(loadSoundResource.rejected, (state, action) => {
+        state.currentResource.loading = false
+        state.currentResource.loaded = false
+        state.currentResource.error = action.error.message || 'Failed to load sound'
       })
   },
 })
