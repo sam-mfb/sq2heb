@@ -56,11 +56,10 @@ Build a Vite React app to display Space Quest 2 AGI resources from `./project/sr
 │   │   └── main.tsx
 │   ├── public/
 │   ├── index.html
-│   ├── package.json
 │   ├── vite.config.ts
 │   └── tsconfig.json
-├── node_modules/
-├── package.json
+├── node_modules/                     # Shared for both AGI tools and viewer
+├── package.json                      # Single package.json with all dependencies
 ├── package-lock.json
 └── .gitignore
 ```
@@ -199,24 +198,30 @@ interface RootState {
 **Commit Message**: "feat: initialize Vite React viewer app with Redux Toolkit"
 
 ### Tasks:
-1. Create `viewer/` directory
-2. Initialize Vite React TypeScript project
-3. Install all dependencies (React 17, Redux Toolkit, React Router, @agikit packages, nanoid)
-4. Configure `vite.config.ts` to allow file system access to `../project/src/`
-5. Set up Redux store with basic structure
-6. Set up React Router with basic routes
-7. Create basic App component with router
-8. Import all @agikit/react-editors CSS files
-9. Verify app runs with `npm run dev`
+1. Install viewer dependencies to root package.json (React 17, Redux Toolkit, React Router, Vite, nanoid)
+2. Add viewer scripts to root package.json (`viewer:dev`, `viewer:build`)
+3. Create `viewer/` directory structure
+4. Configure `viewer/vite.config.ts` to allow file system access to `../project/src/`
+5. Set up `viewer/tsconfig.json` for React
+6. Create `viewer/index.html` entry point
+7. Set up Redux store with basic structure
+8. Set up React Router with basic routes
+9. Create basic App component with router
+10. Import all @agikit/react-editors CSS files
+11. Verify app runs with `npm run viewer:dev`
 
 ### Files Created:
-- `viewer/package.json`
 - `viewer/vite.config.ts`
 - `viewer/tsconfig.json`
+- `viewer/index.html`
 - `viewer/src/main.tsx`
 - `viewer/src/App.tsx`
+- `viewer/src/App.css`
 - `viewer/src/app/store.ts`
 - `viewer/src/app/hooks.ts`
+
+### Files Modified:
+- `package.json` (add dependencies and scripts)
 
 ### Acceptance Criteria:
 - ✅ App runs on `http://localhost:3000`
@@ -375,7 +380,7 @@ interface RootState {
 
 ### Vite Configuration
 ```typescript
-// vite.config.ts
+// viewer/vite.config.ts
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
@@ -388,6 +393,7 @@ export default defineConfig({
     }
   },
   server: {
+    host: '0.0.0.0',
     port: 3000,
     fs: {
       allow: ['..']  // Allow access to ../project/src

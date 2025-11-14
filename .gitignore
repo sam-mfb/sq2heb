@@ -3,3 +3,4 @@ node_modules/
 
 # Ignore build output
 project/build/
+viewer/dist/
