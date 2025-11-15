@@ -1,0 +1,19 @@
+{
+  "commands": [
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0,
+      "enabled": true
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 49,
+          "y": 119
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}
