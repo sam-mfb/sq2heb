@@ -1,0 +1,55 @@
+import { log } from './utils/logger.js';
+import { exec } from './utils/exec-utils.js';
+import { existsSync } from 'fs';
+import { join } from 'path';
+
+// Usage: vite-node scripts/index-all.ts <directory>
+// Example: vite-node scripts/index-all.ts project
+// Example: vite-node scripts/index-all.ts example
+
+const dir = process.argv[2];
+
+if (!dir) {
+  log.error('No directory specified');
+  log.info('Usage: vite-node scripts/index-all.ts <directory>');
+  log.info('Example: vite-node scripts/index-all.ts project');
+  process.exit(1);
+}
+
+// Verify directory exists
+if (!existsSync(dir)) {
+  log.error(`Directory does not exist: ${dir}`);
+  process.exit(1);
+}
+
+// Verify src directory exists
+const srcDir = join(dir, 'src');
+if (!existsSync(srcDir)) {
+  log.error(`Source directory does not exist: ${srcDir}`);
+  log.info(`Run 'npm run ${dir}:setup' first to extract resources.`);
+  process.exit(1);
+}
+
+log.section('🔧 AGI Translation Indexer');
+log.newline();
+log.info(`Processing ${dir}/ directory...`);
+log.newline();
+
+// Step 1: Object indexing
+log.step('Step 1/2: Indexing inventory objects...');
+log.newline();
+exec(`vite-node scripts/index-objects.ts ${dir}/src`);
+
+log.newline();
+
+// Step 2: Message indexing
+log.step('Step 2/2: Indexing messages...');
+log.newline();
+exec(`vite-node scripts/index-messages.ts ${dir}/tmp/src ${dir}/tmp/src`);
+
+log.newline();
+log.emoji('✅', 'Indexing complete!');
+log.newline();
+log.info(`Indexed files are in ${dir}/tmp/src/`);
+log.info('These files are ready for translation.');
+log.newline();
