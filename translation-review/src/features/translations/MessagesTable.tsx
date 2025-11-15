@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
-import { loadMessages, updateMessageTranslation, updateMessageNotes } from './translationsSlice';
+import { loadMessages, updateMessageTranslation, updateMessageNotes, resetMessages } from './translationsSlice';
 import type { TranslationMessage } from '@/types/translations';
 import './MessagesTable.css';
 
@@ -13,6 +13,14 @@ export function MessagesTable() {
       dispatch(loadMessages());
     }
   }, [loaded, loading, dispatch]);
+
+  const handleReset = () => {
+    if (confirm('Reset all message translations to original values? This cannot be undone.')) {
+      dispatch(resetMessages());
+      // Reload fresh data from server
+      dispatch(loadMessages());
+    }
+  };
 
   const handleExport = () => {
     if (!data) return;
@@ -45,9 +53,14 @@ export function MessagesTable() {
     <div className="table-container">
       <div className="table-header">
         <h2>Messages ({data.messages.length})</h2>
-        <button onClick={handleExport} className="export-button">
-          Export messages.json
-        </button>
+        <div className="header-buttons">
+          <button onClick={handleReset} className="reset-button">
+            Reset to Defaults
+          </button>
+          <button onClick={handleExport} className="export-button">
+            Export messages.json
+          </button>
+        </div>
       </div>
 
       <table className="translations-table">

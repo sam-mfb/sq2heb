@@ -14,6 +14,9 @@ const PERSIST_ACTIONS = [
   'translations/loadMessages/fulfilled',
   'translations/loadObjects/fulfilled',
   'translations/loadVocabulary/fulfilled',
+  'translations/resetMessages',
+  'translations/resetObjects',
+  'translations/resetVocabulary',
 ];
 
 function shouldPersist(actionType: string): boolean {

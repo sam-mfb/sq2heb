@@ -112,6 +112,17 @@ const translationsSlice = createSlice({
         word.notes = action.payload.notes;
       }
     },
+
+    // Reset reducers
+    resetMessages: (state) => {
+      state.messages = { ...initialDataState };
+    },
+    resetObjects: (state) => {
+      state.objects = { ...initialDataState };
+    },
+    resetVocabulary: (state) => {
+      state.vocabulary = { ...initialDataState };
+    },
   },
   extraReducers: (builder) => {
     // Messages
@@ -171,6 +182,9 @@ export const {
   updateObjectNotes,
   updateVocabularyTranslatedSynonyms,
   updateVocabularyNotes,
+  resetMessages,
+  resetObjects,
+  resetVocabulary,
 } = translationsSlice.actions;
 
 export default translationsSlice.reducer;

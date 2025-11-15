@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
-import { loadObjects, updateObjectTranslation, updateObjectNotes } from './translationsSlice';
+import { loadObjects, updateObjectTranslation, updateObjectNotes, resetObjects } from './translationsSlice';
 import type { TranslationObject } from '@/types/translations';
 import './ObjectsTable.css';
 
@@ -13,6 +13,14 @@ export function ObjectsTable() {
       dispatch(loadObjects());
     }
   }, [loaded, loading, dispatch]);
+
+  const handleReset = () => {
+    if (confirm('Reset all object translations to original values? This cannot be undone.')) {
+      dispatch(resetObjects());
+      // Reload fresh data from server
+      dispatch(loadObjects());
+    }
+  };
 
   const handleExport = () => {
     if (!data) return;
@@ -45,9 +53,14 @@ export function ObjectsTable() {
     <div className="table-container">
       <div className="table-header">
         <h2>Objects ({data.objects.length})</h2>
-        <button onClick={handleExport} className="export-button">
-          Export objects.json
-        </button>
+        <div className="header-buttons">
+          <button onClick={handleReset} className="reset-button">
+            Reset to Defaults
+          </button>
+          <button onClick={handleExport} className="export-button">
+            Export objects.json
+          </button>
+        </div>
       </div>
 
       <table className="translations-table">

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
-import { loadVocabulary, updateVocabularyTranslatedSynonyms, updateVocabularyNotes } from './translationsSlice';
+import { loadVocabulary, updateVocabularyTranslatedSynonyms, updateVocabularyNotes, resetVocabulary } from './translationsSlice';
 import type { TranslationVocabulary } from '@/types/translations';
 import './VocabularyTable.css';
 
@@ -13,6 +13,14 @@ export function VocabularyTable() {
       dispatch(loadVocabulary());
     }
   }, [loaded, loading, dispatch]);
+
+  const handleReset = () => {
+    if (confirm('Reset all vocabulary translations to original values? This cannot be undone.')) {
+      dispatch(resetVocabulary());
+      // Reload fresh data from server
+      dispatch(loadVocabulary());
+    }
+  };
 
   const handleExport = () => {
     if (!data) return;
@@ -60,9 +68,14 @@ export function VocabularyTable() {
     <div className="table-container">
       <div className="table-header">
         <h2>Vocabulary ({data.vocabulary.length} word groups)</h2>
-        <button onClick={handleExport} className="export-button">
-          Export vocabulary.json
-        </button>
+        <div className="header-buttons">
+          <button onClick={handleReset} className="reset-button">
+            Reset to Defaults
+          </button>
+          <button onClick={handleExport} className="export-button">
+            Export vocabulary.json
+          </button>
+        </div>
       </div>
 
       <table className="translations-table">
