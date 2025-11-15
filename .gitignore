@@ -6,6 +6,7 @@ project/*.zip
 project/orig/
 project/src/
 project/build/
+project/tmp/
 project/agikit-project.json
 
 # Ignore example interim directories

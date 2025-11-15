@@ -6,6 +6,7 @@
     "setup": "vite-node scripts/setup-project.ts",
     "clean": "vite-node scripts/clean-project.ts",
     "build": "agikit build ./project",
+    "index": "vite-node scripts/index-objects.ts project/src && vite-node scripts/index-messages.ts project/tmp/src project/tmp/src",
     "example:setup": "vite-node scripts/setup-example.ts",
     "example:clean": "vite-node scripts/clean-example.ts",
     "example:build": "agikit build ./example",

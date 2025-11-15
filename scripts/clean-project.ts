@@ -1,21 +1,15 @@
 import { log } from './utils/logger.js';
-import { findFiles, removeFile } from './utils/fs-utils.js';
 import { exec } from './utils/exec-utils.js';
 
 log.emoji('🧹', 'Cleaning project directory...');
 log.newline();
 
-// Remove ZIP files
-const zipFiles = findFiles('project', /\.zip$/);
-if (zipFiles.length > 0) {
-  log.step('Removing ZIP files...');
-  zipFiles.forEach(removeFile);
-}
-
-// Run common AGI cleanup (without --keep-orig, so it removes orig/ too)
-exec('vite-node scripts/clean-agi.ts project');
+// Run common AGI cleanup (keeps orig/ with --keep-orig flag)
+// Note: ZIP files are preserved - they're the user's game files
+exec('vite-node scripts/clean-agi.ts project --keep-orig');
 
 log.emoji('✅', 'Cleanup complete!');
 log.newline();
-log.info('The project/ directory is now clean.');
-log.info("Add a new ZIP file to project/ and run 'npm run setup' to start over.");
+log.info('The project/ directory has been cleaned.');
+log.info('ZIP files and orig/ directory have been preserved.');
+log.info("Run 'npm run setup' to re-extract resources.");
