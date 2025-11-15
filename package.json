@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "extract": "agikit extract ./orig/ ./project/",
+    "setup": "bash scripts/setup-project.sh",
     "build": "agikit build ./project",
     "viewer:dev": "vite viewer --config viewer/vite.config.ts",
     "viewer:build": "vite build viewer --config viewer/vite.config.ts",
