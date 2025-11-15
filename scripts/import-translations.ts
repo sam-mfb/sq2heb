@@ -1,9 +1,10 @@
 #!/usr/bin/env node
-import { existsSync, mkdirSync, readFileSync, writeFileSync, cpSync, rmSync } from 'fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync, cpSync, rmSync, readdirSync } from 'fs';
 import { join } from 'path';
 import { log } from './utils/logger.js';
 import { importObjects } from '../src/translation/import-objects.js';
-import type { ObjectsFile } from '../src/translation/types.js';
+import { importMessages } from '../src/translation/import-messages.js';
+import type { ObjectsFile, MessagesFile } from '../src/translation/types.js';
 
 /**
  * Import translations from JSON files into game source files
@@ -53,6 +54,16 @@ function importTranslations(projectDir: string): void {
     log.info('No object translations to import (all translation fields empty)');
   }
 
+  // Import message translations
+  log.info('Importing message translations...');
+  const messagesStats = importMessageTranslations(translationsDir, finalSrcDir);
+
+  if (messagesStats.translated > 0) {
+    log.success(`Imported ${messagesStats.translated} message translations (${messagesStats.skipped} skipped)`);
+  } else {
+    log.info('No message translations to import (all translation fields empty)');
+  }
+
   log.newline();
   log.success('Translation import complete!');
   log.info(`Final source ready in: ${finalSrcDir}`);
@@ -89,6 +100,60 @@ function importObjectTranslations(
   const skipped = translationsFile.objects.length - translated;
 
   return { translated, skipped };
+}
+
+/**
+ * Import message translations
+ */
+function importMessageTranslations(
+  translationsDir: string,
+  finalSrcDir: string
+): { translated: number; skipped: number } {
+  const messagesJsonPath = join(translationsDir, 'messages.json');
+  const logicDir = join(finalSrcDir, 'logic');
+
+  // Read translation file
+  const translationsContent = readFileSync(messagesJsonPath, 'utf-8');
+  const translationsFile: MessagesFile = JSON.parse(translationsContent);
+
+  // Group messages by logic file
+  const messagesByFile = new Map<string, typeof translationsFile.messages>();
+  for (const msg of translationsFile.messages) {
+    if (!messagesByFile.has(msg.logicFile)) {
+      messagesByFile.set(msg.logicFile, []);
+    }
+    messagesByFile.get(msg.logicFile)!.push(msg);
+  }
+
+  let totalTranslated = 0;
+  let totalSkipped = 0;
+
+  // Process each logic file
+  for (const [logicFileName, messages] of messagesByFile) {
+    const logicFilePath = join(logicDir, logicFileName);
+
+    if (!existsSync(logicFilePath)) {
+      continue;
+    }
+
+    // Read current content
+    const logicContent = readFileSync(logicFilePath, 'utf-8');
+
+    // Apply translations
+    const updatedContent = importMessages(logicContent, messages);
+
+    // Write back
+    writeFileSync(logicFilePath, updatedContent, 'utf-8');
+
+    // Count translations
+    const translated = messages.filter(
+      msg => msg.translation && msg.translation.trim() !== ''
+    ).length;
+    totalTranslated += translated;
+    totalSkipped += messages.length - translated;
+  }
+
+  return { translated: totalTranslated, skipped: totalSkipped };
 }
 
 // Main execution

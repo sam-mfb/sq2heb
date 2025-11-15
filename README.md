@@ -117,11 +117,12 @@ npm run example:import-translations
 **What happens:**
 1. Copies `tmp/src/` (indexed source) to `final/src/`
 2. Reads translation JSON files from `translations/{project}/`
-3. Applies translations to `final/src/object.json` (currently objects only)
-4. Skips objects with empty `translation` fields
-5. Reports statistics
+3. Applies object translations to `final/src/object.json`
+4. Applies message translations to `final/src/logic/*.agilogic` files
+5. Skips entries with empty `translation` fields
+6. Reports statistics
 
-**Note**: Currently only object translations are imported. Message and vocabulary import coming soon.
+**Note**: Currently imports objects and messages. Vocabulary import coming soon.
 
 ### Complete Translation Workflow
 

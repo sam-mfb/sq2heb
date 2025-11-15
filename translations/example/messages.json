@@ -13,7 +13,7 @@
       "logicFile": "0.agilogic",
       "messageNumber": 1,
       "original": "File",
-      "translation": "",
+      "translation": "קובץ",
       "notes": "",
       "placeholders": []
     },
@@ -21,7 +21,7 @@
       "logicFile": "0.agilogic",
       "messageNumber": 2,
       "original": "I don't understand your request.",
-      "translation": "",
+      "translation": "אני לא מבין את הבקשה שלך.",
       "notes": "",
       "placeholders": []
     },
