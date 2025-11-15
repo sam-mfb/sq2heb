@@ -15,7 +15,7 @@ export function ObjectsTable() {
   }, [loaded, loading, dispatch]);
 
   const handleReset = () => {
-    if (confirm('Reset all object translations to original values? This cannot be undone.')) {
+    if (confirm('לאפס את כל תרגומי הפריטים לערכים המקוריים? לא ניתן לבטל פעולה זו.')) {
       dispatch(resetObjects());
       // Reload fresh data from server
       dispatch(loadObjects());
@@ -38,27 +38,27 @@ export function ObjectsTable() {
   };
 
   if (loading) {
-    return <div className="loading">Loading objects...</div>;
+    return <div className="loading">טוען פריטים...</div>;
   }
 
   if (error) {
-    return <div className="error">Error: {error}</div>;
+    return <div className="error">שגיאה: {error}</div>;
   }
 
   if (!data || !data.objects.length) {
-    return <div className="empty">No objects found</div>;
+    return <div className="empty">לא נמצאו פריטים</div>;
   }
 
   return (
     <div className="table-container">
       <div className="table-header">
-        <h2>Objects ({data.objects.length})</h2>
+        <h2>פריטים ({data.objects.length})</h2>
         <div className="header-buttons">
           <button onClick={handleReset} className="reset-button">
-            Reset to Defaults
+            איפוס לברירת מחדל
           </button>
           <button onClick={handleExport} className="export-button">
-            Export objects.json
+            ייצוא objects.json
           </button>
         </div>
       </div>
@@ -66,11 +66,11 @@ export function ObjectsTable() {
       <table className="translations-table">
         <thead>
           <tr>
-            <th>Index</th>
-            <th>Original</th>
-            <th>Translation</th>
-            <th>Starting Room</th>
-            <th>Notes</th>
+            <th>אינדקס</th>
+            <th>מקור</th>
+            <th>תרגום</th>
+            <th>חדר התחלתי</th>
+            <th>הערות</th>
           </tr>
         </thead>
         <tbody>
@@ -90,7 +90,7 @@ export function ObjectsTable() {
                       })
                     )
                   }
-                  placeholder="Enter translation..."
+                  placeholder="הזן תרגום..."
                 />
               </td>
               <td className="starting-room">{object.startingRoom}</td>
@@ -106,7 +106,7 @@ export function ObjectsTable() {
                       })
                     )
                   }
-                  placeholder="Notes..."
+                  placeholder="הערות..."
                 />
               </td>
             </tr>

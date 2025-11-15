@@ -9,16 +9,16 @@ function App() {
     <BrowserRouter>
       <div className="app">
         <header className="app-header">
-          <h1>Translation Review</h1>
+          <h1>בדיקת תרגום</h1>
           <nav className="tab-navigation">
             <NavLink to="/messages" className={({ isActive }) => (isActive ? 'tab active' : 'tab')}>
-              Messages
+              הודעות
             </NavLink>
             <NavLink to="/objects" className={({ isActive }) => (isActive ? 'tab active' : 'tab')}>
-              Objects
+              פריטים
             </NavLink>
             <NavLink to="/vocabulary" className={({ isActive }) => (isActive ? 'tab active' : 'tab')}>
-              Vocabulary
+              אוצר מילים
             </NavLink>
           </nav>
         </header>

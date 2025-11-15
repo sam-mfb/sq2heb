@@ -15,7 +15,7 @@ export function MessagesTable() {
   }, [loaded, loading, dispatch]);
 
   const handleReset = () => {
-    if (confirm('Reset all message translations to original values? This cannot be undone.')) {
+    if (confirm('לאפס את כל תרגומי ההודעות לערכים המקוריים? לא ניתן לבטל פעולה זו.')) {
       dispatch(resetMessages());
       // Reload fresh data from server
       dispatch(loadMessages());
@@ -38,27 +38,27 @@ export function MessagesTable() {
   };
 
   if (loading) {
-    return <div className="loading">Loading messages...</div>;
+    return <div className="loading">טוען הודעות...</div>;
   }
 
   if (error) {
-    return <div className="error">Error: {error}</div>;
+    return <div className="error">שגיאה: {error}</div>;
   }
 
   if (!data || !data.messages.length) {
-    return <div className="empty">No messages found</div>;
+    return <div className="empty">לא נמצאו הודעות</div>;
   }
 
   return (
     <div className="table-container">
       <div className="table-header">
-        <h2>Messages ({data.messages.length})</h2>
+        <h2>הודעות ({data.messages.length})</h2>
         <div className="header-buttons">
           <button onClick={handleReset} className="reset-button">
-            Reset to Defaults
+            איפוס לברירת מחדל
           </button>
           <button onClick={handleExport} className="export-button">
-            Export messages.json
+            ייצוא messages.json
           </button>
         </div>
       </div>
@@ -66,12 +66,12 @@ export function MessagesTable() {
       <table className="translations-table">
         <thead>
           <tr>
-            <th>Logic File</th>
-            <th>Msg #</th>
-            <th>Original</th>
-            <th>Translation</th>
-            <th>Notes</th>
-            <th>Placeholders</th>
+            <th>קובץ לוגיקה</th>
+            <th>מס׳ הודעה</th>
+            <th>מקור</th>
+            <th>תרגום</th>
+            <th>הערות</th>
+            <th>משתנים</th>
           </tr>
         </thead>
         <tbody>
@@ -93,7 +93,7 @@ export function MessagesTable() {
                       })
                     )
                   }
-                  placeholder="Enter translation..."
+                  placeholder="הזן תרגום..."
                 />
               </td>
               <td className="notes">
@@ -109,7 +109,7 @@ export function MessagesTable() {
                       })
                     )
                   }
-                  placeholder="Notes..."
+                  placeholder="הערות..."
                 />
               </td>
               <td className="placeholders">

@@ -15,7 +15,7 @@ export function VocabularyTable() {
   }, [loaded, loading, dispatch]);
 
   const handleReset = () => {
-    if (confirm('Reset all vocabulary translations to original values? This cannot be undone.')) {
+    if (confirm('לאפס את כל תרגומי אוצר המילים לערכים המקוריים? לא ניתן לבטל פעולה זו.')) {
       dispatch(resetVocabulary());
       // Reload fresh data from server
       dispatch(loadVocabulary());
@@ -53,27 +53,27 @@ export function VocabularyTable() {
   };
 
   if (loading) {
-    return <div className="loading">Loading vocabulary...</div>;
+    return <div className="loading">טוען אוצר מילים...</div>;
   }
 
   if (error) {
-    return <div className="error">Error: {error}</div>;
+    return <div className="error">שגיאה: {error}</div>;
   }
 
   if (!data || !data.vocabulary.length) {
-    return <div className="empty">No vocabulary found</div>;
+    return <div className="empty">לא נמצא אוצר מילים</div>;
   }
 
   return (
     <div className="table-container">
       <div className="table-header">
-        <h2>Vocabulary ({data.vocabulary.length} word groups)</h2>
+        <h2>אוצר מילים ({data.vocabulary.length} קבוצות מילים)</h2>
         <div className="header-buttons">
           <button onClick={handleReset} className="reset-button">
-            Reset to Defaults
+            איפוס לברירת מחדל
           </button>
           <button onClick={handleExport} className="export-button">
-            Export vocabulary.json
+            ייצוא vocabulary.json
           </button>
         </div>
       </div>
@@ -81,11 +81,11 @@ export function VocabularyTable() {
       <table className="translations-table">
         <thead>
           <tr>
-            <th>Word #</th>
-            <th>Word</th>
-            <th>Original Synonyms</th>
-            <th>Translated Synonyms</th>
-            <th>Notes</th>
+            <th>מס׳ מילה</th>
+            <th>מילה</th>
+            <th>מילים נרדפות מקוריות</th>
+            <th>מילים נרדפות מתורגמות</th>
+            <th>הערות</th>
           </tr>
         </thead>
         <tbody>
@@ -111,7 +111,7 @@ export function VocabularyTable() {
                   type="text"
                   value={vocab.translatedSynonyms.join(', ')}
                   onChange={(e) => handleSynonymsChange(vocab.wordNumber, e.target.value)}
-                  placeholder="Comma-separated synonyms..."
+                  placeholder="מילים נרדפות מופרדות בפסיקים..."
                 />
               </td>
               <td className="notes">
@@ -126,7 +126,7 @@ export function VocabularyTable() {
                       })
                     )
                   }
-                  placeholder="Notes..."
+                  placeholder="הערות..."
                 />
               </td>
             </tr>
