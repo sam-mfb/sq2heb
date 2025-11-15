@@ -39,75 +39,90 @@ This project provides a modern web interface for viewing AGI (Adventure Game Int
 
 ## Translation Tools
 
-This project includes tools for preparing AGI logic files for translation.
+This project includes tools for preparing AGI logic files for translation by converting hardcoded strings and inventory objects to indexed references.
 
-### Object Indexing
+### Complete Translation Workflow
 
-The object indexing tool converts hardcoded inventory object names in logic files to object references:
-
-```bash
-# Process logic files (output to tmp/ directory)
-npm run index-objects project/src
-
-# Or specify custom output directory
-npm run index-objects project/src project/indexed
-```
-
-**What it does:**
-- Reads inventory object names from `object.json`
-- Finds hardcoded object name strings in logic commands
-- Replaces exact matches with object references (i0, i1, i2, etc.)
-- Skips `said()` commands (vocabulary references)
-- Outputs transformed files to `tmp/` directory (non-destructive)
-
-**Example:**
-```agi
-// object.json has "Rock" at index 1, "Key" at index 2
-
-// Before
-print("Rock");
-get.num("Key", v1);
-
-// After
-print(i1);
-get.num(i2, v1);
-```
-
-**Important:** Run object indexing BEFORE message indexing to avoid conflicts.
-
-### Message Indexing
-
-The message indexing tool converts hardcoded strings in logic files to message references:
+Process your game files through the complete indexing and build pipeline:
 
 ```bash
-# Process logic files (output to tmp/ directory)
-npm run index-messages project/src
+# 1. Index objects and messages (creates project/tmp/src/)
+npm run index
 
-# Or specify custom output directory
-npm run index-messages project/src project/indexed
+# 2. Build the indexed game (creates project/tmp/build/)
+npm run build-index
+
+# 3. Package as ZIP file (creates project/tmp/agi-build.zip)
+npm run zip-index-build
 ```
 
-**What it does:**
-- Finds all hardcoded strings in commands (print, display, set.menu, etc.)
-- Replaces strings that match existing #message declarations with message references (m1, m2, etc.)
-- Adds new #message declarations for strings without matches
-- Preserves exact string matching (whitespace matters)
-- Skips `said()` commands (vocabulary references, not translatable text)
-- Outputs transformed files to `tmp/` directory (non-destructive)
+**What happens during indexing:**
 
-**Example:**
+1. **Object Indexing** (runs first):
+   - Reads inventory object names from `object.json`
+   - Replaces hardcoded object strings with references (i0, i1, i2, etc.)
+   - Only replaces in inventory commands: `get()`, `put()`, `drop()` and their `.v()` variants
+   - Exact match only (preserves quotes)
+
+2. **Message Indexing** (runs second):
+   - Finds hardcoded strings in display commands (`print`, `display`, `set.menu`, etc.)
+   - Matches against existing `#message` declarations (with escape sequence normalization)
+   - Replaces matches with message references (m1, m2, m3, etc.)
+   - Adds new `#message` declarations for strings without matches
+   - Preserves exact whitespace and special characters
+
+3. **Both indexers skip `said()` commands** - these use vocabulary words, not objects or messages
+
+**Example transformation:**
+
 ```agi
-// Before
-print("Hello World");
-set.menu("File");
+// Before indexing
+if (has("Key")) {
+  print("You have the key!");
+}
 
-// After
-print(m1);
-set.menu(m2);
+// After indexing
+if (has(i2)) {
+  print(m5);
+}
 
 // messages
-#message 1 "Hello World"
-#message 2 "File"
+#message 5 "You have the key!"
+```
+
+### Individual Tools
+
+For more control, you can run the indexing tools separately:
+
+```bash
+# Object indexing only
+npm run index-objects <input-dir> <output-dir>
+
+# Message indexing only
+npm run index-messages <input-dir> <output-dir>
+```
+
+**Note:** Always run object indexing before message indexing to avoid conflicts.
+
+### Testing with Example Project
+
+The repository includes a small example AGI project for testing the tooling without requiring a full game:
+
+```bash
+# Setup example project
+npm run example:setup
+
+# Index the example files
+npm run example:index
+
+# Build the indexed example
+npm run example:build-index
+
+# Package the example build
+npm run example:zip-index-build
+
+# Clean example files
+npm run example:clean
 ```
 
 ### Development Workflow
@@ -118,6 +133,9 @@ npm test
 
 # Run tests in watch mode
 npm test -- --watch
+
+# Run tests with UI
+npm run test:ui
 
 # Typecheck all scripts
 npm run typecheck:scripts
