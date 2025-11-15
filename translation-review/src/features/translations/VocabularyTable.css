@@ -1,16 +1,17 @@
 .word-number {
   text-align: center;
   font-weight: 500;
-  width: 80px;
+  width: 60px;
 }
 
 .word {
   font-weight: 600;
-  width: 150px;
+  width: 100px;
 }
 
 .original-synonyms {
-  min-width: 200px;
+  width: 150px;
+  max-width: 150px;
 }
 
 .synonym-list {
@@ -65,7 +66,7 @@
 }
 
 .translated-synonyms {
-  min-width: 300px;
+  width: 40%;
 }
 
 .synonym-editor {
@@ -90,6 +91,25 @@
 }
 
 .synonym-editor input:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+}
+
+.notes {
+  width: 30%;
+}
+
+.notes input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.notes input:focus {
   outline: none;
   border-color: #0066cc;
   box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
