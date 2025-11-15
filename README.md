@@ -41,9 +41,43 @@ This project provides a modern web interface for viewing AGI (Adventure Game Int
 
 This project includes tools for preparing AGI logic files for translation.
 
+### Object Indexing
+
+The object indexing tool converts hardcoded inventory object names in logic files to object references:
+
+```bash
+# Process logic files (output to tmp/ directory)
+npm run index-objects project/src
+
+# Or specify custom output directory
+npm run index-objects project/src project/indexed
+```
+
+**What it does:**
+- Reads inventory object names from `object.json`
+- Finds hardcoded object name strings in logic commands
+- Replaces exact matches with object references (i0, i1, i2, etc.)
+- Skips `said()` commands (vocabulary references)
+- Outputs transformed files to `tmp/` directory (non-destructive)
+
+**Example:**
+```agi
+// object.json has "Rock" at index 1, "Key" at index 2
+
+// Before
+print("Rock");
+get.num("Key", v1);
+
+// After
+print(i1);
+get.num(i2, v1);
+```
+
+**Important:** Run object indexing BEFORE message indexing to avoid conflicts.
+
 ### Message Indexing
 
-The message indexing tool converts hardcoded strings in logic files to message references, making translation easier:
+The message indexing tool converts hardcoded strings in logic files to message references:
 
 ```bash
 # Process logic files (output to tmp/ directory)

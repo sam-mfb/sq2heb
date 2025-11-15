@@ -1,0 +1,25 @@
+if (f5) {
+  print("Rock");
+  display(0, 0, "Key");
+  set.menu("Flashlight");
+}
+
+if (said("examine", "Rock")) {
+  print("It's a rock.");
+}
+
+if (controller(c1)) {
+  get.num("Key", v1);
+  set.string(s1, "Rock");
+}
+
+if (f6) {
+  print("The Rock is heavy");
+  display(1, 1, "Key ring");
+}
+
+return();
+
+
+// messages
+#message 1 "Test message"

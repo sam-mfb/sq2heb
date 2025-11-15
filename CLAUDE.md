@@ -302,12 +302,16 @@ This ensures type safety and catches errors before runtime.
 
 ### Key Patterns
 ```typescript
-// Read and parse logic files
-import { parseLogicFile } from '../src/logic/parser.js';
-const logicFile = parseLogicFile(content);
+// Object indexing (run FIRST)
+import { parseObjectFile } from '../src/logic/object-parser.js';
+import { indexObjects } from '../src/logic/object-indexer.js';
+const objectFile = parseObjectFile(objectJsonContent);
+const result = indexObjects(logicContent, objectFile.objects);
 
-// Transform logic files
+// Message indexing (run SECOND, after object indexing)
+import { parseLogicFile } from '../src/logic/parser.js';
 import { indexMessages } from '../src/logic/indexer.js';
+const logicFile = parseLogicFile(content);
 const result = indexMessages(logicFile);
 
 // Batch process files
@@ -321,6 +325,8 @@ const files = findFiles('path/to/logic', /\.agilogic$/);
 - Escaped strings: `"He said \"hello\""`
 - Placeholders: `%v0`, `%w1`, `%s0`, `%m0` (preserve these!)
 - Skip `said()` commands (vocabulary, not translatable text)
+- Object references: `iN` (i0, i1, i2) for inventory objects from object.json
+- **Order matters**: Run object indexing before message indexing
 
 ### Design Principles
 - **Non-destructive**: Always output to `tmp/` or new directory
