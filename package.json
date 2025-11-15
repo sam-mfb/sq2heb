@@ -8,6 +8,7 @@
     "build": "agikit build ./project",
     "viewer:dev": "vite viewer --config viewer/vite.config.ts",
     "viewer:build": "vite build viewer --config viewer/vite.config.ts",
+    "template:build": "agikit build ./template",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

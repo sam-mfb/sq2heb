@@ -8,6 +8,9 @@ project/src/
 project/build/
 project/agikit-project.json
 
+# Ignore template build directory
+template/build/
+
 # Ignore build output
 viewer/dist/
 
