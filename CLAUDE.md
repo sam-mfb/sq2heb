@@ -285,4 +285,49 @@ This ensures type safety and catches errors before runtime.
 
 ---
 
+## Developing Translation Tools
+
+### Architecture
+- **Core logic**: `src/logic/` (testable modules with TypeScript)
+- **CLI wrappers**: `scripts/` (thin wrappers that call src/ modules)
+- **Tests**: `src/logic/__tests__/` using Vitest
+- **Fixtures**: Copy real files from `example/src/logic/` for testing
+
+### TDD Workflow
+1. Write tests first (red phase) - `npm test -- --run`
+2. Implement in `src/logic/` (green phase)
+3. Create CLI wrapper in `scripts/`
+4. Typecheck: `npm run typecheck:scripts`
+5. Verify: `npm test`
+
+### Key Patterns
+```typescript
+// Read and parse logic files
+import { parseLogicFile } from '../src/logic/parser.js';
+const logicFile = parseLogicFile(content);
+
+// Transform logic files
+import { indexMessages } from '../src/logic/indexer.js';
+const result = indexMessages(logicFile);
+
+// Batch process files
+import { findFiles } from './utils/fs-utils.js';
+const files = findFiles('path/to/logic', /\.agilogic$/);
+```
+
+### AGI Logic File Quirks
+- Section separator: `// messages` (appears after `return()`)
+- Message numbers can have gaps (1, 2, 5, 10 is valid)
+- Escaped strings: `"He said \"hello\""`
+- Placeholders: `%v0`, `%w1`, `%s0`, `%m0` (preserve these!)
+- Skip `said()` commands (vocabulary, not translatable text)
+
+### Design Principles
+- **Non-destructive**: Always output to `tmp/` or new directory
+- **Pure functions**: Don't mutate input
+- **Generic**: Work with any AGI game, not just SQ2
+- **Test-driven**: Write tests before implementation
+
+---
+
 **End of CLAUDE.md**

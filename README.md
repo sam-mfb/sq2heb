@@ -36,3 +36,59 @@ This project provides a modern web interface for viewing AGI (Adventure Game Int
    ```
 
    Open `http://localhost:3000` in your browser.
+
+## Translation Tools
+
+This project includes tools for preparing AGI logic files for translation.
+
+### Message Indexing
+
+The message indexing tool converts hardcoded strings in logic files to message references, making translation easier:
+
+```bash
+# Process logic files (output to tmp/ directory)
+npm run index-messages project/src
+
+# Or specify custom output directory
+npm run index-messages project/src project/indexed
+```
+
+**What it does:**
+- Finds all hardcoded strings in commands (print, display, set.menu, etc.)
+- Replaces strings that match existing #message declarations with message references (m1, m2, etc.)
+- Adds new #message declarations for strings without matches
+- Preserves exact string matching (whitespace matters)
+- Skips `said()` commands (vocabulary references, not translatable text)
+- Outputs transformed files to `tmp/` directory (non-destructive)
+
+**Example:**
+```agi
+// Before
+print("Hello World");
+set.menu("File");
+
+// After
+print(m1);
+set.menu(m2);
+
+// messages
+#message 1 "Hello World"
+#message 2 "File"
+```
+
+### Development Workflow
+
+```bash
+# Run tests
+npm test
+
+# Run tests in watch mode
+npm test -- --watch
+
+# Typecheck all scripts
+npm run typecheck:scripts
+
+# Clean generated files
+npm run clean          # Clean project files
+npm run example:clean  # Clean example files
+```
