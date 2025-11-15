@@ -1,0 +1,682 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "gameName": "",
+    "contentType": "vocabulary",
+    "sourceLanguage": "en",
+    "targetLanguage": "",
+    "extractedDate": "2025-11-15T19:36:16.364Z",
+    "totalWordGroups": 44
+  },
+  "vocabulary": [
+    {
+      "wordNumber": 0,
+      "synonyms": [
+        {
+          "original": "a",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "all",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "an",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "another",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "at",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "for",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "from",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "i",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "in",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "inside",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "into",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "is",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "it",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "me",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "now",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "of",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "off",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "out",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "some",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "that",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "the",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "these",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "this",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "those",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "through",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "to",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "under",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "up",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "will",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "with",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "you",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1,
+      "synonyms": [
+        {
+          "original": "ANYWORD",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "anyword",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 2,
+      "synonyms": [
+        {
+          "original": "quit",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 3,
+      "synonyms": [
+        {
+          "original": "restart",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 4,
+      "synonyms": [
+        {
+          "original": "restore",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 5,
+      "synonyms": [
+        {
+          "original": "save",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 6,
+      "synonyms": [
+        {
+          "original": "game",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 7,
+      "synonyms": [
+        {
+          "original": "pause",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 8,
+      "synonyms": [
+        {
+          "original": "help",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 9,
+      "synonyms": [
+        {
+          "original": "slow",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 10,
+      "synonyms": [
+        {
+          "original": "normal",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 11,
+      "synonyms": [
+        {
+          "original": "fast",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 12,
+      "synonyms": [
+        {
+          "original": "fastest",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 13,
+      "synonyms": [
+        {
+          "original": "speed",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 14,
+      "synonyms": [
+        {
+          "original": "y",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "yes",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 15,
+      "synonyms": [
+        {
+          "original": "n",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "no",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 16,
+      "synonyms": [
+        {
+          "original": "on",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 18,
+      "synonyms": [
+        {
+          "original": "clock",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 19,
+      "synonyms": [
+        {
+          "original": "inv",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "inventory",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 20,
+      "synonyms": [
+        {
+          "original": "examine",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "look",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 21,
+      "synonyms": [
+        {
+          "original": "get",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 22,
+      "synonyms": [
+        {
+          "original": "use",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 30,
+      "synonyms": [
+        {
+          "original": "test object",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 31,
+      "synonyms": [
+        {
+          "original": "die",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1000,
+      "synonyms": [
+        {
+          "original": "sp",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1001,
+      "synonyms": [
+        {
+          "original": "tp",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1002,
+      "synonyms": [
+        {
+          "original": "pos",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "position",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1003,
+      "synonyms": [
+        {
+          "original": "object",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1004,
+      "synonyms": [
+        {
+          "original": "flag",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1005,
+      "synonyms": [
+        {
+          "original": "mem",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1006,
+      "synonyms": [
+        {
+          "original": "pri",
+          "translation": "",
+          "notes": ""
+        },
+        {
+          "original": "priority",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1007,
+      "synonyms": [
+        {
+          "original": "var",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1010,
+      "synonyms": [
+        {
+          "original": "reset",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1011,
+      "synonyms": [
+        {
+          "original": "set",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1012,
+      "synonyms": [
+        {
+          "original": "show",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1013,
+      "synonyms": [
+        {
+          "original": "trace",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1014,
+      "synonyms": [
+        {
+          "original": "debug",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1015,
+      "synonyms": [
+        {
+          "original": "room",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1016,
+      "synonyms": [
+        {
+          "original": "drop",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1017,
+      "synonyms": [
+        {
+          "original": "gimme",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1018,
+      "synonyms": [
+        {
+          "original": "release",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1019,
+      "synonyms": [
+        {
+          "original": "hide",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 1020,
+      "synonyms": [
+        {
+          "original": "coords",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "wordNumber": 9999,
+      "synonyms": [
+        {
+          "original": "rol",
+          "translation": "",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

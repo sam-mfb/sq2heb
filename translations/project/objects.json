@@ -1,0 +1,154 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "gameName": "",
+    "contentType": "objects",
+    "sourceLanguage": "en",
+    "targetLanguage": "",
+    "extractedDate": "2025-11-15T19:35:52.681Z",
+    "totalObjects": 20,
+    "maxAnimatedObjects": 20
+  },
+  "objects": [
+    {
+      "index": 20,
+      "original": "Order Form",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 21,
+      "original": "Supporter",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 22,
+      "original": "Berries",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 23,
+      "original": "Spore",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 24,
+      "original": "Glowing Gem",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 25,
+      "original": "Rope",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 26,
+      "original": "Whistle",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 27,
+      "original": "Stone",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 28,
+      "original": "Plunger",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 29,
+      "original": "Toilet Paper",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 30,
+      "original": "Waste Basket",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 31,
+      "original": "Basket with Paper",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 32,
+      "original": "Glass Cutter",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 33,
+      "original": "Lighter",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 34,
+      "original": "Cage Key",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 35,
+      "original": "Dialect Translator",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 36,
+      "original": "Keycard",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 37,
+      "original": "Puzzle",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 38,
+      "original": "Empty Spore",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    },
+    {
+      "index": 39,
+      "original": "Oxygen Mask",
+      "translation": "",
+      "startingRoom": 0,
+      "notes": ""
+    }
+  ]
+}
