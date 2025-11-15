@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import { loadMessages, updateMessageTranslation, updateMessageNotes } from './translationsSlice';
+import type { TranslationMessage } from '@/types/translations';
 import './MessagesTable.css';
 
 export function MessagesTable() {
@@ -61,7 +62,7 @@ export function MessagesTable() {
           </tr>
         </thead>
         <tbody>
-          {data.messages.map((message) => (
+          {data.messages.map((message: TranslationMessage) => (
             <tr key={`${message.logicFile}-${message.messageNumber}`}>
               <td className="logic-file">{message.logicFile}</td>
               <td className="message-number">{message.messageNumber}</td>
@@ -101,7 +102,7 @@ export function MessagesTable() {
               <td className="placeholders">
                 {message.placeholders.length > 0 ? (
                   <div className="placeholder-badges">
-                    {message.placeholders.map((placeholder) => (
+                    {message.placeholders.map((placeholder: string) => (
                       <span key={placeholder} className="badge">
                         {placeholder}
                       </span>
