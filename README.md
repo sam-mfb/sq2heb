@@ -39,7 +39,51 @@ This project provides a modern web interface for viewing AGI (Adventure Game Int
 
 ## Translation Tools
 
-This project includes tools for preparing AGI logic files for translation by converting hardcoded strings and inventory objects to indexed references.
+This project includes tools for preparing AGI logic files for translation by converting hardcoded strings and inventory objects to indexed references, and extracting translatable content to JSON files.
+
+### Translation Extraction
+
+Extract all translatable content (messages, objects, vocabulary) to JSON files for easy editing:
+
+```bash
+# Extract from main project
+npm run extract-translations
+
+# Extract from example project
+npm run example:extract-translations
+```
+
+This creates three JSON files in subdirectories under `translations/`:
+
+- **translations/project/** - Main project translations
+- **translations/example/** - Example project translations
+
+Each directory contains:
+- **messages.json** - All text messages from logic files (311 messages in example)
+- **objects.json** - All inventory object names (1 object in example)
+- **vocabulary.json** - All parser vocabulary words (44 word groups in example)
+
+**JSON Format:**
+
+Each file includes metadata and an array of translatable items with these fields:
+- `original`: Source English text
+- `translation`: Target language text (empty until translated)
+- `notes`: Optional notes for translators
+- Plus context-specific fields (messageNumber, index, wordNumber, placeholders, etc.)
+
+**Example (messages.json):**
+```json
+{
+  "logicFile": "0.agilogic",
+  "messageNumber": 3,
+  "original": "I don't understand \\\"%w3\\\"",
+  "translation": "",
+  "notes": "",
+  "placeholders": ["%w3"]
+}
+```
+
+The placeholder detector automatically identifies `%w1`, `%w2`, `%w3`, `%v`, `%s`, and `%m<number>` placeholders that must be preserved in translations.
 
 ### Complete Translation Workflow
 
