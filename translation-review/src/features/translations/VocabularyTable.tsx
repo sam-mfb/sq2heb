@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import { loadVocabulary, updateVocabularyTranslatedSynonyms, updateVocabularyNotes, resetVocabulary } from './translationsSlice';
 import type { TranslationVocabulary } from '@/types/translations';
@@ -7,6 +7,7 @@ import './VocabularyTable.css';
 export function VocabularyTable() {
   const dispatch = useAppDispatch();
   const { data, loading, loaded, error } = useAppSelector((state) => state.translations.vocabulary);
+  const [editingValues, setEditingValues] = useState<Record<number, string>>({});
 
   useEffect(() => {
     if (!loaded && !loading) {
@@ -19,6 +20,8 @@ export function VocabularyTable() {
       dispatch(resetVocabulary());
       // Reload fresh data from server
       dispatch(loadVocabulary());
+      // Clear local editing state
+      setEditingValues({});
     }
   };
 
@@ -38,7 +41,10 @@ export function VocabularyTable() {
   };
 
   const handleSynonymsChange = (wordNumber: number, value: string) => {
-    // Parse comma-separated input into array
+    // Store raw value in local state for immediate UI update
+    setEditingValues((prev) => ({ ...prev, [wordNumber]: value }));
+
+    // Parse comma-separated input into array for Redux
     const synonyms = value
       .split(',')
       .map((s) => s.trim())
@@ -50,6 +56,14 @@ export function VocabularyTable() {
         translatedSynonyms: synonyms,
       })
     );
+  };
+
+  const getSynonymsDisplayValue = (vocab: TranslationVocabulary): string => {
+    // Use local editing value if available, otherwise use Redux state
+    if (editingValues[vocab.wordNumber] !== undefined) {
+      return editingValues[vocab.wordNumber];
+    }
+    return vocab.translatedSynonyms.join(', ');
   };
 
   if (loading) {
@@ -109,7 +123,7 @@ export function VocabularyTable() {
               <td className="translated-synonyms">
                 <input
                   type="text"
-                  value={vocab.translatedSynonyms.join(', ')}
+                  value={getSynonymsDisplayValue(vocab)}
                   onChange={(e) => handleSynonymsChange(vocab.wordNumber, e.target.value)}
                   placeholder="מילים נרדפות מופרדות בפסיקים..."
                 />
