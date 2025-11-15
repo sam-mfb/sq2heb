@@ -12,7 +12,8 @@
     "viewer:dev": "vite viewer --config viewer/vite.config.ts",
     "viewer:build": "vite build viewer --config viewer/vite.config.ts",
     "typecheck:scripts": "tsc --project scripts/tsconfig.json --noEmit",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest",
+    "test:ui": "vitest --ui"
   },
   "keywords": [],
   "author": "",
@@ -37,6 +38,7 @@
     "@types/react-dom": "^17.0.26",
     "@vitejs/plugin-react": "^5.1.1",
     "vite": "^7.2.2",
-    "vite-node": "^5.1.0"
+    "vite-node": "^5.1.0",
+    "vitest": "^4.0.9"
   }
 }
