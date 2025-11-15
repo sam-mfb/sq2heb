@@ -1,6 +1,6 @@
 import { log } from './utils/logger.js';
 import { exec } from './utils/exec-utils.js';
-import { existsSync } from 'fs';
+import { existsSync, cpSync, rmSync, mkdirSync } from 'fs';
 import { join } from 'path';
 
 // Usage: vite-node scripts/index-all.ts <directory>
@@ -35,15 +35,35 @@ log.newline();
 log.info(`Processing ${dir}/ directory...`);
 log.newline();
 
-// Step 1: Object indexing
-log.step('Step 1/2: Indexing inventory objects...');
+// Step 0: Copy src to tmp/src
+const tmpSrcDir = join(dir, 'tmp', 'src');
+log.step('Step 1/3: Copying src/ to tmp/src/...');
+
+// Remove existing tmp/src if it exists
+if (existsSync(tmpSrcDir)) {
+  rmSync(tmpSrcDir, { recursive: true, force: true });
+}
+
+// Create tmp directory if needed
+const tmpDir = join(dir, 'tmp');
+if (!existsSync(tmpDir)) {
+  mkdirSync(tmpDir, { recursive: true });
+}
+
+// Copy src to tmp/src
+cpSync(srcDir, tmpSrcDir, { recursive: true });
+log.info(`✓ Copied ${srcDir} to ${tmpSrcDir}`);
 log.newline();
-exec(`vite-node scripts/index-objects.ts ${dir}/src`);
+
+// Step 1: Object indexing (now runs on tmp/src, overwrites in place)
+log.step('Step 2/3: Indexing inventory objects...');
+log.newline();
+exec(`vite-node scripts/index-objects.ts ${dir}/tmp/src ${dir}/tmp/src`);
 
 log.newline();
 
 // Step 2: Message indexing
-log.step('Step 2/2: Indexing messages...');
+log.step('Step 3/3: Indexing messages...');
 log.newline();
 exec(`vite-node scripts/index-messages.ts ${dir}/tmp/src ${dir}/tmp/src`);
 

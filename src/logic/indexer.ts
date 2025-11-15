@@ -88,19 +88,30 @@ export function indexMessages(logicFile: LogicFile): IndexResult {
 
 /**
  * Replace a hardcoded string with a message reference in the content
+ * Skips said() commands since they require vocabulary words, not messages
  */
 function replaceStringInCommand(
   content: string,
   text: string,
   messageNumber: number
 ): string {
-  // Escape special regex characters in the text, including the quotes we'll add
+  // Escape special regex characters in the text
   const escapedText = text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
   // Create pattern to match the exact string literal with quotes
-  // We need to escape the quotes and any backslashes
   const pattern = new RegExp(`"${escapedText}"`, 'g');
-  return content.replace(pattern, `m${messageNumber}`);
+
+  // Replace line by line, skipping said() commands
+  const lines = content.split('\n');
+  const processedLines = lines.map(line => {
+    // Skip said() commands entirely
+    if (line.includes('said(')) {
+      return line;
+    }
+    return line.replace(pattern, `m${messageNumber}`);
+  });
+
+  return processedLines.join('\n');
 }
 
 /**

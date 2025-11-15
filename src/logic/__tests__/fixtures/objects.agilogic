@@ -1,7 +1,7 @@
 if (f5) {
   print("Rock");
-  display(0, 0, "Key");
-  set.menu("Flashlight");
+  get("Key");
+  drop("Flashlight");
 }
 
 if (said("examine", "Rock")) {
@@ -9,13 +9,13 @@ if (said("examine", "Rock")) {
 }
 
 if (controller(c1)) {
-  get.num("Key", v1);
-  set.string(s1, "Rock");
+  put("Rock");
+  get.v(v1);
 }
 
 if (f6) {
   print("The Rock is heavy");
-  display(1, 1, "Key ring");
+  drop.v(v2);
 }
 
 return();

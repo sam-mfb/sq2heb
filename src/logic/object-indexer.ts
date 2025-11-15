@@ -22,7 +22,21 @@ export function indexObjects(
     objectMap.set(obj.name, obj.index);
   }
 
-  // Find all hardcoded strings in commands (except said())
+  // Commands that take inventory object references (not message strings)
+  // These are the ONLY commands where we should replace object name strings with iN
+  const inventoryCommands = [
+    'get\\(',          // get(iN) - give object to player
+    'get\\.v\\(',      // get.v(varN) - give object (variable)
+    'put\\(',          // put(iN) - remove object from player
+    'put\\.v\\(',      // put.v(varN) - remove object (variable)
+    'drop\\(',         // drop(iN) - drop object in current room
+    'drop\\.v\\(',     // drop.v(varN) - drop object (variable)
+  ];
+
+  // Create regex to match lines with inventory commands
+  const inventoryCommandPattern = new RegExp(inventoryCommands.join('|'));
+
+  // Find all hardcoded strings in inventory commands (except said())
   const lines = codeSection.split('\n');
   const processedLines: string[] = [];
 
@@ -31,6 +45,12 @@ export function indexObjects(
 
     // Skip said() commands entirely
     if (line.includes('said(')) {
+      processedLines.push(line);
+      continue;
+    }
+
+    // Only process lines that contain inventory commands
+    if (!inventoryCommandPattern.test(line)) {
       processedLines.push(line);
       continue;
     }
