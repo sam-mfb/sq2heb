@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "setup": "bash scripts/setup-project.sh",
+    "clean": "bash scripts/clean-project.sh",
     "build": "agikit build ./project",
     "viewer:dev": "vite viewer --config viewer/vite.config.ts",
     "viewer:build": "vite build viewer --config viewer/vite.config.ts",
