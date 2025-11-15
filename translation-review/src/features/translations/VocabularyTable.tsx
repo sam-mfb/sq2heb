@@ -40,30 +40,51 @@ export function VocabularyTable() {
     URL.revokeObjectURL(url);
   };
 
-  const handleSynonymsChange = (wordNumber: number, value: string) => {
+  const handleSynonymInputChange = (wordNumber: number, value: string) => {
     // Store raw value in local state for immediate UI update
     setEditingValues((prev) => ({ ...prev, [wordNumber]: value }));
 
-    // Parse comma-separated input into array for Redux
-    const synonyms = value
-      .split(',')
-      .map((s) => s.trim())
-      .filter((s) => s.length > 0);
+    // If user types a comma, add the word to the array
+    if (value.includes(',')) {
+      const parts = value.split(',');
+      const newWord = parts[0].trim();
+      const remaining = parts.slice(1).join(',').trim();
 
-    dispatch(
-      updateVocabularyTranslatedSynonyms({
-        wordNumber,
-        translatedSynonyms: synonyms,
-      })
-    );
+      if (newWord) {
+        // Get current vocab item
+        const vocab = data?.vocabulary.find((v) => v.wordNumber === wordNumber);
+        if (vocab) {
+          // Add new word to existing synonyms
+          const updatedSynonyms = [...vocab.translatedSynonyms, newWord];
+          dispatch(
+            updateVocabularyTranslatedSynonyms({
+              wordNumber,
+              translatedSynonyms: updatedSynonyms,
+            })
+          );
+        }
+      }
+
+      // Keep remaining text in input
+      setEditingValues((prev) => ({ ...prev, [wordNumber]: remaining }));
+    }
   };
 
-  const getSynonymsDisplayValue = (vocab: TranslationVocabulary): string => {
-    // Use local editing value if available, otherwise use Redux state
-    if (editingValues[vocab.wordNumber] !== undefined) {
-      return editingValues[vocab.wordNumber];
+  const handleRemoveSynonym = (wordNumber: number, synonymIndex: number) => {
+    const vocab = data?.vocabulary.find((v) => v.wordNumber === wordNumber);
+    if (vocab) {
+      const updatedSynonyms = vocab.translatedSynonyms.filter((_, idx) => idx !== synonymIndex);
+      dispatch(
+        updateVocabularyTranslatedSynonyms({
+          wordNumber,
+          translatedSynonyms: updatedSynonyms,
+        })
+      );
     }
-    return vocab.translatedSynonyms.join(', ');
+  };
+
+  const getCurrentInputValue = (wordNumber: number): string => {
+    return editingValues[wordNumber] || '';
   };
 
   if (loading) {
@@ -121,12 +142,30 @@ export function VocabularyTable() {
                 )}
               </td>
               <td className="translated-synonyms">
-                <input
-                  type="text"
-                  value={getSynonymsDisplayValue(vocab)}
-                  onChange={(e) => handleSynonymsChange(vocab.wordNumber, e.target.value)}
-                  placeholder="מילים נרדפות מופרדות בפסיקים..."
-                />
+                <div className="synonym-editor">
+                  {vocab.translatedSynonyms.length > 0 && (
+                    <div className="synonym-list">
+                      {vocab.translatedSynonyms.map((syn: string, idx: number) => (
+                        <span key={idx} className="synonym-badge editable">
+                          {syn}
+                          <button
+                            className="remove-synonym"
+                            onClick={() => handleRemoveSynonym(vocab.wordNumber, idx)}
+                            title="הסר מילה נרדפת"
+                          >
+                            ×
+                          </button>
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                  <input
+                    type="text"
+                    value={getCurrentInputValue(vocab.wordNumber)}
+                    onChange={(e) => handleSynonymInputChange(vocab.wordNumber, e.target.value)}
+                    placeholder="הקלד מילה נרדפת ולחץ פסיק..."
+                  />
+                </div>
               </td>
               <td className="notes">
                 <input
