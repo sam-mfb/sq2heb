@@ -9,29 +9,9 @@ if ls project/*.zip 1> /dev/null 2>&1; then
   rm -f project/*.zip
 fi
 
-# Remove extracted directories
-if [ -d "project/orig" ]; then
-  echo "  Removing project/orig/..."
-  rm -rf project/orig
-fi
+# Run common AGI cleanup (without --keep-orig, so it removes orig/ too)
+bash scripts/clean-agi.sh project
 
-if [ -d "project/src" ]; then
-  echo "  Removing project/src/..."
-  rm -rf project/src
-fi
-
-if [ -d "project/build" ]; then
-  echo "  Removing project/build/..."
-  rm -rf project/build
-fi
-
-# Remove viewer resources
-if [ -d "viewer/public/resources" ]; then
-  echo "  Removing viewer/public/resources/..."
-  rm -rf viewer/public/resources
-fi
-
-echo ""
 echo "✅ Cleanup complete!"
 echo ""
 echo "The project/ directory is now clean."

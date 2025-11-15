@@ -8,9 +8,10 @@ project/src/
 project/build/
 project/agikit-project.json
 
-# Ignore template interim directories
-template/src/
-template/build/
+# Ignore example interim directories
+example/src/
+example/build/
+example/agikit-project.json
 
 # Ignore build output
 viewer/dist/

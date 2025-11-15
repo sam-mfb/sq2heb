@@ -6,9 +6,11 @@
     "setup": "bash scripts/setup-project.sh",
     "clean": "bash scripts/clean-project.sh",
     "build": "agikit build ./project",
+    "example:setup": "bash scripts/setup-example.sh",
+    "example:clean": "bash scripts/clean-example.sh",
+    "example:build": "agikit build ./example",
     "viewer:dev": "vite viewer --config viewer/vite.config.ts",
     "viewer:build": "vite build viewer --config viewer/vite.config.ts",
-    "template:build": "agikit build ./template",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

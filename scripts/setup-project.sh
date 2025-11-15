@@ -52,35 +52,8 @@ fi
 echo "✓ Extracted to project/orig/"
 echo ""
 
-# Run agikit extraction
-echo "🔧 Extracting AGI resources with agikit..."
-npx agikit extract project/orig/ project/
-
-if [ ! -d "project/src" ]; then
-  echo "❌ Error: agikit extraction failed - project/src not created"
-  exit 1
-fi
-
-echo "✓ Extracted resources to project/src/"
-echo ""
-
-# Create build directory
-echo "📁 Creating build directory..."
-mkdir -p project/build
-echo "✓ Created project/build/"
-echo ""
-
-# Copy resources to viewer
-echo "🖼️  Copying resources to viewer..."
-mkdir -p viewer/public/resources
-cp -r project/src/* viewer/public/resources/
-
-# Create manifest.json
-echo "📋 Creating resource manifest..."
-node scripts/create-manifest.js
-
-echo "✓ Resources copied to viewer/public/resources/"
-echo ""
+# Run common AGI setup
+bash scripts/setup-agi.sh project
 
 echo "✅ Setup complete!"
 echo ""
