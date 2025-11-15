@@ -1,0 +1,259 @@
+# CLAUDE.md - Project Orientation Guide
+
+## Project Overview
+
+**Name:** sq2heb (Space Quest 2 Hebrew Translation Project)
+**Purpose:** A web-based AGI resource viewer and translation toolkit with focus on translating Space Quest 2 to Hebrew
+
+This project provides:
+
+1. A modern web viewer for exploring AGI game resources (pictures, views, sounds, logic scripts)
+2. Documentation on the AGI translation architecture
+3. Setup automation for processing AGI game files
+4. Generic tooling designed to work with any Sierra AGI game from that era
+
+**Key Context:**
+
+- You must own a legal copy of the AGI game to use this. Game files are NOT included in the repo.
+- While the project's goal is Space Quest 2 Hebrew translation, ALL TOOLING SHOULD BE KEPT GENERIC
+- Tools should be easily adaptable to other AGI games (King's Quest, Police Quest, Leisure Suit Larry, etc.)
+- Avoid hardcoding Space Quest 2-specific values or assumptions
+
+---
+
+## Quick Start Commands
+
+```bash
+# Setup (requires AGI game zip file in project/ directory)
+npm run setup
+
+# Start the web viewer
+npm run viewer:dev        # Opens on http://localhost:3000
+
+# Build the game (after modifications)
+npm run build
+
+# Clean project files
+npm run clean
+
+# Build template (for testing generic functionality)
+npm run template:build
+```
+
+---
+
+## Project Structure
+
+```
+sq2heb/
+├── README.md                        # User-facing setup instructions
+├── TRANSLATION_ARCHITECTURE.md      # Detailed AGI translation guide
+├── CLAUDE.md                        # This file - orientation for Claude
+├── package.json                     # Node dependencies & scripts
+│
+├── scripts/                         # Setup automation scripts
+│   ├── setup-project.sh             # Extract & decompile game files
+│   ├── clean-project.sh             # Remove all game files
+│   └── create-manifest.js           # Generate resource list for viewer
+│
+├── project/                         # Game files (gitignored, user-provided)
+│   ├── *.zip                        # User's AGI game archive (any Sierra AGI game)
+│   ├── orig/                        # Extracted original AGI files
+│   ├── src/                         # Decompiled AGI resources (logic/, pic/, view/, sound/, etc.)
+│   └── build/                       # Build output
+│
+├── template/                        # Sample AGI project for testing
+│   └── src/                         # Example AGI resources with same structure as project/src/
+│
+└── viewer/                          # React/Vite web application
+    ├── vite.config.ts               # Vite configuration
+    ├── tsconfig.json                # TypeScript config
+    ├── public/
+    │   └── resources/               # Copied from project/src/ (gitignored)
+    └── src/
+        ├── main.tsx                 # React entry point
+        ├── App.tsx                  # Main app with routing
+        ├── app/                     # Redux store & hooks
+        ├── features/                # Feature modules
+        │   ├── browser/             # Resource navigation sidebar
+        │   ├── resources/           # Redux state & API for resource loading
+        │   └── viewers/             # Picture/View/Sound/Logic viewer components
+        ├── services/                # Resource cache (non-serializable data)
+        └── utils/                   # Parsers for AGI file formats
+```
+
+---
+
+## How the Viewer Works
+
+### Setup Flow (npm run setup)
+
+1. User adds `*.zip` file containing any AGI game files to `project/`
+2. `setup-project.sh` extracts ZIP to `project/orig/`
+3. agikit decompiles resources to `project/src/`
+4. Resources copied to `viewer/public/resources/`
+5. `create-manifest.js` generates `manifest.json` listing all resources
+
+### Viewer Architecture
+
+- **Redux Store:** Manages file tree and current resource state
+- **Resource Cache:** Stores parsed resource data outside Redux (for non-serializable objects)
+- **Async Thunks:** Load and parse resources on demand
+- **Parsers:** Convert AGI file formats to viewer-compatible objects
+- **@agikit Components:** Render pictures, views, and sounds using AGI's original format
+
+### Resource Loading Pattern
+
+```typescript
+// User clicks resource ID in browser
+↓
+// Redux thunk dispatched (e.g., loadPictureResource)
+↓
+// resourcesAPI.ts fetches file from /resources/pic/123.agipic
+↓
+// Parser converts file to EditingPictureResource
+↓
+// Stored in resourceCache (not Redux - non-serializable)
+↓
+// Viewer component reads from cache and displays
+```
+
+---
+
+## Translation Architecture Summary
+
+The `TRANSLATION_ARCHITECTURE.md` file contains detailed information on translating AGI games to languages like Hebrew. Key concepts:
+
+### Files That Need Translation
+
+1. **Logic files (.lgc)** - Game messages via `#message` declarations
+2. **OBJECT file** - Inventory item names (binary format)
+3. **WORDS.TOK** - Parser vocabulary (binary, ASCII only)
+4. **WORDS.TOK.EXTENDED** - Extended vocabulary (text, supports Hebrew/Cyrillic)
+5. **VIEWDIR** - Inventory descriptions embedded in view resources
+
+### Core Challenges
+
+- Standard AGI format doesn't support extended characters (128-255)
+- Logic files need conversion to target encoding (e.g., Windows-1255 for Hebrew)
+- Vocabulary split into two files: ASCII for compilation, extended for runtime
+
+### Translation Workflow
+
+1. Extract messages/objects/words from original files
+2. Translate to target language (Hebrew, etc.)
+3. Import translations back to files with proper encoding
+4. Compile with WinAGI (configured for target encoding)
+5. Test in ScummVM with extended character support
+
+---
+
+## Important Notes for Future Work
+
+### Git Ignore Strategy
+
+- ALL game files are gitignored (copyright protection)
+- Only tooling, documentation, and viewer code are committed
+- Users must provide their own legal copy of Space Quest 2
+
+### Testing with Template
+
+The `template/` directory contains a minimal AGI project from agikit's author. Use this for:
+
+- Testing scripts without requiring a full AGI game
+- Verifying agikit integration
+- Developing generic translation tools on a smaller dataset
+- Ensuring tools work on different AGI games (not just Space Quest 2)
+
+---
+
+## Common Workflows
+
+### Adding Game Files for First Time
+
+```bash
+# 1. Place your AGI game zip file in project/ directory
+#    (e.g., sq2.zip, kq4.zip, lsl1.zip - any Sierra AGI game)
+# 2. Run setup
+npm run setup
+# 3. Start viewer
+npm run viewer:dev
+# 4. Open http://localhost:3000
+```
+
+### Viewing Different Resources
+
+- Navigate to http://localhost:3000
+- Sidebar shows all resources by type (Pictures, Views, Sounds, Logic)
+- Click any number to view that resource
+- URLs: `/pic/123`, `/view/45`, `/sound/7`, `/logic/0`
+
+### Starting Fresh
+
+```bash
+npm run clean        # Removes all game files
+# Add new zip file to project/
+npm run setup        # Re-extract and decompile
+```
+
+### Working on Viewer Features
+
+```bash
+npm run viewer:dev   # Hot reload enabled
+# Edit files in viewer/src/
+# Changes auto-reload in browser
+```
+
+---
+
+## File Format Quick Reference
+
+### AGI Resource Files (in project/src/ and viewer/public/resources/)
+
+- `*.agipic` - Picture resources (JSON format from agikit)
+- `*.agiview` - View resources (binary sprite data)
+- `*.agisound` - Sound resources (binary audio data)
+- `*.agilogic` - Logic scripts (text format from agikit)
+- `object.json` - Inventory objects (JSON from agikit)
+- `words.txt` - Vocabulary (text format from agikit)
+
+### Original AGI Files (in project/orig/)
+
+- `VOL.0`, `VOL.1`, `VOL.2` - Resource volume files
+- `LOGDIR`, `PICDIR`, `VIEWDIR`, `SNDDIR` - Resource directories
+- `OBJECT` - Inventory objects (binary)
+- `WORDS.TOK` - Vocabulary (binary)
+- `AGI` - Game metadata
+
+---
+
+## Useful Links
+
+- **agikit:** https://github.com/nbudin/agikit
+- **AGI Wiki:** http://agiwiki.sierrahelp.com/
+- **AGIHebrew Reference:** https://github.com/SegMash/AGIHebrew
+- **ScummVM:** https://www.scummvm.org/
+- **AGI Specs:** http://agispecs.sierrahelp.com/
+
+---
+
+## Tips for Claude
+
+### Before Making Changes
+
+1. Check if game files exist (`project/src/` directory)
+2. Understand viewer uses @agikit components (don't reinvent rendering)
+3. Remember: non-serializable data goes in resourceCache, not Redux
+4. Binary file editing requires understanding AGI format specs
+
+### Red Flags
+
+- ❌ Don't commit game files (copyright violation)
+- ❌ Don't store binary data in Redux (use resourceCache)
+- ❌ Don't hardcode resource IDs (they vary by game version)
+- ❌ Don't hardcode Space Quest 2-specific logic (keep tools generic for all AGI games)
+- ❌ Don't assume specific inventory object counts, logic numbers, or game structure
+
+---
+
+**End of CLAUDE.md**
