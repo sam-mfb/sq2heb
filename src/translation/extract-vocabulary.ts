@@ -1,8 +1,9 @@
-import type { TranslationVocabulary, VocabularySynonym } from './types.js';
+import type { TranslationVocabulary } from './types.js';
 
 /**
  * Extract translatable vocabulary from words.txt content
  * Format: <word_number>: <synonym1> <synonym2> "multi word" ...
+ * First synonym is treated as the "base word" used in said() commands
  */
 export function extractVocabulary(wordsContent: string): TranslationVocabulary[] {
   const vocabulary: TranslationVocabulary[] = [];
@@ -31,11 +32,17 @@ export function extractVocabulary(wordsContent: string): TranslationVocabulary[]
     }
 
     // Parse synonyms (space-separated, with quoted multi-word phrases)
-    const synonyms = parseSynonyms(wordsStr);
+    const allWords = parseWords(wordsStr);
+
+    // First word is the base word, rest are synonyms
+    const word = allWords.length > 0 ? allWords[0] : '';
+    const originalSynonyms = allWords.slice(1);
 
     vocabulary.push({
       wordNumber,
-      synonyms,
+      word,
+      originalSynonyms,
+      translatedSynonyms: [],
       notes: ''
     });
   }
@@ -44,10 +51,10 @@ export function extractVocabulary(wordsContent: string): TranslationVocabulary[]
 }
 
 /**
- * Parse space-separated synonyms, handling quoted multi-word phrases
+ * Parse space-separated words, handling quoted multi-word phrases
  */
-function parseSynonyms(wordsStr: string): VocabularySynonym[] {
-  const synonyms: VocabularySynonym[] = [];
+function parseWords(wordsStr: string): string[] {
+  const words: string[] = [];
   let current = '';
   let inQuotes = false;
 
@@ -59,11 +66,7 @@ function parseSynonyms(wordsStr: string): VocabularySynonym[] {
     } else if (char === ' ' && !inQuotes) {
       // Space outside quotes - word boundary
       if (current.trim()) {
-        synonyms.push({
-          original: current.trim(),
-          translation: '',
-          notes: ''
-        });
+        words.push(current.trim());
         current = '';
       }
     } else {
@@ -73,12 +76,8 @@ function parseSynonyms(wordsStr: string): VocabularySynonym[] {
 
   // Add last word
   if (current.trim()) {
-    synonyms.push({
-      original: current.trim(),
-      translation: '',
-      notes: ''
-    });
+    words.push(current.trim());
   }
 
-  return synonyms;
+  return words;
 }

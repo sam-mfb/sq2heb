@@ -70,25 +70,18 @@ export interface ObjectsFile {
 }
 
 /**
- * A single vocabulary word (synonym)
- */
-export interface VocabularySynonym {
-  /** Original English word or phrase */
-  original: string;
-  /** Translated word or phrase (empty until translated) */
-  translation: string;
-  /** Optional notes for this specific synonym */
-  notes: string;
-}
-
-/**
- * A group of synonymous words that map to the same word number
+ * A vocabulary word group with its synonyms
+ * The first word in originalSynonyms is the "base word" used in said() commands
  */
 export interface TranslationVocabulary {
   /** Word number used in AGI logic (same number = synonyms) */
   wordNumber: number;
-  /** Array of synonymous words/phrases */
-  synonyms: VocabularySynonym[];
+  /** Base word used in said() commands in logic files */
+  word: string;
+  /** Other English synonyms (not including the base word) */
+  originalSynonyms: string[];
+  /** Translated synonyms in target language */
+  translatedSynonyms: string[];
   /** Optional notes for this word group */
   notes: string;
 }

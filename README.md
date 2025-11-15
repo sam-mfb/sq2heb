@@ -71,7 +71,9 @@ Each file includes metadata and an array of translatable items with these fields
 - `notes`: Optional notes for translators
 - Plus context-specific fields (messageNumber, index, wordNumber, placeholders, etc.)
 
-**Example (messages.json):**
+**Example formats:**
+
+*messages.json:*
 ```json
 {
   "logicFile": "0.agilogic",
@@ -84,6 +86,21 @@ Each file includes metadata and an array of translatable items with these fields
 ```
 
 The placeholder detector automatically identifies `%w1`, `%w2`, `%w3`, `%v`, `%s`, and `%m<number>` placeholders that must be preserved in translations.
+
+*vocabulary.json:*
+```json
+{
+  "wordNumber": 20,
+  "word": "examine",
+  "originalSynonyms": ["look", "inspect"],
+  "translatedSynonyms": [],
+  "notes": ""
+}
+```
+
+- **word**: Base word used in `said()` commands in logic files
+- **originalSynonyms**: Other English words that map to same word number
+- **translatedSynonyms**: Add translated words here (not 1:1 translation of English synonyms)
 
 ### Complete Translation Workflow
 

@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { extractVocabulary } from '../extract-vocabulary.js';
 
 describe('extractVocabulary', () => {
-  it('should extract vocabulary with synonyms', () => {
+  it('should extract vocabulary with base word and synonyms', () => {
     const content = `0: a an the
 2: look examine
 5: get take "pick up"
@@ -13,30 +13,25 @@ describe('extractVocabulary', () => {
 
     expect(result[0]).toEqual({
       wordNumber: 0,
-      synonyms: [
-        { original: 'a', translation: '', notes: '' },
-        { original: 'an', translation: '', notes: '' },
-        { original: 'the', translation: '', notes: '' }
-      ],
+      word: 'a',
+      originalSynonyms: ['an', 'the'],
+      translatedSynonyms: [],
       notes: ''
     });
 
     expect(result[1]).toEqual({
       wordNumber: 2,
-      synonyms: [
-        { original: 'look', translation: '', notes: '' },
-        { original: 'examine', translation: '', notes: '' }
-      ],
+      word: 'look',
+      originalSynonyms: ['examine'],
+      translatedSynonyms: [],
       notes: ''
     });
 
     expect(result[2]).toEqual({
       wordNumber: 5,
-      synonyms: [
-        { original: 'get', translation: '', notes: '' },
-        { original: 'take', translation: '', notes: '' },
-        { original: 'pick up', translation: '', notes: '' }
-      ],
+      word: 'get',
+      originalSynonyms: ['take', 'pick up'],
+      translatedSynonyms: [],
       notes: ''
     });
   });
@@ -46,11 +41,8 @@ describe('extractVocabulary', () => {
     const result = extractVocabulary(content);
 
     expect(result).toHaveLength(1);
-    expect(result[0].synonyms).toHaveLength(4);
-    expect(result[0].synonyms[0].original).toBe('check out');
-    expect(result[0].synonyms[1].original).toBe('examine');
-    expect(result[0].synonyms[2].original).toBe('look at');
-    expect(result[0].synonyms[3].original).toBe('inspect');
+    expect(result[0].word).toBe('check out');
+    expect(result[0].originalSynonyms).toEqual(['examine', 'look at', 'inspect']);
   });
 
   it('should handle non-sequential word numbers', () => {
@@ -66,7 +58,7 @@ describe('extractVocabulary', () => {
     expect(result[2].wordNumber).toBe(10);
   });
 
-  it('should handle single synonym per word', () => {
+  it('should handle single word with no synonyms', () => {
     const content = `1: quit
 2: restart
 3: save
@@ -74,8 +66,8 @@ describe('extractVocabulary', () => {
     const result = extractVocabulary(content);
 
     expect(result).toHaveLength(3);
-    expect(result[0].synonyms).toHaveLength(1);
-    expect(result[0].synonyms[0].original).toBe('quit');
+    expect(result[0].word).toBe('quit');
+    expect(result[0].originalSynonyms).toEqual([]);
   });
 
   it('should handle empty file', () => {
@@ -102,11 +94,7 @@ describe('extractVocabulary', () => {
     const content = `10: go walk "go to" "walk to" move`;
     const result = extractVocabulary(content);
 
-    expect(result[0].synonyms).toHaveLength(5);
-    expect(result[0].synonyms[0].original).toBe('go');
-    expect(result[0].synonyms[1].original).toBe('walk');
-    expect(result[0].synonyms[2].original).toBe('go to');
-    expect(result[0].synonyms[3].original).toBe('walk to');
-    expect(result[0].synonyms[4].original).toBe('move');
+    expect(result[0].word).toBe('go');
+    expect(result[0].originalSynonyms).toEqual(['walk', 'go to', 'walk to', 'move']);
   });
 });
