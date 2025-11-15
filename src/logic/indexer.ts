@@ -1,6 +1,17 @@
 import type { LogicFile, IndexResult, LogicMessage } from './types.js';
 
 /**
+ * Normalize escape sequences in a string for comparison
+ * In AGI logic files, strings in code have extra escaping (\\) that needs to normalize
+ * to match the storage format in message declarations (\)
+ */
+function normalizeEscapeSequences(text: string): string {
+  // Replace double backslashes with single backslashes
+  // This makes "100\\%" (in code) match "100\%" (in messages)
+  return text.replace(/\\\\/g, '\\');
+}
+
+/**
  * Index messages in a logic file by replacing hardcoded strings with message references
  * and adding new messages for strings that don't have matches
  */
@@ -10,9 +21,12 @@ export function indexMessages(logicFile: LogicFile): IndexResult {
   let replacedStrings = 0;
 
   // Build a map of message text to message number for exact matching
+  // Also build a normalized version for matching code strings
   const messageMap = new Map<string, number>();
+  const normalizedMessageMap = new Map<string, number>();
   for (const msg of logicFile.messages) {
     messageMap.set(msg.text, msg.number);
+    normalizedMessageMap.set(normalizeEscapeSequences(msg.text), msg.number);
   }
 
   // Track new messages to add
@@ -34,16 +48,17 @@ export function indexMessages(logicFile: LogicFile): IndexResult {
     }
 
     let messageNumber: number;
+    const normalizedText = normalizeEscapeSequences(hardcoded.text);
 
-    // Check if we already have this string as a message
-    if (messageMap.has(hardcoded.text)) {
-      messageNumber = messageMap.get(hardcoded.text)!;
+    // Check if we already have this string as a message (try normalized match)
+    if (normalizedMessageMap.has(normalizedText)) {
+      messageNumber = normalizedMessageMap.get(normalizedText)!;
       matchedReplacements.set(hardcoded.text, messageNumber);
     } else {
-      // Add as new message
+      // Add as new message (store the normalized version)
       messageNumber = nextMessageNumber++;
-      newMessages.push({ text: hardcoded.text, number: messageNumber });
-      messageMap.set(hardcoded.text, messageNumber);
+      newMessages.push({ text: normalizedText, number: messageNumber });
+      normalizedMessageMap.set(normalizedText, messageNumber);
       newReplacements.set(hardcoded.text, messageNumber);
     }
 

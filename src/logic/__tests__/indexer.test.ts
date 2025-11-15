@@ -329,5 +329,24 @@ return();
       expect(result.content).toContain('set.menu(m1)');
       expect(result.stats.newMessagesAdded).toBe(1); // Only one message added
     });
+
+    it('should normalize escape sequences when matching against messages', () => {
+      const content = `
+print("Made of 100\\\\% synthetic materials");
+return();
+
+// messages
+#message 1 "Made of 100\\% synthetic materials"
+`;
+      const logicFile = parseLogicFile(content);
+      const result = indexMessages(logicFile);
+
+      // The string in print has double backslash (100\\%) which normalizes to single backslash
+      // The message has single backslash (100\%)
+      // These should match - both represent the same displayed text
+      expect(result.content).toContain('print(m1)');
+      expect(result.stats.replacedStrings).toBe(1);
+      expect(result.stats.newMessagesAdded).toBe(0); // Should NOT add a new message
+    });
   });
 });
