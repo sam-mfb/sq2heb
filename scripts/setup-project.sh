@@ -41,6 +41,14 @@ if [ ! -d "project/orig" ] || [ -z "$(ls -A project/orig)" ]; then
   exit 1
 fi
 
+# Check if files are in a subdirectory and move them up if needed
+SUBDIR=$(find project/orig -mindepth 1 -maxdepth 1 -type d | head -n 1)
+if [ -n "$SUBDIR" ] && [ -z "$(find project/orig -mindepth 1 -maxdepth 1 -type f)" ]; then
+  echo "📁 Moving files from subdirectory to root..."
+  mv "$SUBDIR"/* project/orig/
+  rmdir "$SUBDIR"
+fi
+
 echo "✓ Extracted to project/orig/"
 echo ""
 
