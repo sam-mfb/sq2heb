@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "setup": "bash scripts/setup-project.sh",
-    "clean": "bash scripts/clean-project.sh",
+    "setup": "vite-node scripts/setup-project.ts",
+    "clean": "vite-node scripts/clean-project.ts",
     "build": "agikit build ./project",
-    "example:setup": "bash scripts/setup-example.sh",
-    "example:clean": "bash scripts/clean-example.sh",
+    "example:setup": "vite-node scripts/setup-example.ts",
+    "example:clean": "vite-node scripts/clean-example.ts",
     "example:build": "agikit build ./example",
     "viewer:dev": "vite viewer --config viewer/vite.config.ts",
     "viewer:build": "vite build viewer --config viewer/vite.config.ts",
+    "typecheck:scripts": "tsc --project scripts/tsconfig.json --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -31,9 +32,11 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
+    "@types/node": "^24.10.1",
     "@types/react": "^17.0.89",
     "@types/react-dom": "^17.0.26",
     "@vitejs/plugin-react": "^5.1.1",
-    "vite": "^7.2.2"
+    "vite": "^7.2.2",
+    "vite-node": "^5.1.0"
   }
 }

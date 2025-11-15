@@ -36,8 +36,13 @@ npm run build
 # Clean project files
 npm run clean
 
-# Build template (for testing generic functionality)
-npm run template:build
+# Example project commands (for testing generic functionality)
+npm run example:setup     # Setup example project
+npm run example:build     # Build example project
+npm run example:clean     # Clean example project
+
+# Type-check scripts
+npm run typecheck:scripts
 ```
 
 ---
@@ -51,10 +56,16 @@ sq2heb/
 ├── CLAUDE.md                        # This file - orientation for Claude
 ├── package.json                     # Node dependencies & scripts
 │
-├── scripts/                         # Setup automation scripts
-│   ├── setup-project.sh             # Extract & decompile game files
-│   ├── clean-project.sh             # Remove all game files
-│   └── create-manifest.js           # Generate resource list for viewer
+├── scripts/                         # Setup automation scripts (TypeScript)
+│   ├── utils/                       # Shared utilities (logger, fs-utils, exec-utils)
+│   ├── setup-project.ts             # Extract & decompile game files
+│   ├── setup-example.ts             # Setup example project
+│   ├── clean-project.ts             # Remove all game files
+│   ├── clean-example.ts             # Clean example project
+│   ├── setup-agi.ts                 # Core AGI extraction logic
+│   ├── clean-agi.ts                 # Core cleanup logic
+│   ├── create-manifest.ts           # Generate resource list for viewer
+│   └── tsconfig.json                # TypeScript config for scripts
 │
 ├── project/                         # Game files (gitignored, user-provided)
 │   ├── *.zip                        # User's AGI game archive (any Sierra AGI game)
@@ -62,8 +73,10 @@ sq2heb/
 │   ├── src/                         # Decompiled AGI resources (logic/, pic/, view/, sound/, etc.)
 │   └── build/                       # Build output
 │
-├── template/                        # Sample AGI project for testing
-│   └── src/                         # Example AGI resources with same structure as project/src/
+├── example/                         # Sample AGI project for testing (committed to VCS)
+│   ├── orig/                        # Pre-compiled AGI files (committed)
+│   ├── src/                         # Decompiled resources (gitignored)
+│   └── build/                       # Build output (gitignored)
 │
 └── viewer/                          # React/Vite web application
     ├── vite.config.ts               # Vite configuration
@@ -89,10 +102,10 @@ sq2heb/
 ### Setup Flow (npm run setup)
 
 1. User adds `*.zip` file containing any AGI game files to `project/`
-2. `setup-project.sh` extracts ZIP to `project/orig/`
+2. `setup-project.ts` extracts ZIP to `project/orig/`
 3. agikit decompiles resources to `project/src/`
 4. Resources copied to `viewer/public/resources/`
-5. `create-manifest.js` generates `manifest.json` listing all resources
+5. `create-manifest.ts` generates `manifest.json` listing all resources
 
 ### Viewer Architecture
 
@@ -246,6 +259,21 @@ npm run viewer:dev   # Hot reload enabled
 3. Remember: non-serializable data goes in resourceCache, not Redux
 4. Binary file editing requires understanding AGI format specs
 
+### Working with Scripts
+
+**IMPORTANT:** All scripts are written in TypeScript and located in `scripts/` directory.
+
+- Scripts use ES modules (import/export)
+- Scripts are executed with `vite-node` (cross-platform)
+- Shared utilities are in `scripts/utils/` (logger, fs-utils, exec-utils)
+
+**After modifying any script, ALWAYS run:**
+```bash
+npm run typecheck:scripts
+```
+
+This ensures type safety and catches errors before runtime.
+
 ### Red Flags
 
 - ❌ Don't commit game files (copyright violation)
@@ -253,6 +281,7 @@ npm run viewer:dev   # Hot reload enabled
 - ❌ Don't hardcode resource IDs (they vary by game version)
 - ❌ Don't hardcode Space Quest 2-specific logic (keep tools generic for all AGI games)
 - ❌ Don't assume specific inventory object counts, logic numbers, or game structure
+- ❌ Don't modify scripts without running `npm run typecheck:scripts` afterwards
 
 ---
 
