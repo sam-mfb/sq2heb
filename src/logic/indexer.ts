@@ -2,13 +2,16 @@ import type { LogicFile, IndexResult, LogicMessage } from './types.js';
 
 /**
  * Normalize escape sequences in a string for comparison
- * In AGI logic files, strings in code have extra escaping (\\) that needs to normalize
- * to match the storage format in message declarations (\)
+ * In AGI logic files, strings in code have escape sequences that get interpreted
+ * We need to normalize them to match how they're stored in message declarations
  */
 function normalizeEscapeSequences(text: string): string {
-  // Replace double backslashes with single backslashes
-  // This makes "100\\%" (in code) match "100\%" (in messages)
-  return text.replace(/\\\\/g, '\\');
+  return text
+    // Replace escape sequences with their actual characters
+    .replace(/\\t/g, '\t')   // tab
+    .replace(/\\n/g, '\n')   // newline
+    .replace(/\\r/g, '\r')   // carriage return
+    .replace(/\\\\/g, '\\'); // backslash (do this last to avoid double-processing)
 }
 
 /**

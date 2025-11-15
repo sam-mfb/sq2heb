@@ -348,5 +348,24 @@ return();
       expect(result.stats.replacedStrings).toBe(1);
       expect(result.stats.newMessagesAdded).toBe(0); // Should NOT add a new message
     });
+
+    it('should normalize tab escape sequences', () => {
+      const content = `
+print("Line with\\ttab");
+return();
+
+// messages
+#message 1 "Line with\ttab"
+`;
+      const logicFile = parseLogicFile(content);
+      const result = indexMessages(logicFile);
+
+      // The string in code has \t (backslash-t) which normalizes to actual tab
+      // The message has actual tab character
+      // These should match
+      expect(result.content).toContain('print(m1)');
+      expect(result.stats.replacedStrings).toBe(1);
+      expect(result.stats.newMessagesAdded).toBe(0);
+    });
   });
 });
