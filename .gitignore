@@ -7,12 +7,14 @@ project/orig/
 project/src/
 project/build/
 project/tmp/
+project/final/
 project/agikit-project.json
 
 # Ignore example interim directories
 example/src/
 example/build/
 example/tmp/
+example/final/
 example/agikit-project.json
 
 # Ignore build output

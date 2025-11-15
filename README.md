@@ -102,18 +102,50 @@ The placeholder detector automatically identifies `%w1`, `%w2`, `%w3`, `%v`, `%s
 - **originalSynonyms**: Other English words that map to same word number
 - **translatedSynonyms**: Add translated words here (not 1:1 translation of English synonyms)
 
-### Complete Translation Workflow
+### Translation Import
 
-Process your game files through the complete indexing and build pipeline:
+Apply translations back to the game source files:
 
 ```bash
-# 1. Index objects and messages (creates project/tmp/src/)
+# Import translations (creates project/final/src/)
+npm run import-translations
+
+# Or for example project
+npm run example:import-translations
+```
+
+**What happens:**
+1. Copies `tmp/src/` (indexed source) to `final/src/`
+2. Reads translation JSON files from `translations/{project}/`
+3. Applies translations to `final/src/object.json` (currently objects only)
+4. Skips objects with empty `translation` fields
+5. Reports statistics
+
+**Note**: Currently only object translations are imported. Message and vocabulary import coming soon.
+
+### Complete Translation Workflow
+
+Full workflow from setup to translated game:
+
+```bash
+# 1. Setup and decompile
+npm run setup
+
+# 2. Index objects and messages (creates project/tmp/src/)
 npm run index
 
-# 2. Build the indexed game (creates project/tmp/build/)
-npm run build-index
+# 3. Extract translations (creates translations/project/*.json)
+npm run extract-translations
 
-# 3. Package as ZIP file (creates project/tmp/agi-build.zip)
+# 4. Edit translation JSON files (add Hebrew translations)
+
+# 5. Import translations (creates project/final/src/)
+npm run import-translations
+
+# 6. Build final game (creates project/final/build/)
+npx agikit build project/final
+
+# 7. (Optional) Zip the build
 npm run zip-index-build
 ```
 
