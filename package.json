@@ -13,7 +13,8 @@
     "viewer:build": "vite build viewer --config viewer/vite.config.ts",
     "typecheck:scripts": "tsc --project scripts/tsconfig.json --noEmit",
     "test": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "index-messages": "vite-node scripts/index-messages.ts"
   },
   "keywords": [],
   "author": "",

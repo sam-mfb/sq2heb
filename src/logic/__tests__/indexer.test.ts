@@ -55,11 +55,18 @@ return();
       const logicFile = parseLogicFile(content);
       const result = indexMessages(logicFile);
 
-      // Only the first one should be replaced
+      // "Test" matches existing message 1
       expect(result.content).toContain('print(m1)');
-      expect(result.content).toContain('print("Test ")');
-      expect(result.content).toContain('print(" Test")');
+      // "Test " and " Test" don't match, so they're added as new messages
+      expect(result.content).toContain('print(m2)');
+      expect(result.content).toContain('print(m3)');
+      // Only 1 string matched existing messages
       expect(result.stats.replacedStrings).toBe(1);
+      // 2 new messages were added
+      expect(result.stats.newMessagesAdded).toBe(2);
+      // Verify the new messages preserve whitespace exactly
+      expect(result.content).toContain('#message 2 "Test "');
+      expect(result.content).toContain('#message 3 " Test"');
     });
 
     it('should match strings with special characters exactly', () => {

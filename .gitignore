@@ -11,6 +11,7 @@ project/agikit-project.json
 # Ignore example interim directories
 example/src/
 example/build/
+example/tmp/
 example/agikit-project.json
 
 # Ignore build output

@@ -1,5 +1,5 @@
 import { log } from './utils/logger.js';
-import { removeDir, exists } from './utils/fs-utils.js';
+import { removeDir, removeFile, exists } from './utils/fs-utils.js';
 
 // Usage: vite-node scripts/clean-agi.ts <directory> [--keep-orig]
 // Example: vite-node scripts/clean-agi.ts project
@@ -31,6 +31,18 @@ if (exists(`${dir}/src`)) {
 if (exists(`${dir}/build`)) {
   log.step(`Removing ${dir}/build/...`);
   removeDir(`${dir}/build`);
+}
+
+// Remove tmp directory
+if (exists(`${dir}/tmp`)) {
+  log.step(`Removing ${dir}/tmp/...`);
+  removeDir(`${dir}/tmp`);
+}
+
+// Remove agikit-project.json
+if (exists(`${dir}/agikit-project.json`)) {
+  log.step(`Removing ${dir}/agikit-project.json...`);
+  removeFile(`${dir}/agikit-project.json`);
 }
 
 // Remove viewer resources
