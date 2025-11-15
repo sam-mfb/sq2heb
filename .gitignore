@@ -6,6 +6,7 @@ project/*.zip
 project/orig/
 project/src/
 project/build/
+project/agikit-project.json
 
 # Ignore build output
 viewer/dist/
