@@ -1,0 +1,125 @@
+import { useEffect } from 'react';
+import { useAppDispatch, useAppSelector } from '@/app/hooks';
+import { loadVocabulary, updateVocabularyTranslatedSynonyms, updateVocabularyNotes } from './translationsSlice';
+import type { TranslationVocabulary } from '@/types/translations';
+import './VocabularyTable.css';
+
+export function VocabularyTable() {
+  const dispatch = useAppDispatch();
+  const { data, loading, loaded, error } = useAppSelector((state) => state.translations.vocabulary);
+
+  useEffect(() => {
+    if (!loaded && !loading) {
+      dispatch(loadVocabulary());
+    }
+  }, [loaded, loading, dispatch]);
+
+  const handleExport = () => {
+    if (!data) return;
+
+    const json = JSON.stringify(data, null, 2);
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'vocabulary.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+
+  const handleSynonymsChange = (wordNumber: number, value: string) => {
+    // Parse comma-separated input into array
+    const synonyms = value
+      .split(',')
+      .map((s) => s.trim())
+      .filter((s) => s.length > 0);
+
+    dispatch(
+      updateVocabularyTranslatedSynonyms({
+        wordNumber,
+        translatedSynonyms: synonyms,
+      })
+    );
+  };
+
+  if (loading) {
+    return <div className="loading">Loading vocabulary...</div>;
+  }
+
+  if (error) {
+    return <div className="error">Error: {error}</div>;
+  }
+
+  if (!data || !data.vocabulary.length) {
+    return <div className="empty">No vocabulary found</div>;
+  }
+
+  return (
+    <div className="table-container">
+      <div className="table-header">
+        <h2>Vocabulary ({data.vocabulary.length} word groups)</h2>
+        <button onClick={handleExport} className="export-button">
+          Export vocabulary.json
+        </button>
+      </div>
+
+      <table className="translations-table">
+        <thead>
+          <tr>
+            <th>Word #</th>
+            <th>Word</th>
+            <th>Original Synonyms</th>
+            <th>Translated Synonyms</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.vocabulary.map((vocab: TranslationVocabulary) => (
+            <tr key={vocab.wordNumber}>
+              <td className="word-number">{vocab.wordNumber}</td>
+              <td className="word">{vocab.word}</td>
+              <td className="original-synonyms">
+                {vocab.originalSynonyms.length > 0 ? (
+                  <div className="synonym-list">
+                    {vocab.originalSynonyms.map((syn: string, idx: number) => (
+                      <span key={idx} className="synonym-badge">
+                        {syn}
+                      </span>
+                    ))}
+                  </div>
+                ) : (
+                  <span className="no-synonyms">—</span>
+                )}
+              </td>
+              <td className="translated-synonyms">
+                <input
+                  type="text"
+                  value={vocab.translatedSynonyms.join(', ')}
+                  onChange={(e) => handleSynonymsChange(vocab.wordNumber, e.target.value)}
+                  placeholder="Comma-separated synonyms..."
+                />
+              </td>
+              <td className="notes">
+                <input
+                  type="text"
+                  value={vocab.notes}
+                  onChange={(e) =>
+                    dispatch(
+                      updateVocabularyNotes({
+                        wordNumber: vocab.wordNumber,
+                        notes: e.target.value,
+                      })
+                    )
+                  }
+                  placeholder="Notes..."
+                />
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}

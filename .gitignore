@@ -19,6 +19,8 @@ example/agikit-project.json
 
 # Ignore build output
 viewer/dist/
+translation-review/node_modules/
+translation-review/dist/
 
 # Ignore copied resources (duplicates of project/src)
 viewer/public/resources/

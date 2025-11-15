@@ -1,0 +1,52 @@
+.word-number {
+  text-align: center;
+  font-weight: 500;
+  width: 80px;
+}
+
+.word {
+  font-weight: 600;
+  width: 150px;
+}
+
+.original-synonyms {
+  min-width: 200px;
+}
+
+.synonym-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.synonym-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.no-synonyms {
+  color: #999;
+}
+
+.translated-synonyms {
+  min-width: 250px;
+}
+
+.translated-synonyms input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.translated-synonyms input:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+}

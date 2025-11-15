@@ -21,6 +21,8 @@
     "example:import-translations": "vite-node scripts/import-translations.ts example",
     "viewer:dev": "vite viewer --config viewer/vite.config.ts",
     "viewer:build": "vite build viewer --config viewer/vite.config.ts",
+    "review:dev": "vite translation-review --config translation-review/vite.config.ts",
+    "review:build": "vite build translation-review --config translation-review/vite.config.ts",
     "typecheck:scripts": "tsc --project scripts/tsconfig.json --noEmit",
     "test": "vitest",
     "test:ui": "vitest --ui",
