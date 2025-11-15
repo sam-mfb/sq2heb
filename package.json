@@ -9,6 +9,7 @@
     "example:setup": "vite-node scripts/setup-example.ts",
     "example:clean": "vite-node scripts/clean-example.ts",
     "example:build": "agikit build ./example",
+    "example:index": "vite-node scripts/index-messages.ts example/src",
     "viewer:dev": "vite viewer --config viewer/vite.config.ts",
     "viewer:build": "vite build viewer --config viewer/vite.config.ts",
     "typecheck:scripts": "tsc --project scripts/tsconfig.json --noEmit",
