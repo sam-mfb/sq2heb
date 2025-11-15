@@ -11,6 +11,7 @@ This project provides a modern web interface for viewing AGI (Adventure Game Int
 ## Setup
 
 1. **Clone and install**
+
    ```bash
    git clone https://github.com/sam-mfb/sq2heb.git
    cd sq2heb
@@ -23,21 +24,15 @@ This project provides a modern web interface for viewing AGI (Adventure Game Int
    - See `project/README.md` for details
 
 3. **Run setup**
+
    ```bash
    npm run setup
    ```
 
 4. **Start the viewer**
+
    ```bash
    npm run viewer:dev
    ```
 
    Open `http://localhost:3000` in your browser.
-
-## License
-
-ISC
-
----
-
-Built with [@agikit](https://github.com/nbudin/agikit) • Space Quest 2 © Sierra On-Line
