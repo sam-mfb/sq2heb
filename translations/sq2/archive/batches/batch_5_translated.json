@@ -1,0 +1,802 @@
+[
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 1,
+    "original": "Judging from those two hoses coming in from outside, you guess that this is the inner workings of Vohaul's life support system. A respirator pumps oxygen into his lungs while a pump on the back wall forces blood through filters.",
+    "translation": "בהתבסס על שני הצינורות הבאים מבחוץ, אתה מנחש שאלה הפעולות הפנימיות של מערכת תומכת החיים של וואול. מכונת הנשמה שואבת חמצן לריאות שלו בעוד שמשאבה על הקיר האחורי כופה דם דרך מסננים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 2,
+    "original": "You'll need to be closer.",
+    "translation": "תצטרך להתקרב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 3,
+    "original": "That does nothing.",
+    "translation": "זה לא עושה כלום.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 4,
+    "original": "Way to go, %s1! You've just disconnected Vohaul's life support system! He's a goner without it.",
+    "translation": "כל הכבוד, %s1! זה עתה ניתקת את מערכת תומכת החיים של וואול! הוא גמור בלעדיה.",
+    "notes": "",
+    "placeholders": ["%s"]
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 5,
+    "original": "See the bladder go up. See the bladder go down. Up. Down. Up. Down.",
+    "translation": "תראה את השלפוחית עולה. תראה את השלפוחית יורדת. למעלה. למטה. למעלה. למטה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 6,
+    "original": "You are in the inner workings of Vohaul's formerly functional life support system. The pump and respirator are quiet now.",
+    "translation": "אתה בפעולות הפנימיות של מערכת תומכת החיים הפונקציונלית לשעבר של וואול. המשאבה ומכונת ההנשמה שקטות עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 7,
+    "original": "It is inactive now.",
+    "translation": "היא לא פעילה עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 8,
+    "original": "It kinda looks like a slurpy machine. And it's mixing your favorite flavor, Cherry! MMMMM!",
+    "translation": "זה די נראה כמו מכונת סלרפי. והיא מערבבת את הטעם האהוב עליך, דובדבן! מממממ!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 9,
+    "original": "Get with the program! That's been handled.",
+    "translation": "תתעדכן! זה כבר טופל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 10,
+    "original": "Easier said than done.",
+    "translation": "יותר קל לומר מאשר לעשות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 11,
+    "original": "The walls are featureless except for the large button on the back wall underneath a sign.",
+    "translation": "הקירות חסרי תווי פנים למעט הכפתור הגדול על הקיר האחורי מתחת לשלט.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 12,
+    "original": "It is typical of most buttons, except, very large.",
+    "translation": "הוא טיפוסי לרוב הכפתורים, מלבד, גדול מאוד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 13,
+    "original": "That's a waste of time.",
+    "translation": "זה בזבוז זמן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 14,
+    "original": "That won't work.",
+    "translation": "זה לא יעבוד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 15,
+    "original": "There is also a sign on the back wall.",
+    "translation": "יש גם שלט על הקיר האחורי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "88.agilogic",
+    "messageNumber": 16,
+    "original": "The sign says \"CAUTION: Press Button For Emergency Shut Off.\"",
+    "translation": "על השלט כתוב \\\"זהירות: לחץ על הכפתור לכיבוי חירום.\\\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 1,
+    "original": "new room: ",
+    "translation": "חדר חדש: ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 2,
+    "original": "x: ",
+    "translation": "x: ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 3,
+    "original": "y: ",
+    "translation": "y: ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 4,
+    "original": "object number: ",
+    "translation": "מספר אובייקט: ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 5,
+    "original": "var number: ",
+    "translation": "מספר משתנה: ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 6,
+    "original": "var value: ",
+    "translation": "ערך משתנה: ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 7,
+    "original": "object #: ",
+    "translation": "אובייקט #: ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 8,
+    "original": "var %v79: %v80",
+    "translation": "משתנה %v79: %v80",
+    "notes": "",
+    "placeholders": ["%v"]
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 9,
+    "original": "flag number: ",
+    "translation": "מספר דגל: ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 10,
+    "original": "flag %v79 is set",
+    "translation": "דגל %v79 מופעל",
+    "notes": "",
+    "placeholders": ["%v"]
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 11,
+    "original": "flag %v79 is not set",
+    "translation": "דגל %v79 לא מופעל",
+    "notes": "",
+    "placeholders": ["%v"]
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 12,
+    "original": "Word not known: ",
+    "translation": "מילה לא מוכרת: ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 13,
+    "original": "%m12%w1",
+    "translation": "%m12%w1",
+    "notes": "",
+    "placeholders": ["%m", "%w"]
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 14,
+    "original": "%m12%w2",
+    "translation": "%m12%w2",
+    "notes": "",
+    "placeholders": ["%m", "%w"]
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 15,
+    "original": "%m12%w3",
+    "translation": "%m12%w3",
+    "notes": "",
+    "placeholders": ["%m", "%w"]
+  },
+  {
+    "logicFile": "99.agilogic",
+    "messageNumber": 16,
+    "original": "No response to input.",
+    "translation": "אין תגובה לקלט.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 1,
+    "original": "You are in a small capsule-shaped enclosure. Above the door is a digital read-out which reads LEVEL %v122. The only other feature is a rectangular panel.",
+    "translation": "אתה במתחם קטן בצורת קפסולה. מעל הדלת יש תצוגה דיגיטלית שמציגה קומה %v122. התכונה היחידה הנוספת היא פאנל מלבני.",
+    "notes": "",
+    "placeholders": ["%v"]
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 2,
+    "original": "The panel has a vertical row of four buttons. There is some small engraving at the bottom edge of the panel.",
+    "translation": "על הפאנל יש שורה אנכית של ארבעה כפתורים. יש חריטה קטנה בקצה התחתון של הפאנל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 3,
+    "original": "The buttons look ordinary. Each button has a word next to it. In order, they are \"One\", \"Three\", \"Four\", and \"Five\".",
+    "translation": "הכפתורים נראים רגילים. ליד כל כפתור יש מילה. לפי הסדר, הן \\\"אחת\\\", \\\"שלוש\\\", \\\"ארבע\\\", ו\\\"חמש\\\".",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 4,
+    "original": "The digital read-out shows the number %v122.",
+    "translation": "התצוגה הדיגיטלית מציגה את המספר %v122.",
+    "notes": "",
+    "placeholders": ["%v"]
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 5,
+    "original": "Aren't you glad no one saw that? %m4 The trick here is to push the number of a floor other than this one. Otherwise, it's no fun.",
+    "translation": "אתה לא שמח שאף אחד לא ראה את זה? %m4 הטריק כאן הוא ללחוץ על מספר של קומה אחרת מזו. אחרת, אין בזה כיף.",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 10,
+    "original": "The engraving reads;\n\"BOBCO LIFT DIVISION\n A SUBSIDIARY OF BOBCO, INC.\n UNIVERSALLY FAMOUS MAKERS\n OF NAD'S HAMSTER TAPE.\"",
+    "translation": "החריטה אומרת;\n\\\"חטיבת המעליות בובקו\n חברת בת של בובקו בע\\\"מ.\n יצרנים מפורסמים בכל היקום\n של סרט הצ'ומשים של נד.\\\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 11,
+    "original": "\"IF YOU'RE BOLD, WE'VE\n GOT THE HOLD!\"",
+    "translation": "\\\"אם אתה אמיץ, יש לנו\n את האחיזה!\\\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 12,
+    "original": "\"IF THAT'S YOUR TRIP, WE'VE\n GOT THE GRIP!\"",
+    "translation": "\\\"אם זה המסע שלך, יש לנו\n את האחיזה!\\\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 13,
+    "original": "\"BOLDLY GO WHERE NO MAN HAS\n GONE BEFORE!\"",
+    "translation": "\\\"לך באומץ למקומות שאף אדם\n לא הלך אליהם לפני כן!\\\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 20,
+    "original": "Hey! wake up! There is no button \"Two\".",
+    "translation": "היי! תתעורר! אין כפתור \\\"שתיים\\\".",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 21,
+    "original": "The entire enclosure is made of stainless steel. No features other than the buttons and door are evident.",
+    "translation": "כל המתחם עשוי מפלדת אל-חלד. אין תכונות נראות מלבד הכפתורים והדלת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 22,
+    "original": "Much to your surprise, it looks just like an elevator door!",
+    "translation": "להפתעתך הרבה, זה נראה בדיוק כמו דלת מעלית!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 23,
+    "original": "You'll have to provide more information than that.",
+    "translation": "תצטרך לספק יותר מידע מזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 24,
+    "original": "That's not good enough. Get with the program.",
+    "translation": "זה לא מספיק טוב. תתעדכן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 25,
+    "original": "Sorry. It's busy.",
+    "translation": "מצטער. היא עסוקה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "115.agilogic",
+    "messageNumber": 26,
+    "original": "No.",
+    "translation": "לא.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 1,
+    "original": "It's quite dark in here.",
+    "translation": "די חשוך פה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 2,
+    "original": "%m1 You do find a plunger, however.",
+    "translation": "%m1 עם זאת, אתה כן מוצא שואב פקקים.",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 3,
+    "original": "You are in a tubular hallway. There is a door on the side wall.",
+    "translation": "אתה במסדרון צינורי. יש דלת על הקיר הצדדי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 4,
+    "original": "Okay.",
+    "translation": "בסדר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 5,
+    "original": "You can't get that here.",
+    "translation": "אתה לא יכול לקחת את זה כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 6,
+    "original": "That isn't here anymore.",
+    "translation": "זה כבר לא כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 7,
+    "original": "Not from here!",
+    "translation": "לא מכאן!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 8,
+    "original": "There is a button situated next to it.",
+    "translation": "יש כפתור ממוקם לידו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 9,
+    "original": "The door is closed. %m8",
+    "translation": "הדלת סגורה. %m8",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 10,
+    "original": "The door is open.",
+    "translation": "הדלת פתוחה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 11,
+    "original": "The door is open. %m8",
+    "translation": "הדלת פתוחה. %m8",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 12,
+    "original": "Ah, ha! You know a janitorial closet when you smell one. Almost at once you sense an emptiness, a melancholy longing. You begin to feel homesick.",
+    "translation": "אהה! אתה מכיר ארון ניקיון כשאתה מריח אחד. כמעט מיד אתה חש ריקנות, כמיהה מלנכולית. אתה מתחיל להרגיש געגועים הביתה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 13,
+    "original": "It's quite dark in here. You can find no light switch.",
+    "translation": "די חשוך פה. אתה לא יכול למצוא מתג אור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 14,
+    "original": "Oh, sure! Like you've never seen a button before.",
+    "translation": "אה, בטח! כאילו מעולם לא ראית כפתור לפני כן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 15,
+    "original": "It doesn't look like much from here.",
+    "translation": "זה לא נראה הרבה מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 16,
+    "original": "It's not dark enough here to be effective.",
+    "translation": "זה לא מספיק חשוך כאן כדי להיות יעיל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "62.agilogic",
+    "messageNumber": 51,
+    "original": "That isn't how to do it.",
+    "translation": "זו לא הדרך לעשות את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 1,
+    "original": "SPACE QUEST ][",
+    "translation": "מסע בחלל ][",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 2,
+    "original": "Help",
+    "translation": "עזרה",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 3,
+    "original": "F1 Displays this message.",
+    "translation": "F1 מציג הודעה זו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 4,
+    "original": "F2 Turns the sound off and on.",
+    "translation": "F2 מכבה ומפעיל את הקול.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 5,
+    "original": "F3 Retypes the last line typed.",
+    "translation": "F3 מקליד מחדש את השורה האחרונה שהוקלדה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 7,
+    "original": "F5 Saves your current game.",
+    "translation": "F5 שומר את המשחק הנוכחי שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 9,
+    "original": "F7 Restores a saved game.",
+    "translation": "F7 משחזר משחק שמור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 11,
+    "original": "F9 Restarts the game.",
+    "translation": "F9 מפעיל מחדש את המשחק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 13,
+    "original": "TAB Shows the status screen.",
+    "translation": "TAB מציג את מסך המצב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 14,
+    "original": "ESC Pops up menus/Pauses the game.",
+    "translation": "ESC מקפיץ תפריטים/משהה את המשחק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 15,
+    "original": "Ctrl-J Sets up your joystick.",
+    "translation": "Ctrl-J מגדיר את הג'ויסטיק שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 16,
+    "original": "Ctrl-R Toggles RGB monitor modes.",
+    "translation": "Ctrl-R מחליף בין מצבי מסך RGB.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 17,
+    "original": "F1 or HELP Displays this message.",
+    "translation": "F1 או HELP מציג הודעה זו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 18,
+    "original": "Ctrl-J Sets up your joystick/mouse.",
+    "translation": "Ctrl-J מגדיר את הג'ויסטיק/עכבר שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 19,
+    "original": ",\n       as does the joystick button\n       or the right mouse button.",
+    "translation": ",\n       וגם כפתור הג'ויסטיק\n       או כפתור העכבר הימני.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 20,
+    "original": "+  Increases volume.",
+    "translation": "+  מגביר עוצמת קול.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "103.agilogic",
+    "messageNumber": 21,
+    "original": "-  Decreases volume.",
+    "translation": "-  מנמיך עוצמת קול.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 1,
+    "original": "Once again, you wisely take in a load of air and head below.",
+    "translation": "שוב, אתה בחוכמה שואף מטען של אוויר ויורד למטה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 2,
+    "original": "You take the glowing gem.",
+    "translation": "אתה לוקח את האבן הזוהרת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 3,
+    "original": "You already have one.",
+    "translation": "כבר יש לך אחת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 4,
+    "original": "Get closer.",
+    "translation": "תתקרב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 5,
+    "original": "You have paddled into another portion of the underwater cavern. Your lungs tell you that you'll be in need of air darn soon.",
+    "translation": "חתרת לחלק נוסף של המערה התת-מימית. הריאות שלך אומרות לך שתצטרך אוויר ממש בקרוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 6,
+    "original": "A strange light dances off the walls of this cave. Its origin -- a glowing gem situated on top of a boulder.",
+    "translation": "אור מוזר רוקד על קירות המערה הזו. מקורו -- אבן זוהרת הממוקמת על גבי סלע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 7,
+    "original": "You are in a small grotto below the swamp.",
+    "translation": "אתה במערה קטנה מתחת לביצה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 8,
+    "original": "Get in first.",
+    "translation": "היכנס קודם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 9,
+    "original": "Dive down there and give it a look.",
+    "translation": "צלול למטה ותן לזה מבט.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 10,
+    "original": "It seems to be coming from that gem.",
+    "translation": "נראה שזה בא מהאבן הזו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 11,
+    "original": "The walls of the room radiate a gentle light.",
+    "translation": "קירות החדר מקרינים אור עדין.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 12,
+    "original": "Just swim on out.",
+    "translation": "פשוט שחה החוצה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 13,
+    "original": "That wouldn't be the correct action now.",
+    "translation": "זו לא תהיה הפעולה הנכונה עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 14,
+    "original": "C'mon!",
+    "translation": "בחייאת!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 15,
+    "original": "The boulder just sits there staunchly.",
+    "translation": "הסלע פשוט יושב שם בנחישות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 16,
+    "original": "A glowing gem gently spreads light througout the cave.",
+    "translation": "אבן זוהרת מפיצה בעדינות אור בכל המערה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 17,
+    "original": "Where are you now?",
+    "translation": "איפה אתה עכשיו?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "27.agilogic",
+    "messageNumber": 18,
+    "original": "It looks wet down there.",
+    "translation": "זה נראה רטוב למטה שם.",
+    "notes": "",
+    "placeholders": []
+  }
+]

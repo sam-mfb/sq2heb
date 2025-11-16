@@ -1,0 +1,786 @@
+[
+  {
+    "logicFile": "100.agilogic",
+    "messageNumber": 1,
+    "original": "You are dead! You can only restore, restart, or quit the game.",
+    "translation": "אתה מת! אתה יכול רק לשחזר, להתחיל מחדש, או לצאת מהמשחק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "100.agilogic",
+    "messageNumber": 2,
+    "original": "",
+    "translation": "",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "100.agilogic",
+    "messageNumber": 3,
+    "original": "Thank you for playing Space Quest.  Too bad you've failed miserably and doomed all your people to a horrible death.",
+    "translation": "תודה ששיחקת במסע בחלל. חבל שכשלת כישלון חרוץ וגזרת על כל בני עמך מוות איום.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "100.agilogic",
+    "messageNumber": 4,
+    "original": "Way to go, wing nut! Once again, you've demonstrated your inability to sustain life. You quickly glance around the room to see if anyone saw you blow it. Thank you for playing Space Quest ][, %s1. You've been swell to watch. Have a nice day.",
+    "translation": "כל הכבוד, בורג-כנף! שוב הדגמת את חוסר היכולת שלך לשמור על החיים. אתה מציץ במהירות מסביב כדי לראות אם מישהו ראה אותך מפשל. תודה ששיחקת במסע בחלל ][, %s1. היה כיף לצפות בך. יום נעים.",
+    "notes": "",
+    "placeholders": ["%s"]
+  },
+  {
+    "logicFile": "100.agilogic",
+    "messageNumber": 5,
+    "original": "Thank you for playing Space Quest ][",
+    "translation": "תודה ששיחקת במסע בחלל ][",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "100.agilogic",
+    "messageNumber": 6,
+    "original": "Space Quest was designed and created by Scott Murphy and Mark Crowe. We hope you're not looking for someone to blame just because you died.",
+    "translation": "מסע בחלל עוצב ונוצר על ידי סקוט מרפי ומארק קרואו. אנחנו מקווים שאתה לא מחפש על מי להאשים רק בגלל שמתת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "100.agilogic",
+    "messageNumber": 7,
+    "original": "Another senseless tragedy. You can help prevent this. Vote Yes on Lobotomies for Adventure Game Designers. Thank you for playing Space Quest ][, %s1. You've been most entertaining.",
+    "translation": "עוד טרגדיה חסרת היגיון. אתה יכול לעזור למנוע את זה. הצבע כן בנושא לובוטומיות למעצבי משחקי הרפתקאות. תודה ששיחקת במסע בחלל ][, %s1. היית מאוד משעשע.",
+    "notes": "",
+    "placeholders": ["%s"]
+  },
+  {
+    "logicFile": "100.agilogic",
+    "messageNumber": 8,
+    "original": "It has been a pleasure watching you play Space Quest ][.",
+    "translation": "היה תענוג לצפות בך משחק במסע בחלל ][.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "100.agilogic",
+    "messageNumber": 9,
+    "original": "Thanks for playing. You've been very entertaining.",
+    "translation": "תודה ששיחקת. היית מאוד משעשע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 1,
+    "original": "You have an opportunity to stand and spare your tender knees. The crystal clear water gives off a gentle glow. In abundance, it is able to light the room. You take the glowing gem from between your aching jaws. You notice it is overly moist as you slip it into your pocket.",
+    "translation": "יש לך הזדמנות לעמוד ולחסוך את הברכיים הרגישות שלך. המים הצלולים כבדולח פולטים זוהר עדין. בשפע, הם מסוגלים להאיר את החדר. אתה מוציא את האבן הזוהרת מבין הלסתות הכואבות שלך. אתה מבחין שהיא רטובה יתר על המידה כשאתה מחליק אותה לכיס שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 2,
+    "original": "You pop the gem between your teeth while dropping down onto the raw tissue which covers your knees.",
+    "translation": "אתה תוחב את האבן בין השיניים שלך תוך כדי שאתה יורד על הרקמה החיה שמכסה את הברכיים שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 3,
+    "original": "This place is amazing. Beautiful subterranean waterfalls and cascades drop before you filling the air with billions and billions of tiny misty droplets which tickle the cilia. The air is thick with a revitalizing humid freshness. This message is also getting a little thick.",
+    "translation": "המקום הזה מדהים. מפלים ומפלולים תת-קרקעיים יפהפיים נופלים לפניך וממלאים את האוויר במיליארדים ומיליארדים של טיפות ערפל זעירות שמדגדגות את הריסים. האוויר עבה מרעננות לחה מחייה. ההודעה הזו גם מתחילה להתעבות קצת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 5,
+    "original": "The water is clear except for a very slight cloudiness. It appears to be luminous. In fact, the water's soft glow seems to be providing the light here.",
+    "translation": "המים צלולים מלבד עכירות קלה מאוד. נראה שהם זוהרים. למעשה, הזוהר העדין של המים נראה שהוא מספק את האור כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 6,
+    "original": "Aaahh! This is better than a shower massage.",
+    "translation": "אההה! זה יותר טוב ממסאז' במקלחת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 7,
+    "original": "There is no place to get a hand hold.",
+    "translation": "אין מקום לאחוז ביד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 8,
+    "original": "Just swim out.",
+    "translation": "פשוט שחה החוצה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 9,
+    "original": "There is nothing of interest below the surface of the water. Besides, the undercurrent might drown you.",
+    "translation": "אין שום דבר מעניין מתחת לפני המים. חוץ מזה, הזרם התחתון עלול להטביע אותך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 10,
+    "original": "Just walk in.",
+    "translation": "פשוט היכנס.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 11,
+    "original": "You're not fooling me with that phoney stupid act. You know you're in the water already.",
+    "translation": "אתה לא מטעה אותי עם המשחק המטומטם והמזויף הזה. אתה יודע שאתה כבר במים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 12,
+    "original": "You see the water. Head for it.",
+    "translation": "אתה רואה את המים. תלך לשם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 13,
+    "original": "Beautiful subterranean waterfalls and cascades drop before. The luminous liquid churns at the base before flowing downstream.",
+    "translation": "מפלים ומפלולים תת-קרקעיים יפהפיים נופלים לפניך. הנוזל הזוהר מתערבל בבסיס לפני שהוא זורם במורד הזרם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "113.agilogic",
+    "messageNumber": 14,
+    "original": "Attempting to scale the sharp, moisture laden walls of rock would be too dangerous.",
+    "translation": "ניסיון לטפס על קירות הסלע החדים העמוסים בלחות יהיה מסוכן מדי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "105.agilogic",
+    "messageNumber": 1,
+    "original": "You grow quite weary swimming against the currents.",
+    "translation": "אתה מתעייף מאוד משחייה נגד הזרמים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "105.agilogic",
+    "messageNumber": 2,
+    "original": "You can no longer continue swimming due to exhaustion. You slip beneath the surface.",
+    "translation": "אתה לא יכול להמשיך לשחות עקב תשישות. אתה מחליק מתחת לפני המים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "105.agilogic",
+    "messageNumber": 5,
+    "original": "The water is clear except for a very slight cloudiness. It appears to be luminous. In fact the water's soft glow seems to be providing the light here.",
+    "translation": "המים צלולים מלבד עכירות קלה מאוד. נראה שהם זוהרים. למעשה, הזוהר העדין של המים נראה שהוא מספק את האור כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "105.agilogic",
+    "messageNumber": 6,
+    "original": "The walls are composed of rock.",
+    "translation": "הקירות מורכבים מסלע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "105.agilogic",
+    "messageNumber": 7,
+    "original": "There is no place to get a hand hold.",
+    "translation": "אין מקום לאחוז ביד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "105.agilogic",
+    "messageNumber": 9,
+    "original": "There is nothing of interest below the surface of the water. Besides, the undercurrent might drown you.",
+    "translation": "אין שום דבר מעניין מתחת לפני המים. חוץ מזה, הזרם התחתון עלול להטביע אותך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "105.agilogic",
+    "messageNumber": 10,
+    "original": "While it looks refreshing in a way, you are slightly reluctant to drink water that glows. Maybe some other time.",
+    "translation": "למרות שזה נראה מרענן בצורה מסוימת, אתה קצת מהסס לשתות מים שזוהרים. אולי פעם אחרת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "105.agilogic",
+    "messageNumber": 11,
+    "original": "You're not fooling me with that phoney stupid act. You know you're in the water already.",
+    "translation": "אתה לא מטעה אותי עם המשחק המטומטם והמזויף הזה. אתה יודע שאתה כבר במים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "105.agilogic",
+    "messageNumber": 12,
+    "original": "You see the water. Head for it.",
+    "translation": "אתה רואה את המים. תלך לשם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "140.agilogic",
+    "messageNumber": 1,
+    "original": "As the eyes dial into focus, you make out an oddly disfigured being seated before you.",
+    "translation": "כשהעיניים מתכווננות למיקוד, אתה מזהה יצור מעוות באופן מוזר שיושב לפניך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "140.agilogic",
+    "messageNumber": 2,
+    "original": "\"Well, well. Did we have a nice nap? I thought we would have to resort to drastic measures to wake you. (sigh) Oh, well.\"",
+    "translation": "\"נו, נו. עשינו תנומה נחמדה? חשבתי שנצטרך לנקוט באמצעים דרסטיים כדי להעיר אותך. (אנחה) אה, טוב.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "140.agilogic",
+    "messageNumber": 3,
+    "original": "\"Welcome to my humble fortress, %s1. The name's Vohaul, Sludge Vohaul. I was the genius behind the Star Generator when it was still in the concept stages.\"",
+    "translation": "\"ברוך הבא למבצר הצנוע שלי, %s1. השם הוא וואול, סלדג' וואול. הייתי הגאון מאחורי מחולל הכוכבים כשהוא עדיין היה בשלבי הקונספט.\"",
+    "notes": "",
+    "placeholders": ["%s"]
+  },
+  {
+    "logicFile": "140.agilogic",
+    "messageNumber": 4,
+    "original": "\"It was to be my ultimate war weapon until some sissy pants scientists decided it would be better used saving lives rather than destroying them. What a waste of technology! Excuse me if I sound bitter.\"",
+    "translation": "\"זה היה אמור להיות נשק המלחמה האולטימטיבי שלי עד שכמה מדענים מפונקים החליטו שיהיה עדיף להשתמש בו להצלת חיים במקום להרוס אותם. איזה בזבוז של טכנולוגיה! תסלח לי אם אני נשמע מר.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "140.agilogic",
+    "messageNumber": 5,
+    "original": "\"Anyway, you ruined my Sarien operation. I was going to use the Star Generator to make Xenon pay for what they did to me. They were going to know my wrath in a big way. You somehow managed to change all that.\"",
+    "translation": "\"בכל מקרה, הרסת את המבצע הסריאני שלי. התכוונתי להשתמש במחולל הכוכבים כדי לגרום לזנון לשלם על מה שהם עשו לי. הם היו אמורים להכיר את זעמי בצורה גדולה. איכשהו הצלחת לשנות את כל זה.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "140.agilogic",
+    "messageNumber": 6,
+    "original": "\"Oh, I suppose I should have known better than to use those mental midget Sariens. That's not the point, however. You are responsible and you shall pay. Besides, I have another plan. And you'll not be around to foil it.\"",
+    "translation": "\"אה, אני מניח שהייתי צריך לדעת יותר טוב מאשר להשתמש בסריאנים הננסים המנטליים האלה. זו לא הנקודה, עם זאת. אתה אחראי ואתה תשלם. חוץ מזה, יש לי תוכנית אחרת. ואתה לא תהיה בסביבה כדי לסכל אותה.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "140.agilogic",
+    "messageNumber": 7,
+    "original": "\"I have devised a plan so horrible, so frightening, so diabolical, that no one will be able to stop me. Observe my latest creation.\"",
+    "translation": "\"המצאתי תוכנית כל כך נוראה, כל כך מפחידה, כל כך שטנית, שאף אחד לא יוכל לעצור אותי. התבונן ביצירה האחרונה שלי.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "140.agilogic",
+    "messageNumber": 8,
+    "original": "\"I intend to infest your planet with thousands of these genetically engineered door-to-door life insurance salesmen. I will at last reap sweet revenge from the scientific community that mocked me.\"",
+    "translation": "\"אני מתכוון להציף את הכוכב שלך באלפי סוכני ביטוח חיים מדלת לדלת המהונדסים גנטית. לבסוף אקצור נקמה מתוקה מהקהילה המדעית שלעגה לي.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "140.agilogic",
+    "messageNumber": 10,
+    "original": "\"My plan was to kill you, but I've had a change of heart. ha, ha, ha... Get it?\" He peers down at the hoses protruding from his chest and connected to a life support system. \"Forgive me. I'm a kidder.\"",
+    "translation": "\"התוכנית שלי הייתה להרוג אותך, אבל שיניתי את דעתי. הא, הא, הא... תפסת?\" הוא מביט למטה על הצינורות הבולטים מהחזה שלו והמחוברים למערכת תומכת חיים. \"סלח לי. אני צוחק.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "140.agilogic",
+    "messageNumber": 11,
+    "original": "\"I've decided I would get much more enjoyment watching you suffer. My associates will escort you to the surface of Labion where you will perform many painful hours of manual labor in my mines. Be seeing you.\"",
+    "translation": "\"החלטתי שאקבל הרבה יותר הנאה לראות אותך סובל. השותפים שלי ילוו אותך אל פני השטח של לאביון שם תבצע שעות כואבות רבות של עבודת כפיים במכרות שלי. נתראה.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "140.agilogic",
+    "messageNumber": 15,
+    "original": "A sagging mass of flesh that appears to have been human at one time, tubes and wires extend from his body leading to machines which keep him alive. Suddenly, his visage stirs and he begins to speak.",
+    "translation": "גוש בשר נפול שנראה שהיה אנושי פעם, צינורות וחוטים משתרעים מגופו ומובילים למכונות ששומרות עליו בחיים. פתאום, פרצופו מתעורר והוא מתחיל לדבר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "6.agilogic",
+    "messageNumber": 1,
+    "original": "The walls and deck are made of a very strong composite material commonly used in spacecraft.",
+    "translation": "הקירות והסיפון עשויים מחומר מרוכב חזק מאוד הנפוץ בחלליות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "6.agilogic",
+    "messageNumber": 2,
+    "original": "You stare at the ceiling which, as usual, is overhead. Nothing exciting is learned through this act.",
+    "translation": "אתה בוהה בתקרה שכרגיל, נמצאת מעל הראש. שום דבר מרגש לא נלמד דרך המעשה הזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "6.agilogic",
+    "messageNumber": 3,
+    "original": "You hack up a good one from way down deep. You, carefully, draw in some air and let it fly. ",
+    "translation": "אתה משעל אחד טוב מעמוק למטה. אתה, בזהירות, שואף קצת אוויר ונותן לו לעוף. ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "6.agilogic",
+    "messageNumber": 4,
+    "original": "Using relatively poor judgement... Oh, lets face it... Your an idiot. You have stuccoed the inside of your helmet's face mask with a large, and rather viscous, quantity of throat balm. Nice going.",
+    "translation": "משתמש בשיקול דעת גרוע יחסית... אה, בואו נודה בזה... אתה אידיוט. טיחת את פנים מסכת הקסדה שלך בכמות גדולה, וסמיכה למדי, של משחת גרון. יפה מאוד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "6.agilogic",
+    "messageNumber": 5,
+    "original": "Unfortunately, it proves to be a rather viscous one. That being the case, it is unable to clear your lip and strings it's way down the front of your uniform leaving an unsightly mess.",
+    "translation": "לרוע המזל, זה מתגלה כאחד סמיך למדי. כך שזה המצב, הוא לא מצליח לעבור את השפה שלך ומתחרזר את דרכו במורד חזית המדים שלך ומשאיר בלגן לא נעים למראה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "6.agilogic",
+    "messageNumber": 6,
+    "original": "The pnuematic transport is a large plexiglass tube in which a small transport unit rides. When completed, it will link all areas of the station.",
+    "translation": "ההובלה הפנאומטית היא צינור פרספקס גדול שבו נוסעת יחידת הובלה קטנה. כשהיא תושלם, היא תקשר בין כל אזורי התחנה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "6.agilogic",
+    "messageNumber": 7,
+    "original": "Besides a door and seat, the inside to the transport is fairly plain since all control is handled remotely.",
+    "translation": "מלבד דלת ומושב, הפנים של ההובלה די פשוטים כיוון שכל השליטה מטופלת מרחוק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "6.agilogic",
+    "messageNumber": 8,
+    "original": "You don't own one.",
+    "translation": "אין לך כזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "6.agilogic",
+    "messageNumber": 9,
+    "original": "It's a nice wrist, manly, yet supple.",
+    "translation": "זה פרק יד נחמד, גברי, אבל עדיין גמיש.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "6.agilogic",
+    "messageNumber": 11,
+    "original": "Do it yourself.",
+    "translation": "תעשה את זה בעצמך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "81.agilogic",
+    "messageNumber": 1,
+    "original": "Youch! You feel alarmingly dense!",
+    "translation": "אוץ'! אתה מרגיש צפוף באופן מדאיג!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "81.agilogic",
+    "messageNumber": 2,
+    "original": "Apparently, you were a prime focal point for some aggression channeling  by one of the caged creatures. Your compressed composition indicates that your attacker possesses considerable strength, a good guy to avoid in the future.",
+    "translation": "כנראה, היית נקודת מיקוד ראשית לתיעול תוקפנות של אחד היצורים הכלואים. ההרכב הדחוס שלך מעיד על כך שהתוקף שלך מחזיק בכוח ניכר, בחור טוב להימנע ממנו בעתיד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "81.agilogic",
+    "messageNumber": 3,
+    "original": "Of course, you are damaged beyond repair and the game must end. You've made quite a bit of progress, though. Don't start screwing up now.",
+    "translation": "כמובן, אתה פגוע מעבר לתיקון והמשחק חייב להסתיים. אבל עשית לא מעט התקדמות. אל תתחיל לפשל עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "81.agilogic",
+    "messageNumber": 4,
+    "original": "The hallways on this level are the same as above with the exception of some type of cages. An occasional strange noise is heard. The smell here is stifling. Apparently, the holding cells are not well kept.",
+    "translation": "המסדרונות בקומה הזו זהים לאלה למעלה למעט סוג של כלובים. רעש מוזר נשמע מדי פעם. הריח כאן מחניק. כנראה, תאי המעצר לא מתוחזקים היטב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "81.agilogic",
+    "messageNumber": 5,
+    "original": "You can't see much but can hear something stirring in the darkness.",
+    "translation": "אתה לא יכול לראות הרבה אבל יכול לשמוע משהו מתרחש בחושך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "81.agilogic",
+    "messageNumber": 6,
+    "original": "As is common in all periods of cage design, vertical bars of a sturdy nature dominate the appearance. They look quite impenetrable. One of them has some fur wrapped around a couple sections of bar.",
+    "translation": "כפי שמקובל בכל תקופות עיצוב הכלובים, סורגים אנכיים ממין יציב שולטים בתצוגה. הם נראים די בלתי-חדירים. באחד מהם יש פרווה כרוכה סביב כמה קטעים של סורג.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "81.agilogic",
+    "messageNumber": 7,
+    "original": "You'll need to get closer.",
+    "translation": "תצטרך להתקרב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "81.agilogic",
+    "messageNumber": 8,
+    "original": "There is no possible way for you to do that.",
+    "translation": "אין שום דרך אפשרית בשבילך לעשות את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "81.agilogic",
+    "messageNumber": 9,
+    "original": "They look like large amounts of fur. No other features are evident from here.",
+    "translation": "הם נראים כמו כמויות גדולות של פרווה. שום תכונות אחרות לא ברורות מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "81.agilogic",
+    "messageNumber": 10,
+    "original": "They look like big paws.",
+    "translation": "הם נראים כמו כפות גדולות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "81.agilogic",
+    "messageNumber": 11,
+    "original": "You hear deep breathing.",
+    "translation": "אתה שומע נשימות עמוקות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "47.agilogic",
+    "messageNumber": 1,
+    "original": "You are standing in a dark and damp portion of the forest. There are some very large mushroom-like growths here.",
+    "translation": "אתה עומד בחלק אפל ולח של היער. יש כאן כמה גידולים דמויי-פטריות גדולים מאוד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "47.agilogic",
+    "messageNumber": 2,
+    "original": "The foliage here is much too dense for you to pass through.",
+    "translation": "העלווה כאן צפופה מדי בשביל שתוכל לעבור דרכה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "47.agilogic",
+    "messageNumber": 3,
+    "original": "You'll need to get closer.",
+    "translation": "תצטרך להתקרב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "47.agilogic",
+    "messageNumber": 4,
+    "original": "Aside from their enormous size, they appear to be your average garden variety mushrooms.",
+    "translation": "מלבד הגודל העצום שלהן, הן נראות כמו הפטריות הגינתיות הממוצעות שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "47.agilogic",
+    "messageNumber": 5,
+    "original": "Ambitious aren't we? These things are heavy and well rooted and would, most likely, tear you a new one.",
+    "translation": "שאפתני, נכון? הדברים האלה כבדים ומושרשים היטב ובמקרה הטוב, יקרעו לך טבעת חדשה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "47.agilogic",
+    "messageNumber": 6,
+    "original": "Holy geez, boy! That mushroom thing sucked you clean up! You can't move a muscle nor see a speck of light.",
+    "translation": "בחיי, ילד! דבר הפטרייה הזה שאב אותך לגמרי! אתה לא יכול להזיז שריר ולא לראות טיפת אור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "47.agilogic",
+    "messageNumber": 7,
+    "original": "You begin feeling waves of tingling, warmth, and moisture. Suddenly, it's not so bad in here. Wow. Check out the colors, dude.",
+    "translation": "אתה מתחיל להרגיש גלים של עקצוץ, חום ולחות. פתאום, זה לא כל כך רע פה. וואו. תראה את הצבעים, חבר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "47.agilogic",
+    "messageNumber": 8,
+    "original": "Your body and mind enjoy the short-lived buzz that is a side effect of the lethal poison you now marinate in. You are oblivious to the end. Not a bad way to go, actually.",
+    "translation": "הגוף והנפש שלך נהנים מהבאז קצר החיים שהוא תופעת לוואי של הרעל הקטלני שאתה כעת מושרה בו. אתה מתעלם מהסוף. לא דרך רעה למות, בעצם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "47.agilogic",
+    "messageNumber": 9,
+    "original": "But it sure is early in the game. I had high hopes for you. They said \"Who? %s1? Not a chance! That chump won't last twenty minutes!\"",
+    "translation": "אבל זה בהחלט מוקדם במשחק. היו לי ציפיות גבוהות ממך. הם אמרו \"מי? %s1? אין מצב! הפראייר הזה לא יחזיק מעמד עשרים דקות!\"",
+    "notes": "",
+    "placeholders": ["%s"]
+  },
+  {
+    "logicFile": "47.agilogic",
+    "messageNumber": 10,
+    "original": "I said \"No way! %s1 isn't THAT lame!\" So anyway, don't make ME look stupid TOO.",
+    "translation": "אמרתי \"בחיאת! %s1 לא כל כך פתטי!\" אז בכל מקרה, אל תגרום לי להיראות טיפש גם כן.",
+    "notes": "",
+    "placeholders": ["%s"]
+  },
+  {
+    "logicFile": "47.agilogic",
+    "messageNumber": 11,
+    "original": "It's a good listener and that's about it.",
+    "translation": "זה מאזין טוב וזהו בערך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "47.agilogic",
+    "messageNumber": 12,
+    "original": "Like other trees you have known, these struggle valiantly to defy gravity's influence.",
+    "translation": "כמו עצים אחרים שהכרת, אלה נאבקים באומץ כדי להתריס מול השפעת כוח המשיכה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 1,
+    "original": "By Two Guys From Andromeda",
+    "translation": "על ידי שני בחורים מאנדרומדה",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 2,
+    "original": "(C) 1988 Sierra On-Line, Inc.",
+    "translation": "(C) 1988 Sierra On-Line, Inc.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 3,
+    "original": "%s4",
+    "translation": "%s4",
+    "notes": "",
+    "placeholders": ["%s"]
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 4,
+    "original": "As you will recall in our last\n chapter, you had just foiled the\n Sariens fiendish plot to rule the\n galaxy by using the Star Generator\n as their weapon of destruction.",
+    "translation": "כפי שתזכור בפרק\n האחרון שלנו, זה עתה סיכלת\n את המזימה השטנית של\n הסריאנים לשלוט בגלקסיה על ידי\n שימוש במחולל הכוכבים כנשק\n ההרס שלהם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 5,
+    "original": "You became a hero by saving countless\n lives and returning the Star Generator\n technology into safe hands.",
+    "translation": "הפכת לגיבור על ידי הצלת\n חיים אינספור והחזרת טכנולוגיית\n מחולל הכוכבים לידיים בטוחות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 6,
+    "original": "Life Was Beautiful",
+    "translation": "החיים היו יפים",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 7,
+    "original": "But heroes come and go and people\n soon forget. Your celebrated herodom\n slowly fades leaving you, once again,\n a janitor.",
+    "translation": "אבל גיבורים באים והולכים ואנשים\n מהר שוכחים. גיבוריותך המהוללת\n דועכת לאט ומשאירה אותך, שוב,\n שוטר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 8,
+    "original": "The promotion to head janitor was no\n consolation. (Especially since you are\n the ONLY member of the janitorial\n staff.) Nor was the transfer\n to Orbital Station 4.",
+    "translation": "הקידום לשוטר ראשי לא היה\n נחמה. (במיוחד כיוון שאתה\n החבר היחיד בצוות הניקיון.)\n גם לא ההעברה לתחנה\n המסלולית 4.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 9,
+    "original": "Sweating like a pork-beast in a\n pressure suit while relocating space\n debris in zero-gravity, just wasn't\n your idea of a good time.",
+    "translation": "להזיע כמו חזיר-חלל בחליפת\n לחץ תוך כדי העברת פסולת חלל\n באפס כבידה, פשוט לא היה\n הרעיון שלך לבילוי טוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 10,
+    "original": "Life Sucks.....Again",
+    "translation": "החיים מאסים.....שוב",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 1,
+    "original": "You are somewhere.",
+    "translation": "אתה איפשהו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 2,
+    "original": "LAUNCH TIME:\nT-Minus",
+    "translation": "זמן שיגור:\nT-מינוס",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 10,
+    "original": "%m2 TEN",
+    "translation": "%m2 עשר",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 11,
+    "original": "%m2 NINE",
+    "translation": "%m2 תשע",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 12,
+    "original": "%m2 EIGHT",
+    "translation": "%m2 שמונה",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 13,
+    "original": "%m2 SEVEN",
+    "translation": "%m2 שבע",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 14,
+    "original": "%m2 SIX",
+    "translation": "%m2 שש",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 15,
+    "original": "%m2 FIVE",
+    "translation": "%m2 חמש",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 16,
+    "original": "%m2 FOUR",
+    "translation": "%m2 ארבע",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 17,
+    "original": "%m2 THREE",
+    "translation": "%m2 שלוש",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 18,
+    "original": "%m2 TWO",
+    "translation": "%m2 שתיים",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 19,
+    "original": "%m2 ONE",
+    "translation": "%m2 אחת",
+    "notes": "",
+    "placeholders": ["%m"]
+  },
+  {
+    "logicFile": "92.agilogic",
+    "messageNumber": 20,
+    "original": "%m2 ZERO",
+    "translation": "%m2 אפס",
+    "notes": "",
+    "placeholders": ["%m"]
+  }
+]

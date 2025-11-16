@@ -1,0 +1,690 @@
+[
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 1,
+    "original": "There is a huge boulder in the way.",
+    "translation": "יש בולדר ענק בדרך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 2,
+    "original": "You are.",
+    "translation": "אתה כבר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 3,
+    "original": "You need to be closer to the top of the ladder.",
+    "translation": "אתה צריך להיות יותר קרוב לראש הסולם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 4,
+    "original": "\"Welcome to our canyon. You look to be from out of town.\"",
+    "translation": "\"ברוך הבא לקניון שלנו. אתה נראה כמו מחוץ לעיר.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 5,
+    "original": "\"On behalf of all of us, I would like to thank you for saving our compadre from the hunters.\"",
+    "translation": "\"בשם כולנו, אני רוצה להודות לך על שהצלת את החבר שלנו מהציידים.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 6,
+    "original": "\"You are welcome to stay in the canyon as long as you like. When you are ready to leave, simply say the word and my assistants will show you the only way out for a being of your size.\"",
+    "translation": "\"אתה מוזמן להישאר בקניון כמה שתרצה. כשתהיה מוכן לעזוב, פשוט תגיד את המילה והעוזרים שלי יראו לך את הדרך היחידה החוצה ליצור בגודל שלך.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 7,
+    "original": "\"When you leave, however, we must seal the exit behind you for our own protection. Goodbye and good luck!\"",
+    "translation": "\"כשתצא, עם זאת, אנחנו חייבים לאטום את היציאה מאחוריך להגנה שלנו. להתראות ובהצלחה!\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 8,
+    "original": "You don't need that just yet.",
+    "translation": "אתה לא צריך את זה עדיין.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 9,
+    "original": "%m8 Besides, you can barely walk and wink at the same time. Climbing the ladder while holding something would be certain death for you.",
+    "translation": "%m8 חוץ מזה, אתה בקושי יכול ללכת ולקרוץ בעין באותו הזמן. לטפס על הסולם כשאתה אוחז במשהו יהיה מוות בטוח בשבילך.",
+    "notes": "",
+    "placeholders": ["%m8"]
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 10,
+    "original": "You already did that.",
+    "translation": "כבר עשית את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 11,
+    "original": "You are at the south end of the gorge bottom. There are more odd rock formations here. There are still more of those little pink folks.",
+    "translation": "אתה בקצה הדרומי של תחתית הערוץ. יש כאן עוד תצורות סלע מוזרות. יש עדיין יותר מהיצורים הוורודים הקטנים האלה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 13,
+    "original": "A rock moved to the side reveals an underground exit.",
+    "translation": "סלע שהוזז הצידה חושף יציאה תת-קרקעית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 14,
+    "original": "%m11 %m13",
+    "translation": "%m11 %m13",
+    "notes": "",
+    "placeholders": ["%m11", "%m13"]
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 15,
+    "original": "You see a ladder descending into a featureless abyss. Not much one can say to describe a black hole.",
+    "translation": "אתה רואה סולם שיורד לתוך תהום חסרת מאפיינים. אין הרבה מה לומר לתיאור חור שחור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 16,
+    "original": "I'm sorry. You must be mistaken.",
+    "translation": "אני מצטער. אתה בטח טועה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 17,
+    "original": "You don't have much of a view from here.",
+    "translation": "אין לך הרבה נוף מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 18,
+    "original": "The rock walls are too tall and solid to pass through.",
+    "translation": "קירות הסלע גבוהים ומוצקים מדי כדי לעבור דרכם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 19,
+    "original": "They don't speak, they just giggle.",
+    "translation": "הם לא מדברים, הם רק מצחקקים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 20,
+    "original": "These guys are quite fleshy and pink looking.",
+    "translation": "הבחורים האלה די בשרניים ונראים וורודים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 21,
+    "original": "You are not constructed in a manner that will allow you to do anything to the boulders. You might get those little pink guys to move one of them.",
+    "translation": "אתה לא בנוי בצורה שתאפשר לך לעשות משהו לבולדרים. אולי תוכל לגרום לבחורים הוורודים הקטנים האלה להזיז את אחד מהם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 22,
+    "original": "The towering cliff walls are sheer and unclimbable.",
+    "translation": "קירות הצוק המתנשאים תלולים ובלתי ניתנים לטיפוס.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 23,
+    "original": "The rocks and cliffs are too tall and steep for you to climb. Give up.",
+    "translation": "הסלעים והצוקים גבוהים ותלולים מדי בשבילך לטפס. תוותר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 24,
+    "original": "You don't possess that.",
+    "translation": "אין לך את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 25,
+    "original": "Control your hormones!",
+    "translation": "שלוט בהורמונים שלך!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 26,
+    "original": "How typical. The simple mind resorting to violence in time of frustration.",
+    "translation": "כמה טיפוסי. המוח הפשוט נוקט באלימות בשעת תסכול.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 27,
+    "original": "That will not be helpful.",
+    "translation": "זה לא יעזור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 28,
+    "original": "I wouldn't be sitting back on my keister if I were you.",
+    "translation": "הייתי לא יושב על התחת אם הייתי אתה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "29.agilogic",
+    "messageNumber": 29,
+    "original": "You see hard-packed dirt.",
+    "translation": "אתה רואה עפר דחוס.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 1,
+    "original": "You enter the shuttle and start sniffing around for the mess you must clean.",
+    "translation": "אתה נכנס לרכב ההסעות ומתחיל להרחרח בחיפוש אחר הבלגן שאתה צריך לנקות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 2,
+    "original": "You are surprised to find that the shuttle is not empty. There are two extremely ugly suckers walking toward you.",
+    "translation": "אתה מופתע לגלות שרכב ההסעות לא ריק. יש שני פראיירים מכוערים במיוחד שצועדים לקראתך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 3,
+    "original": "\"Hey! What the (your favorite expletive here)...\"",
+    "translation": "\"היי! מה ל(השמט את הביטוי האהוב עליך כאן)...\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 4,
+    "original": "POW!!",
+    "translation": "באם!!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 5,
+    "original": "THWACK!!",
+    "translation": "טראק!!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 6,
+    "original": "BINCK!!",
+    "translation": "בינק!!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 7,
+    "original": "THUD!!!",
+    "translation": "דוף!!!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 8,
+    "original": "Your protest is cut short as two interstellar ruffians proceed to thump you unconscious. Everything fades.",
+    "translation": "המחאה שלך נקטעת כששני בריונים בין-כוכביים ממשיכים להכות אותך עד אובדן הכרה. הכל מתעמעם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 9,
+    "original": "Time Passes...",
+    "translation": "הזמן חולף...",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 10,
+    "original": "More Time Passes...",
+    "translation": "עוד זמן חולף...",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 11,
+    "original": "A strange dream turns into the realization that you are being shaken and talked to by a voice unfamiliar to you. A dull ache triggers a distant memory of a scuffle in which you were the focal point.",
+    "translation": "חלום מוזר הופך להבנה שאתה מנועד ומדובר אליך על ידי קול לא מוכר לך. כאב עמום מעורר זיכרון רחוק של קטטה שבה היית נקודת המוקד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 12,
+    "original": "Upon awakening from your forced rest, it becomes quite apparent that you aren't in Kansas, er, Xenon anymore. You find that you are being held upright and under physical restraint from both sides by, you guess, the galactic goons you met on the shuttle.",
+    "translation": "עם ההתעוררות מהמנוחה הכפויה שלך, זה נעשה די ברור שאתה לא בקנזס, אה, זנון יותר. אתה מגלה שאתה מוחזק זקוף ותחת ריסון פיזי משני הצדדים על ידי, אתה מנחש, הגנגסטרים הגלקטיים שפגשת ברכב ההסעות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 13,
+    "original": "You are in the Orbital Station's shuttle bay. A shuttle, fresh from a passenger drop-off on Xenon, is refueling for its next trip. A pneumatic transport tube is accessible from the walkway. A refueler replenishes the shuttle's supply.",
+    "translation": "אתה במפרץ רכבי ההסעות של התחנה המסלולית. רכב הסעות, טרי מהורדת נוסעים בזנון, מתדלק לנסיעה הבאה. צינור הובלה פנאומטי נגיש מהמעבר. מתדלק ממלא את אספקת רכב ההסעות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 14,
+    "original": "The shuttle craft is your standard 10 passenger short commute vehicle. It was primarily designed to ferry people and supplies between Orbital Stations, Xenon, and other orbiting spacecraft.",
+    "translation": "רכב ההסעות הוא רכב הסעות קצרות תקני ל-10 נוסעים. הוא תוכנן בעיקר להסיע אנשים ואספקה בין תחנות מסלוליות, זנון, וחלליות מקיפות אחרות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 15,
+    "original": "It's not much to look at. The refueler is just a rectangular structure which bears a pressure gauge and a hose outlet for the transfer of fuel. The hose is currently hooked to a shuttle.",
+    "translation": "אין על מה להסתכל. המתדלק הוא רק מבנה מלבני שנושא מד לחץ ושקע צינור להעברת דלק. הצינור כרגע מחובר לרכב הסעות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 16,
+    "original": "The stairs are a series of evenly-spaced horizontal planes used for the gradual adjustment of one's relative elevation.",
+    "translation": "המדרגות הן סדרה של משטחים אופקיים מרווחים באופן שווה המשמשים להתאמה הדרגתית של הגובה היחסי של האדם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 17,
+    "original": "The walkway looks like the floor, only smaller and higher.",
+    "translation": "המעבר נראה כמו הרצפה, רק יותר קטן ויותר גבוה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 18,
+    "original": "Nothing special about the hose. It merely provides a means of routing fuel from the refueler to the vessel.",
+    "translation": "שום דבר מיוחד לגבי הצינור. הוא רק מספק אמצעי להעברת דלק מהמתדלק לכלי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 19,
+    "original": "The gauge seems to register about 3/4 full. The refueling is nearly complete. That's not your job to worry about, though.",
+    "translation": "המד נראה שרושם בערך 3/4 מלא. התדלוק כמעט הושלם. זו לא העבודה שלך לדאוג לזה, עם זאת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 20,
+    "original": "You don't have a good view from here.",
+    "translation": "אין לך נוף טוב מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 21,
+    "original": "The ramp leads into the underbelly of the shuttle.",
+    "translation": "הרמפה מובילה לבטן התחתונה של רכב ההסעות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 22,
+    "original": "You look at the landing gear and notice that it is doing an admirable job of holding the main body of the shuttle off the floor.",
+    "translation": "אתה מסתכל על גלגלי הנחיתה ומבחין שהם עושים עבודה מעוררת הערצה בהחזקת גוף רכב ההסעות הראשי מעל הרצפה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 23,
+    "original": "The rocket nozzles on the back of the shuttle clearly show the wear of many flights.",
+    "translation": "פיות הרקטה בחלק האחורי של רכב ההסעות מראות בבירור את הבלאי של טיסות רבות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 24,
+    "original": "That's not a good idea. Being as unskilled as you are, you would probably cause some sort of firey catastrophe. Leave it alone. It's automatic anyway.",
+    "translation": "זה לא רעיון טוב. בהיותך חסר מיומנות כמו שאתה, כנראה שתגרום לאסון אש כלשהו. תעזוב את זה במנוחה. זה אוטומטי בכל מקרה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 25,
+    "original": "As you try to struggle free, you notice that your hands are tied behind your back.",
+    "translation": "כשאתה מנסה להשתחרר, אתה מבחין שהידיים שלך קשורות מאחורי הגב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 26,
+    "original": "A pneumatic transport tube is accessible from the walkway above. The tube is made of plexiglass with a transporter inside it. The physical principles involved are not unlike those which transport a spit wad through a straw.",
+    "translation": "צינור הובלה פנאומטי נגיש מהמעבר למעלה. הצינור עשוי מפרספקס עם מוביל בתוכו. העקרונות הפיזיים המעורבים לא שונים מאלו שמובילים כדור יריקה דרך קש.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 27,
+    "original": "Just get in.",
+    "translation": "פשוט היכנס.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 28,
+    "original": "Don't mess with it. It's automatic. Besides, if you can't be trusted with a broom, highly volatile liquids are definitely out of the question.",
+    "translation": "אל תתעסק עם זה. זה אוטומטי. חוץ מזה, אם אי אפשר לסמוך עליך עם מטאטא, נוזלים נדיפים ביותר בהחלט לא באים בחשבון.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "5.agilogic",
+    "messageNumber": 29,
+    "original": "It's in the shuttle.",
+    "translation": "זה ברכב ההסעות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 1,
+    "original": "You feel the floor shift below you! It's moving to the left!",
+    "translation": "אתה מרגיש את הרצפה זזה מתחתיך! היא זזה שמאלה!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 2,
+    "original": "Imagine, if you will, taking a bath in sulphuric acid and using pumice for a washcloth. After that bit of displeasure passes, it gets much worse as the acid slowly eats its way to the last critical organs. Finally, mercifully, death takes you.",
+    "translation": "תדמיין, אם תרצה, לקחת אמבטיה בחומצה גופרתית ולהשתמש באבן ספוג כמגבת. אחרי שחוסר הנעימות הזה חולף, זה נעשה הרבה יותר גרוע כשהחומצה אוכלת לאט את דרכה אל האיברים הקריטיים האחרונים. לבסוף, ברחמים, המוות לוקח אותך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 4,
+    "original": "The door behind you closes solidly!",
+    "translation": "הדלת מאחוריך נסגרת בחוזקה!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 5,
+    "original": "A barrier springs up before you!",
+    "translation": "מחסום קופץ מולך!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 6,
+    "original": "Another barrier stands in your way!",
+    "translation": "מחסום נוסף עומד בדרכך!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 7,
+    "original": "You are in an attractive tube-shaped region of the asteroid.",
+    "translation": "אתה באזור מושך בצורת צינור של האסטרואיד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 8,
+    "original": "%m7 At the moment, walls, doors, and barriers seem to be surrounding you.",
+    "translation": "%m7 ברגע זה, קירות, דלתות, ומחסומים נראים מקיפים אותך.",
+    "notes": "",
+    "placeholders": ["%m7"]
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 9,
+    "original": "%m8 The floor is moving. Beneath it is a brightly colored liquid.",
+    "translation": "%m8 הרצפה זזה. מתחתיה נמצא נוזל בצבע בוהק.",
+    "notes": "",
+    "placeholders": ["%m8"]
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 10,
+    "original": "That wouldn't be helpful now.",
+    "translation": "זה לא יעזור עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 11,
+    "original": "You need to be by an area with a smoother surface.",
+    "translation": "אתה צריך להיות ליד אזור עם משטח חלק יותר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 12,
+    "original": "You've already done that!",
+    "translation": "כבר עשית את זה!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 13,
+    "original": "You release your grip and drop back down.",
+    "translation": "אתה משחרר את האחיזה ונופל בחזרה למטה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 14,
+    "original": "Not right now.",
+    "translation": "לא עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 15,
+    "original": "Using formerly uncharacteristic creativity, you apply the suction cup-like plunger to the smooth metal finish and hang on for dear life! Once a janitor, always a janitor!",
+    "translation": "תוך שימוש ביצירתיות לא אופיינית בעבר, אתה מצמיד את שואב הפקקים דמוי כוס-היניקה לגימור המתכת החלק ונאחז לחיים! פעם שוטף, תמיד שוטף!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 16,
+    "original": "You can hang on no longer. Your grip weakens...",
+    "translation": "אתה לא יכול להחזיק מעמד יותר. האחיזה שלך נחלשת...",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 17,
+    "original": "The ceiling looks ordinary except for some fixtures that look like sprinklers.",
+    "translation": "התקרה נראית רגילה חוץ מכמה אביזרים שנראים כמו ספרינקלרים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 18,
+    "original": "They appear to be heat sensitive sprinklers.",
+    "translation": "הם נראים כספרינקלרים רגישים לחום.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 19,
+    "original": "The floor is moving. Beneath it is, what you guess to be, a pool of highly lethal liquid.",
+    "translation": "הרצפה זזה. מתחתיה יש, מה שאתה מנחש שהוא, בריכת נוזל קטלני ביותר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 21,
+    "original": "Explain further.",
+    "translation": "הסבר יותר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 22,
+    "original": "The barriers look very sturdy. The bear a smooth finish.",
+    "translation": "המחסומים נראים מאוד חזקים. יש להם גימור חלק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 23,
+    "original": "The doors are huge and rough looking.",
+    "translation": "הדלתות ענקיות ונראות מחוספסות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 24,
+    "original": "Not much to see right now.",
+    "translation": "אין הרבה לראות עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 25,
+    "original": "Who are you, the human fly?",
+    "translation": "מי אתה, הזבוב האנושי?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 26,
+    "original": "Forget it!",
+    "translation": "שכח מזה!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 27,
+    "original": "No one's home.",
+    "translation": "אף אחד לא בבית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 28,
+    "original": "Interesting, but not correct.",
+    "translation": "מעניין, אבל לא נכון.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 29,
+    "original": "They go up and down.",
+    "translation": "הן עולות ויורדות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 30,
+    "original": "You're too busy right now!",
+    "translation": "אתה עסוק מדי עכשיו!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "66.agilogic",
+    "messageNumber": 31,
+    "original": "They won't budge.",
+    "translation": "הן לא זזות.",
+    "notes": "",
+    "placeholders": []
+  }
+]

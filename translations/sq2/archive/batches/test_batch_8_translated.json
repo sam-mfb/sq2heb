@@ -1,0 +1,122 @@
+[
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 1,
+    "original": "You head back down to the lower level. Unfortunately, you are met by an armed guard. You have been quite a headache. To make it up to them, you are strung between two hovercraft. On the command \\\"GO\\\", life leaves you (in two different directions).",
+    "translation": "אתה יורד חזרה לקומה התחתונה. לצערך, שומר חמוש מחכה לך. היית כאב ראש לא קטן. כדי לפצות אותם, אתה נמתח בין שתי רחפות. לפקודה \\\"קדימה\\\", החיים עוזבים אותך (בשני כיוונים שונים).",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 2,
+    "original": "After surviving to this point, you are still prone to acts typical of the mentally absent.",
+    "translation": "אחרי ששרדת עד לשלב הזה, אתה עדיין נוטה למעשים טיפוסיים לנעדרי-שפיות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 3,
+    "original": "Ugghh!",
+    "translation": "אוווף!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 4,
+    "original": "You can't do that from here.",
+    "translation": "אתה לא יכול לעשות את זה מפה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 5,
+    "original": "You are at some kind of landing platform. The guards are transferring you to another mode of transportation for the remainder of the trip to the mine.",
+    "translation": "אתה נמצא באיזשהו משטח נחיתה. השומרים מעבירים אותך לאמצעי תחבורה אחר בשביל שארית הנסיעה למכרה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 6,
+    "original": "You are on a landing platform. A shuttle sits quietly nearby. You see lush growth all around.",
+    "translation": "אתה נמצא על משטח נחיתה. רכב הסעות יושב בשקט בקרבת מקום. אתה רואה צמחייה שופעת מסביבך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 7,
+    "original": "After touching down on a giant landing platform, you are ushered to a hovercraft waiting to transport you to the mining site. Utter despair sets in.",
+    "translation": "אחרי נחיתה על משטח נחיתה ענק, אתה מובל לרחפת שמחכה להסיע אותך לאתר המכרה. ייאוש מוחלט משתלט עליך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 8,
+    "original": "You recall from when you landed, the entry hatch being on  the rear-left of the shuttle. You'll have to move a little.",
+    "translation": "אתה נזכר מהנחיתה, שהצוהר נמצא בחלק האחורי-שמאלי של רכב ההסעות. יהיה עליך לזוז קצת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 9,
+    "original": "It looks just like the shuttle that brought you here.",
+    "translation": "זה נראה בדיוק כמו רכב ההסעות שהביא אותך לכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 10,
+    "original": "You open the hatch and head on in.",
+    "translation": "אתה פותח את הצוהר ונכנס פנימה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 11,
+    "original": "Through the heavily tinted viewport you see two empty pilot seats.",
+    "translation": "דרך הצוהר הכהה אתה רואה שני מושבי טייס ריקים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 12,
+    "original": "You don't have a clear view from here.",
+    "translation": "אין לך שדה ראייה ברור מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 13,
+    "original": "You can't see the forest for the trees.",
+    "translation": "אתה לא רואה את היער מרוב עצים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 14,
+    "original": "Things look small down there.",
+    "translation": "דברים נראים קטנים שם למטה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "8.agilogic",
+    "messageNumber": 15,
+    "original": "The sky is quite clear and blue.",
+    "translation": "השמיים די בהירים וכחולים.",
+    "notes": "",
+    "placeholders": []
+  }
+]

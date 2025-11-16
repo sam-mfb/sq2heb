@@ -1,0 +1,782 @@
+[
+  {
+    "logicFile": "1.agilogic",
+    "messageNumber": 1,
+    "original": ">",
+    "translation": ">",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "1.agilogic",
+    "messageNumber": 2,
+    "original": "Type RUN, or some debug command",
+    "translation": "הקלד RUN, או איזו פקודת דיבאג",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "7.agilogic",
+    "messageNumber": 1,
+    "original": "An injection renders you unconscious. Your drugged carcass is loaded onto a shuttle. Upon reviving you look through the viewing port to see Vohaul's massive asteroid fortress getting smaller.",
+    "translation": "זריקה משאירה אותך מחוסר הכרה. הפגר המסומם שלך נטען על רכב הסעות. כשאתה מתעורר אתה מסתכל דרך צוהר הראייה ורואה את מבצר האסטרואיד הענק של וואול מתכווץ.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "9.agilogic",
+    "messageNumber": 1,
+    "original": "\\\"Oh, great. I suppose we're out of fuel. Way to go, Gorf breath!\\\"",
+    "translation": "\\\"אה, נהדר. אני מניח שנגמר לנו הדלק. כל הכבוד, ריח-גורף!\\\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "9.agilogic",
+    "messageNumber": 2,
+    "original": "\\\"Don't blame me. It was your turn to fill up. You're always forgetting to do it! Wait till the Master finds out. You're in big trouble.\\\"",
+    "translation": "\\\"אל תאשים אותי. זה היה התור שלך למלא. אתה תמיד שוכח לעשות את זה! תחכה עד שהאדון יגלה. אתה בצרות גדולות.\\\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "9.agilogic",
+    "messageNumber": 3,
+    "original": "\\\"Hey! Don't talk to me that way, you slime bucket! I filled it last time, dip...\\\" The argument between the two guards is cut short as gravity reasserts itself.",
+    "translation": "\\\"היי! אל תדבר אליי ככה, דלי-רפש! מילאתי את זה בפעם הקודמת, טמבל...\\\" הוויכוח בין שני השומרים נקטע כשהכבידה מחדשת את שלטונה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "9.agilogic",
+    "messageNumber": 4,
+    "original": "CRASH ! ! !",
+    "translation": "בום ! ! !",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "9.agilogic",
+    "messageNumber": 5,
+    "original": "\\\"Uh Oh.\\\"",
+    "translation": "\\\"אוי ואבוי.\\\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "15.agilogic",
+    "messageNumber": 1,
+    "original": "You are at the east end of swamp area. Forest extends to the east.",
+    "translation": "אתה בקצה המזרחי של אזור הביצה. יער משתרע מזרחה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "15.agilogic",
+    "messageNumber": 2,
+    "original": "The foliage here is much too dense for you to pass through.",
+    "translation": "העלווה כאן צפופה מדי בשביל שתוכל לעבור דרכה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "26.agilogic",
+    "messageNumber": 1,
+    "original": "To your amazement, you find yourself in an underwater cavern. The water here is much clearer here than in the swamp above.",
+    "translation": "לתדהמתך, אתה מוצא את עצמך במערה תת-מימית. המים כאן הרבה יותר צלולים מאשר בביצה למעלה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "26.agilogic",
+    "messageNumber": 2,
+    "original": "They look like a normal plant, only wet.",
+    "translation": "הם נראים כמו צמח רגיל, רק רטובים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "26.agilogic",
+    "messageNumber": 3,
+    "original": "You wouldn't impress the babes with those. Do something constructive.",
+    "translation": "אתה לא תרשים את הבנות עם אלה. תעשה משהו בונה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "26.agilogic",
+    "messageNumber": 4,
+    "original": "You know the way.",
+    "translation": "אתה יודע את הדרך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "31.agilogic",
+    "messageNumber": 1,
+    "original": "Oh my. Now you know why they wanted to close the hole behind you. You have become the unwilling victim of the dreaded Cave Squid! Tough luck.",
+    "translation": "אוי ואבוי. עכשיו אתה יודע למה הם רצו לסגור את החור מאחוריך. הפכת לקורבן בעל-כורחך של דיונון-המערה המפחיד! מזל רע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "40.agilogic",
+    "messageNumber": 1,
+    "original": "You are swimming in the swiftly moving water of this underground river. The river forks near the back of the cave. The glow from the water softly illuminates the room.",
+    "translation": "אתה שוחה במים הזורמים במהירות של נהר תת-קרקעי זה. הנהר מתפצל ליד החלק האחורי של המערה. הזוהר מהמים מאיר בעדינות את החדר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "41.agilogic",
+    "messageNumber": 1,
+    "original": "SPLAT",
+    "translation": "שְׁפַלַּץ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "41.agilogic",
+    "messageNumber": 2,
+    "original": "After caroming off of a pair of rock outcroppings, you find a final resting place at the base of the falls.",
+    "translation": "אחרי שהתנגשת בזוג בליטות סלע, אתה מוצא מנוחה אחרונה בבסיס המפלים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "41.agilogic",
+    "messageNumber": 3,
+    "original": "You are in another chamber of the undergound river. This area seems a little more alive with sights and sounds of falling water. However, you don't detect much noise at all coming from the back of the cave.",
+    "translation": "אתה בחדר נוסף של הנהר התת-קרקעי. האזור הזה נראה קצת יותר חי עם מראות וקולות של מים נופלים. עם זאת, אתה לא מזהה הרבה רעש מהחלק האחורי של המערה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "42.agilogic",
+    "messageNumber": 1,
+    "original": "You swirl toward the center of the whirlpool.",
+    "translation": "אתה מסתחרר לעבר מרכז מערבולת המים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "42.agilogic",
+    "messageNumber": 2,
+    "original": "Your body is sucked down until, finally, you are able to resist no more and must yield to the overwhelming force.",
+    "translation": "גופך נשאב למטה עד שלבסוף, אתה לא מסוגל להתנגד יותר וחייב להיכנע לכוח המוחץ.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "42.agilogic",
+    "messageNumber": 3,
+    "original": "As you enter another of the mysterious subterranean chambers you realize that the water is now racing toward a giant whirlpool in the middle of the area. You are caught in the strong current, powerless to alter your course!",
+    "translation": "כשאתה נכנס לעוד אחד מהחדרים התת-קרקעיים המסתוריים אתה מבין שהמים ממהרים עכשיו לעבר מערבולת ענקית באמצע האזור. אתה לכוד בזרם החזק, חסר-אונים לשנות את מסלולך!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "42.agilogic",
+    "messageNumber": 4,
+    "original": "This cave is large. A whirlpool is attracting you, and all the water around you, to the center. You are feverishly attempting to resist it but to no avail.",
+    "translation": "המערה הזו גדולה. מערבולת מושכת אותך, ואת כל המים סביבך, למרכז. אתה מנסה בקדחתנות להתנגד אבל לשווא.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "42.agilogic",
+    "messageNumber": 7,
+    "original": "There is no place to get a hand hold.",
+    "translation": "אין מקום לאחוז ביד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "42.agilogic",
+    "messageNumber": 9,
+    "original": "There is nothing of interest below the surface of the water. Besides, I don't think I could bare to see that underwater free-style of yours again.",
+    "translation": "אין שום דבר מעניין מתחת לפני המים. חוץ מזה, אני לא חושב שאוכל לסבול לראות את שחיית החופשי התת-מימית שלך שוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "48.agilogic",
+    "messageNumber": 1,
+    "original": "This is the outside of a modified asteroid. A large diaphragm-type door stands open, ready to accept the shuttle.",
+    "translation": "זה החלק החיצוני של אסטרואיד משופר. דלת גדולה מסוג דיאפרגמה עומדת פתוחה, מוכנה לקבל את רכב ההסעות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "50.agilogic",
+    "messageNumber": 2,
+    "original": "Smooth move, Exlax! You now know that artificial gravity can be equally effective as natural gravity. Due to the long fall and sudden stop your body has become a two-dimensional object. You're dead, of course.",
+    "translation": "מהלך חלק, אקסלקס! עכשיו אתה יודע שכוח משיכה מלאכותי יכול להיות יעיל בדיוק כמו כוח משיכה טבעי. בגלל הנפילה הארוכה והעצירה הפתאומית גופך הפך לאובייקט דו-ממדי. אתה מת, כמובן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "50.agilogic",
+    "messageNumber": 3,
+    "original": "You are in a rather large room to the east of the Vehicle Bay. There are two elevated walkways here. One leads to an elevator in the middle. The other leaves the room to the left and right.",
+    "translation": "אתה בחדר גדול למדי ממזרח למעגן הרכבים. יש כאן שני מעברים מוגבהים. האחד מוביל למעלית באמצע. השני עוזב את החדר לשמאל ולימין.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "50.agilogic",
+    "messageNumber": 4,
+    "original": "It looks like it's waiting to take you for a ride.",
+    "translation": "זה נראה כאילו זה מחכה לקחת אותך לסיבוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "50.agilogic",
+    "messageNumber": 5,
+    "original": "Nice F/X, huh!?",
+    "translation": "אפקטים נחמדים, הא!?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "50.agilogic",
+    "messageNumber": 20,
+    "original": "It's a long way down, but it seems short if you're falling.",
+    "translation": "זה דרך ארוכה למטה, אבל זה נראה קצר אם אתה נופל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "50.agilogic",
+    "messageNumber": 21,
+    "original": "Oooh. It looks deep in there.",
+    "translation": "אוווו. זה נראה עמוק שם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "51.agilogic",
+    "messageNumber": 2,
+    "original": "Smooth move, Exlax! You now know that artificial gravity can be equally effective as natural gravity. Due to the long fall and sudden stop your body has become a two-dimensional object. You're dead, of course.",
+    "translation": "מהלך חלק, אקסלקס! עכשיו אתה יודע שכוח משיכה מלאכותי יכול להיות יעיל בדיוק כמו כוח משיכה טבעי. בגלל הנפילה הארוכה והעצירה הפתאומית גופך הפך לאובייקט דו-ממדי. אתה מת, כמובן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "51.agilogic",
+    "messageNumber": 3,
+    "original": "You are in a rather large room to the west of the Vehicle Bay. There are two elevated walkways here. One leads to an elevator in the middle. The other leaves the room to the right and left.",
+    "translation": "אתה בחדר גדול למדי ממערב למעגן הרכבים. יש כאן שני מעברים מוגבהים. האחד מוביל למעלית באמצע. השני עוזב את החדר לימין ולשמאל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "51.agilogic",
+    "messageNumber": 4,
+    "original": "It looks like it's waiting to take you for a ride.",
+    "translation": "זה נראה כאילו זה מחכה לקחת אותך לסיבוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "51.agilogic",
+    "messageNumber": 5,
+    "original": "Nice F/X, huh!?",
+    "translation": "אפקטים נחמדים, הא!?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "51.agilogic",
+    "messageNumber": 20,
+    "original": "It's a long way down, but it seems short if you're falling.",
+    "translation": "זה דרך ארוכה למטה, אבל זה נראה קצר אם אתה נופל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "51.agilogic",
+    "messageNumber": 21,
+    "original": "Oooh. It looks deep in there.",
+    "translation": "אוווו. זה נראה עמוק שם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "52.agilogic",
+    "messageNumber": 1,
+    "original": "You are somewhere.",
+    "translation": "אתה איפשהו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "52.agilogic",
+    "messageNumber": 5,
+    "original": "Nice F/X, huh!?",
+    "translation": "אפקטים נחמדים, הא!?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "53.agilogic",
+    "messageNumber": 1,
+    "original": "Well, I'll be! I didn't know Stevie Wonder played graphic adventure games!",
+    "translation": "אני אהיה! לא ידעתי שסטיבי וונדר משחק במשחקי הרפתקאות גרפיים!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "53.agilogic",
+    "messageNumber": 2,
+    "original": "You will have to make a location adjustment first.",
+    "translation": "תצטרך לבצע התאמת מיקום קודם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "53.agilogic",
+    "messageNumber": 3,
+    "original": "That's been done already. Are you sure that your monitor is turned on?",
+    "translation": "זה כבר נעשה. אתה בטוח שהמסך שלך דולק?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "53.agilogic",
+    "messageNumber": 4,
+    "original": "It's just another section of hall. There is a door on the back wall.",
+    "translation": "זה רק עוד קטע של מסדרון. יש דלת על הקיר האחורי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "53.agilogic",
+    "messageNumber": 5,
+    "original": "It looks much like the other wall panels, except for the button.",
+    "translation": "זה נראה די דומה לשאר פאנלי הקיר, מלבד הכפתור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "53.agilogic",
+    "messageNumber": 6,
+    "original": "It's just another button.",
+    "translation": "זה רק עוד כפתור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "54.agilogic",
+    "messageNumber": 1,
+    "original": "All you can see are billions and billions of stars.",
+    "translation": "כל מה שאתה יכול לראות זה מיליארדים ומיליארדים של כוכבים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "54.agilogic",
+    "messageNumber": 2,
+    "original": "Here's a hint: Messing with the window is a waste of time!",
+    "translation": "הנה רמז: להתעסק עם החלון זה בזבוז זמן!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "54.agilogic",
+    "messageNumber": 3,
+    "original": "Except for some small windows, this area is much like all the other interior sections of the asteroid.",
+    "translation": "מלבד כמה חלונות קטנים, האזור הזה די דומה לכל שאר החלקים הפנימיים של האסטרואיד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "54.agilogic",
+    "messageNumber": 4,
+    "original": "Obviously, we didn't learn our lesson in the first chapter about the effects of vacuum on the human body. There are other ways to kill\tyourself. Try one of them if you want to end it all.",
+    "translation": "ברור שלא למדנו את הלקח בפרק הראשון על ההשפעות של ריק על גוף האדם. יש דרכים אחרות להרוג את עצמך. נסה אחת מהן אם אתה רוצה לסיים את הכל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "59.agilogic",
+    "messageNumber": 1,
+    "original": "You are somewhere.",
+    "translation": "אתה איפשהו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "59.agilogic",
+    "messageNumber": 5,
+    "original": "Nice F/X, huh!?",
+    "translation": "אפקטים נחמדים, הא!?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "63.agilogic",
+    "messageNumber": 1,
+    "original": "All you can see are billions and billions of stars.",
+    "translation": "כל מה שאתה יכול לראות זה מיליארדים ומיליארדים של כוכבים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "63.agilogic",
+    "messageNumber": 2,
+    "original": "Here's a hint: Messing with the window is a waste of time.",
+    "translation": "הנה רמז: להתעסק עם החלון זה בזבוז זמן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "63.agilogic",
+    "messageNumber": 3,
+    "original": "Except for some small windows, this area is much like all the other interior sections of the asteroid.",
+    "translation": "מלבד כמה חלונות קטנים, האזור הזה די דומה לכל שאר החלקים הפנימיים של האסטרואיד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "63.agilogic",
+    "messageNumber": 4,
+    "original": "Obviously, we didn't learn our lesson in the first chapter about the effects of vacuum on the human body. There are other ways to kill yourself. Try one of them if you want to end it all.",
+    "translation": "ברור שלא למדנו את הלקח בפרק הראשון על ההשפעות של ריק על גוף האדם. יש דרכים אחרות להרוג את עצמך. נסה אחת מהן אם אתה רוצה לסיים את הכל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "67.agilogic",
+    "messageNumber": 1,
+    "original": "Your fire and subsequent shower seems to have shorted out the burnished bullies.",
+    "translation": "נראה שהאש והמקלחת שבאו אחריה גרמו לקצר אצל הבריונים המצוחצחים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "67.agilogic",
+    "messageNumber": 2,
+    "original": "This section of the corridor is lined with Wallbots.",
+    "translation": "הקטע הזה של המסדרון מצופה ברובוטי-קיר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "67.agilogic",
+    "messageNumber": 3,
+    "original": "The ceiling is average with the possible exception of some type of sprinklers.",
+    "translation": "התקרה ממוצעת למעט אולי איזה סוג של ממטרות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "67.agilogic",
+    "messageNumber": 4,
+    "original": "The sprinklers look to be of the fire suppresion type, possibly triggered by excessive heat.",
+    "translation": "הממטרות נראות מסוג כיבוי אש, כנראה מופעלות על ידי חום מופרז.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "67.agilogic",
+    "messageNumber": 5,
+    "original": "The huge metal menaces are specifically designed to secure a given area. When not busy, they are plugged into the wall, recharging. (Imagine what the nicads would cost for those puppies.)",
+    "translation": "האיומים המתכתיים הענקיים תוכננו במיוחד לאבטח אזור נתון. כשהם לא עסוקים, הם מחוברים לקיר, נטענים מחדש. (תדמיינו כמה היו עולים הסוללות לגורים האלה.)",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "67.agilogic",
+    "messageNumber": 8,
+    "original": "%m2 They have been rendered inoperative.",
+    "translation": "%m2 הם הפכו ללא-פעילים.",
+    "notes": "",
+    "placeholders": [
+      "%m2"
+    ]
+  },
+  {
+    "logicFile": "73.agilogic",
+    "messageNumber": 1,
+    "original": "You are not near enough to one.",
+    "translation": "אתה לא קרוב מספיק לאחד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "73.agilogic",
+    "messageNumber": 2,
+    "original": "That's been done.",
+    "translation": "זה כבר נעשה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "73.agilogic",
+    "messageNumber": 3,
+    "original": "It's another one of those tubular halls. There are two doors.",
+    "translation": "זה עוד אחד מהמסדרונות הצינוריים האלה. יש שתי דלתות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "73.agilogic",
+    "messageNumber": 4,
+    "original": "The doors bear icons, one male, the other, female. Each has a button next to it.",
+    "translation": "על הדלתות יש סמלים, אחד זכר, והשני, נקבה. לכל אחד יש כפתור לידו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "73.agilogic",
+    "messageNumber": 5,
+    "original": "They're just more buttons.",
+    "translation": "הם פשוט עוד כפתורים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "73.agilogic",
+    "messageNumber": 51,
+    "original": "That isn't how to do it.",
+    "translation": "זו לא הדרך לעשות את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "108.agilogic",
+    "messageNumber": 1,
+    "original": "You must be seeing things.",
+    "translation": "אתה בטח רואה דברים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "109.agilogic",
+    "messageNumber": 1,
+    "original": "Thanks to some fancy footwork, you are now picking yourself up off the ground after barely surviving a fall down a small cliff.",
+    "translation": "הודות לעבודת רגליים מפוארת, אתה עכשיו מרים את עצמך מהקרקע אחרי ששרדת בקושי נפילה מצוק קטן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "110.agilogic",
+    "messageNumber": 1,
+    "original": "You can't go on. You do not have enough oxygen in your lungs. You panic! The need for oxygen causes you to become irrational.",
+    "translation": "אתה לא יכול להמשיך. אין לך מספיק חמצן בריאות. אתה נכנס לפאניקה! הצורך בחמצן גורם לך להפוך ללא-רציונלי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "110.agilogic",
+    "messageNumber": 2,
+    "original": "Your desire for air causes you to inhale large quantities of water, which results in suffocation.",
+    "translation": "הרצון שלך לאוויר גורם לך לשאוף כמויות גדולות של מים, מה שמסתיים בחנק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "111.agilogic",
+    "messageNumber": 1,
+    "original": "Drats! Vohaul's troops have tracked you down and passed sentence for your escape. Tough luck, eh?",
+    "translation": "לעזאזל! חיילי וואול עקבו אחריך וגזרו עליך גזר דין על הבריחה שלך. מזל רע, הא?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "111.agilogic",
+    "messageNumber": 2,
+    "original": "You hear something. It sounds not unlike the hovercraft you wrecked in.",
+    "translation": "אתה שומע משהו. זה נשמע דומה למדי לרחפת שהתרסקת בה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "111.agilogic",
+    "messageNumber": 3,
+    "original": "Whew! That was a tense moment. Vohaul's thug failed to spot you and is off to search elsewhere.",
+    "translation": "פיו! זה היה רגע מתוח. הבריון של וואול לא הצליח לזהות אותך והלך לחפש במקום אחר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "111.agilogic",
+    "messageNumber": 4,
+    "original": "You see a hovercraft much like the one you rode earlier. You hope not to be spotted.",
+    "translation": "אתה רואה רחפת די דומה לזו שרכבת עליה קודם. אתה מקווה שלא יזהו אותך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "114.agilogic",
+    "messageNumber": 2,
+    "original": "Any curiosity you may have harbored regarding the menacing, metallic pest will now be satisfied as you have drawn too close. Your attention is attracted to a decal on the front of the machine. It says \\\"The Vohaul Marrow-Matic.\\\" This rouses your curiosity.",
+    "translation": "כל סקרנות שאולי הרגשת לגבי המזיק המתכתי המאיים תסופק עכשיו כשהתקרבת יותר מדי. תשומת הלב שלך נמשכת למדבקה על חזית המכונה. עליה כתוב \\\"מוח-המח-ומטיק של וואול.\\\" זה מעורר את סקרנותך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "114.agilogic",
+    "messageNumber": 3,
+    "original": "Suddenly you note that each and every bone in your body feels as though it has been transformed into molten matter. Never slow to catch on, you notice that you are cooking from the inside out! Now this is a pain that lingers!",
+    "translation": "פתאום אתה מבחין שכל עצם בגופך מרגישה כאילו היא הפכה לחומר מותך. אף פעם לא איטי לקלוט, אתה מבחין שאתה מתבשל מבפנים החוצה! עכשיו זה כאב שנשאר!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "114.agilogic",
+    "messageNumber": 4,
+    "original": "Every drop of moisture is purged from your system by the intense heat of the internal barbecue. Your dehydrated composition makes it impossible to continue. Better luck next time, %s1.",
+    "translation": "כל טיפת לחות מטוהרת מהמערכת שלך על ידי החום העז של הברביקיו הפנימי. ההרכב המיובש שלך הופך את זה לבלתי אפשרי להמשיך. בהצלחה בפעם הבאה, %s1.",
+    "notes": "",
+    "placeholders": [
+      "%s"
+    ]
+  },
+  {
+    "logicFile": "114.agilogic",
+    "messageNumber": 5,
+    "original": "The robot has apparently decided that it is permissable for you to be here since you are in the pod already.",
+    "translation": "הרובוט החליט כנראה שמותר לך להיות כאן כי אתה כבר בתוך התרמיל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "114.agilogic",
+    "messageNumber": 6,
+    "original": "It's a very odd looking robot, balanced on two legs with an odd electric eye scanning back and forth. On it are the words \\\"Vohaul Marrow-Matic.\\\"",
+    "translation": "זה רובוט מוזר למראה, מאוזן על שתי רגליים עם עין חשמלית מוזרה שסורקת קדימה ואחורה. עליו כתובות המילים \\\"מוח-המח-ומטיק של וואול.\\\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "116.agilogic",
+    "messageNumber": 1,
+    "original": "It looks like you have been formally introduced to the floor waxer. You now consist of a very thin, yet glossy floor covering. Too bad. You seemed to be making relatively good progress.",
+    "translation": "נראה שהוצגת רשמית למשעוון הרצפות. אתה מורכב עכשיו מכיסוי רצפה דק מאוד, אך מבריק. חבל. נראה היה שאתה עושה התקדמות טובה יחסית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "116.agilogic",
+    "messageNumber": 2,
+    "original": "There's an automated floor waxer moving down the corridor. The name plaque reads \\\"The Daledo Buffmaster. Another Fine Product from Helmet Master Enterprises.\\\"",
+    "translation": "יש משעוון רצפות אוטומטי שנע במסדרון. על לוח השם כתוב \\\"הדאלדו באפמסטר. עוד מוצר משובח מחברת הלמט מאסטר.\\\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "116.agilogic",
+    "messageNumber": 3,
+    "original": "It's no conversationalist.",
+    "translation": "הוא לא שיחן מעולה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "117.agilogic",
+    "messageNumber": 1,
+    "original": "There is a surveillance camera mounted on the ceiling. It looks to be quite basic. It appears to be pointing right at you!",
+    "translation": "יש מצלמת מעקב מותקנת על התקרה. היא נראית די בסיסית. נראה שהיא מכוונת ישר אליך!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "117.agilogic",
+    "messageNumber": 2,
+    "original": "You have the funny feeling you're being watched.",
+    "translation": "יש לך תחושה מצחיקה שמישהו עוקב אחריך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "117.agilogic",
+    "messageNumber": 3,
+    "original": "I think that about wraps-up your I.Q. test.",
+    "translation": "אני חושב שזה בערך מסכם את מבחן ה-I.Q שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "118.agilogic",
+    "messageNumber": 1,
+    "original": "No break-throughs in interior design to report. It's just one of many tube-like sections of this custom asteroid.",
+    "translation": "אין פריצות דרך בעיצוב פנים לדווח. זה רק אחד מקטעים צינוריים רבים של האסטרואיד המותאם הזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "118.agilogic",
+    "messageNumber": 2,
+    "original": "All surfaces seem to be composed of pre-fabricated, synthetic panels which have been secured to the sides of the bored-out tube.",
+    "translation": "כל המשטחים נראים מורכבים מפאנלים סינתטיים מוכנים מראש שהוצמדו לדפנות של הצינור הקדוח.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "118.agilogic",
+    "messageNumber": 3,
+    "original": "All the panels seem solidly affixed to whatever is behind them.",
+    "translation": "כל הפאנלים נראים מחוברים בחוזקה למה שנמצא מאחוריהם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "118.agilogic",
+    "messageNumber": 4,
+    "original": "This section of hall dead-ends. There is an elevator on the back wall and a camera attached to the ceiling.",
+    "translation": "הקטע הזה של המסדרון מסתיים במבוי סתום. יש מעלית על הקיר האחורי ומצלמה מחוברת לתקרה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "119.agilogic",
+    "messageNumber": 1,
+    "original": "OH, YUCK!! The dark and spiny beast with massive red lips grabs you up and, after a longing glance, proceeds (don't read further if the phrase \\\"French kiss\\\" bothers you) to plant a very moist french kiss on you. You are left quite stunned.",
+    "translation": "או, גועל!! החיה האפלה והקוצנית עם השפתיים האדומות העצומות תופסת אותך, ואחרי מבט כמיהה, ממשיכה (אל תקרא הלאה אם הביטוי \\\"נשיקה צרפתית\\\" מפריע לך) לשתול עליך נשיקה צרפתית רטובה מאוד. אתה נשאר די המום.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "119.agilogic",
+    "messageNumber": 2,
+    "original": "It leaves, apparently satisfied.",
+    "translation": "היא עוזבת, כנראה מרוצה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "119.agilogic",
+    "messageNumber": 3,
+    "original": "It's a dark prehistoric-looking beast with plates covering it's body. One outstanding feature is a pair of gigantic red lips.",
+    "translation": "זו חיה אפלה בעלת מראה פרהיסטורי עם לוחות המכסים את גופה. מאפיין בולט אחד הוא זוג שפתיים אדומות ענקיות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "119.agilogic",
+    "messageNumber": 4,
+    "original": "They're massive, eh?",
+    "translation": "הן ענקיות, הא?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "123.agilogic",
+    "messageNumber": 1,
+    "original": "You are suddenly wracked by excruciatingly violent pain! It feels as if your body is trying to turn inside-out.",
+    "translation": "אתה פתאום מתפתל בכאב אלים מייסר! זה מרגיש כאילו הגוף שלך מנסה להתהפך מבפנים החוצה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "123.agilogic",
+    "messageNumber": 2,
+    "original": "After gaining freedom from its flesh fortress, the odd little alien runs away leaving you lying on the floor like a used, over-sized placenta. A darn tough, yet unique, way to go. That should teach you not be sucking face with alien beings in the future.",
+    "translation": "אחרי שזכה לחופש ממבצר הבשר שלו, החייזר הקטן והמוזר בורח ומשאיר אותך שוכב על הרצפה כמו שליה משומשת וגדולה מדי. דרך קשה לעזאזל, אבל ייחודית, למות. זה אמור ללמד אותך לא למצוץ פרצופים עם יצורים חייזרים בעתיד.",
+    "notes": "",
+    "placeholders": []
+  }
+]

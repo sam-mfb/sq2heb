@@ -1,0 +1,650 @@
+[
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 1,
+    "original": "You now know for a fact that less weight does not equal less pain at the onset of deceleration trauma. You've come so far only to die in a dumb way. What a geek.",
+    "translation": "עכשיו אתה יודע בוודאות שמשקל פחות לא שווה כאב פחות בתחילת טראומת האטה. הגעת כל כך רחוק רק כדי למות בצורה מטומטמת. איזה חנון.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 2,
+    "original": "Darn, %s1. I guess His Lardness got a little fed up with your meddling. You've been redesigned once again revealing a permanent overhead view. You resemble one of those wonderfully colorful mosaics commonly found on windshields.",
+    "translation": "לעזאזל, %s1. אני מניח שהשמנמן הנשגב קצת נמאס לו מההתערבויות שלך. עוצבת מחדש שוב וחושפת נוף עילי קבוע. אתה דומה לאחת מהפסיפסים הצבעוניים והנפלאים שנמצאים בדרך כלל על שמשות קדמיות.",
+    "notes": "",
+    "placeholders": ["%s1"]
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 3,
+    "original": "That's already been done.",
+    "translation": "זה כבר נעשה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 4,
+    "original": "Get closer to the",
+    "translation": "התקרב ל",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 5,
+    "original": "%m4 keyboard.",
+    "translation": "%m4מקלדת.",
+    "notes": "",
+    "placeholders": ["%m4"]
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 6,
+    "original": "%m4 switch.",
+    "translation": "%m4מתג.",
+    "notes": "",
+    "placeholders": ["%m4"]
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 7,
+    "original": "You are walking on another section of the control console. There is a large switch on the back panel. A keyboard is at your feet.",
+    "translation": "אתה צועד על קטע נוסף של קונסולת הבקרה. יש מתג גדול על הפאנל האחורי. מקלדת מונחת לרגליך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 8,
+    "original": "It's just your typical keyboard. Keys with normal letters on them.",
+    "translation": "זו סתם מקלדת רגילה. מקשים עם אותיות רגילות עליהם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 9,
+    "original": "The switch is the toggle type. It is currently",
+    "translation": "המתג הוא מסוג מחליף. הוא כרגע",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 10,
+    "original": "%m9 on.",
+    "translation": "%m9 דלוק.",
+    "notes": "",
+    "placeholders": ["%m9"]
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 11,
+    "original": "%m9 off.",
+    "translation": "%m9 כבוי.",
+    "notes": "",
+    "placeholders": ["%m9"]
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 12,
+    "original": "The side walls are non-descript. The back one has a switch and two displays. You can see what they are displaying.",
+    "translation": "קירות הצד חסרי אופי. האחורי כולל מתג ושני תצוגות. אתה יכול לראות מה הן מציגות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 13,
+    "original": "There they are. What you see is what they display.",
+    "translation": "הנה הן. מה שאתה רואה זה מה שהן מציגות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 14,
+    "original": "The two hoses originate from Vohaul's chest region and lead into this portion of the console.",
+    "translation": "שני הצינורות מגיעים מאזור החזה של וואול ומובילים לחלק הזה של הקונסולה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 15,
+    "original": "The diameter combined with the slick composition of the tubes makes it an obvious bad risk. Besides, just looking at the floor below makes you dizzy.",
+    "translation": "הקוטר בשילוב עם ההרכב החלקלק של הצינורות הופכים את זה לסיכון גרוע ברור. חוץ מזה, רק להסתכל על הרצפה למטה גורם לך לסחרחורת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 16,
+    "original": "They are securely fixed to their respective junctions.",
+    "translation": "הם מחוברים בצורה מאובטחת לצמתים שלהם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 17,
+    "original": "You are not capable of damaging or inhibiting the performance of these tubes with your physical status being what it is.",
+    "translation": "אתה לא מסוגל לפגוע או לעכב את הביצועים של הצינורות האלה עם המצב הפיזי שלך כפי שהוא.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 18,
+    "original": "The typing's been taken care of, thank you.",
+    "translation": "ההקלדה כבר טופלה, תודה רבה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 19,
+    "original": "\"Type\" the word you want.",
+    "translation": "\"הקלד\" את המילה שאתה רוצה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 27,
+    "original": "He's really into his work. You're probably the last thing  on his mind right now.",
+    "translation": "הוא ממש שקוע בעבודה שלו. אתה כנראה הדבר האחרון שעל דעתו עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 28,
+    "original": "Dead men tell no tales.",
+    "translation": "מתים לא מספרים סיפורים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 29,
+    "original": "Get closer.",
+    "translation": "התקרב יותר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 41,
+    "original": "He still reeks repulsion, but in a much larger quantity now. He seems rather occupied by his work.",
+    "translation": "הוא עדיין מפיץ דחייה, אבל בכמות הרבה יותר גדולה עכשיו. הוא נראה די עסוק בעבודה שלו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 42,
+    "original": "You can't see it.. I mean him, from here.",
+    "translation": "אתה לא יכול לראות את זה.. כלומר, אותו, מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 43,
+    "original": "You should either lower or raise the switch.",
+    "translation": "אתה צריך או להוריד או להרים את המתג.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "89.agilogic",
+    "messageNumber": 44,
+    "original": "The switch should be 'On' first.",
+    "translation": "המתג צריך להיות 'דלוק' קודם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 1,
+    "original": "This is another clearing in the otherwise heavily wooded area of the forest. There is a plateau near the back.",
+    "translation": "זו קרחת יער נוספת באזור המיוער בכבדות של היער. יש רמה ליד החלק האחורי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 2,
+    "original": "The ground looks like everywhere else, with the exception of some growths which look like spores or pods.",
+    "translation": "הקרקע נראית כמו בכל מקום אחר, למעט כמה גידולים שנראים כמו נבגים או תרמילים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 3,
+    "original": "You need to be closer.",
+    "translation": "אתה צריך להיות יותר קרוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 4,
+    "original": "The spores are light blue and bulb shaped. They seem to be loosely attached to the ground.",
+    "translation": "הנבגים הם תכלת ובעלי צורת נורה. הם נראים מחוברים באופן רופף לקרקע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 5,
+    "original": "The empty spores would serve no purpose.",
+    "translation": "הנבגים הריקים לא ישרתו שום מטרה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 6,
+    "original": "You take possession of one of the spores being careful not to mistakenly break it open.",
+    "translation": "אתה לוקח לבעלותך את אחד הנבגים תוך שאתה נזהר לא לשבור אותו בטעות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 7,
+    "original": "%m4 Some appear to have been popped.",
+    "translation": "%m4 חלקם נראים שהתפוצצו.",
+    "notes": "",
+    "placeholders": ["%m4"]
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 9,
+    "original": "You can't safely carry more than one of the fragile spores.",
+    "translation": "אתה לא יכול לשאת בבטחה יותר מנבג שביר אחד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 10,
+    "original": "You seem to have kicked one of these strange little spores.",
+    "translation": "נראה שבעטת באחד הנבגים הקטנים והמוזרים האלה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 11,
+    "original": "Your kick caused some spores to open and spray a fine powder into the air. As a result you are paralyzed from head to toe, unable to move a single muscle.",
+    "translation": "הבעיטה שלך גרמה לכמה נבגים להיפתח ולרסס אבקה עדינה לאוויר. כתוצאה מכך אתה משותק מכף רגל ועד ראש, לא מסוגל להזיז שריר בודד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 12,
+    "original": "Fortunately, the paralysis wears off and you seem to be back to normal.",
+    "translation": "למזלך, השיתוק חולף ונראה שאתה חוזר למצב רגיל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 13,
+    "original": "You don't have that.",
+    "translation": "אין לך את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 14,
+    "original": "You drop the order form into the box.",
+    "translation": "אתה זורק את טופס ההזמנה לתוך התיבה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 15,
+    "original": "The mailbox looks typical for a mailbox. There is a slot, a tray, and a sign.",
+    "translation": "תיבת הדואר נראית טיפוסית לתיבת דואר. יש חריץ, מגש, ושלט.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 16,
+    "original": "The sign says \"Radical Express - When it totally, no doubt for sure has to be there awhile previously.\"",
+    "translation": "השלט אומר \"רדיקל אקספרס - כאשר זה לגמרי, בלי ספק בטוח חייב להיות שם קודם בזמן.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 17,
+    "original": "The slot looks much like an opening in the exterior of the mailbox through which a thin piece of mail might pass.",
+    "translation": "החריץ נראה ממש כמו פתח בחלק החיצוני של תיבת הדואר שדרכו חתיכת דואר דקה עשויה לעבור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 18,
+    "original": "There is nothing there.",
+    "translation": "אין שם כלום.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 19,
+    "original": "Ok.",
+    "translation": "אוקיי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 20,
+    "original": "The mailbox hums and buzzes for awhile. Then, an object of some sort drops into the tray at the base of the box. The machine goes silent.",
+    "translation": "תיבת הדואר מזמזמת ומזמזמת לזמן מה. ואז, חפץ מסוג כלשהו נופל לתוך המגש בבסיס התיבה. המכונה שותקת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 21,
+    "original": "The foliage here is much too dense for you to pass through.",
+    "translation": "העלווה כאן צפופה מדי בשבילך לעבור דרכה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 22,
+    "original": "It is like the other areas, only raised a little. A mail box sits up there.",
+    "translation": "זה כמו האזורים האחרים, רק מוגבה מעט. תיבת דואר יושבת שם למעלה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 23,
+    "original": "The tray is actually a small indentation in the lower part of the machine. It is currently",
+    "translation": "המגש הוא למעשה שקע קטן בחלק התחתון של המכונה. הוא כרגע",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 24,
+    "original": "%m23 empty.",
+    "translation": "%m23 ריק.",
+    "notes": "",
+    "placeholders": ["%m23"]
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 25,
+    "original": "%m23 bearing what looks to be a whistle.",
+    "translation": "%m23 נושא מה שנראה כמו משרוקית.",
+    "notes": "",
+    "placeholders": ["%m23"]
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 26,
+    "original": "It's too small for that.",
+    "translation": "זה קטן מדי בשביל זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 27,
+    "original": "Get closer to the edge.",
+    "translation": "התקרב לקצה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "20.agilogic",
+    "messageNumber": 28,
+    "original": "You don't need that.",
+    "translation": "אתה לא צריך את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 1,
+    "original": "You are working outside Xenon Orbital Station 4. This area hasn't been completed yet. You have been sent out here to remove construction debris and space dust.",
+    "translation": "אתה עובד מחוץ לתחנה המסלולית 4 של זנון. האזור הזה עדיין לא הושלם. נשלחת לכאן להסיר פסולת בנייה ואבק חלל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 2,
+    "original": "A beep emanates from your wrist watch. You release your grip on the broom.",
+    "translation": "צפצוף נשמע משעון היד שלך. אתה משחרר את האחיזה במטאטא.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 3,
+    "original": "Due to an obvious lack of common sense you have stepped off the edge, lost your magnetic grip of the ship, and drifted to your death.",
+    "translation": "עקב מחסור ברור בשכל ישר צעדת מעבר לקצה, איבדת את האחיזה המגנטית שלך בספינה, ונסחפת אל מותך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 4,
+    "original": "You are whisked away to the airlock chamber.",
+    "translation": "אתה נישא למעבר אל תא האוויר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 5,
+    "original": "The broom floats away, never to be used again. That makes the third one this week. Wait till your boss finds out.",
+    "translation": "המטאטא צף משם, לעולם לא ישתמשו בו שוב. זה השלישי השבוע. רק תחכה עד שהבוס שלך יגלה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 6,
+    "original": "Press F10 When Done",
+    "translation": "לחץ F10 כשסיימת",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 9,
+    "original": "Nothing happens.",
+    "translation": "כלום לא קורה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 10,
+    "original": "\"%s1! Get in here on the double! You've got a mess to clean up in the shuttle which just returned. One of the passengers got space sick on the way down. Besides, you should have been done out there an hour ago. Get a move on!\"",
+    "translation": "\"%s1! היכנס לכאן בריצה! יש לך בלגן לנקות ברכב ההסעות שזה עתה חזר. אחד הנוסעים קיבל מחלת חלל בדרך למטה. חוץ מזה, היית צריך לסיים שם לפני שעה. תזוז!\"",
+    "notes": "",
+    "placeholders": ["%s1"]
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 11,
+    "original": "With that, the image disappears.",
+    "translation": "עם זה, התמונה נעלמת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 12,
+    "original": "The walls and deck are made of a very strong composite material commonly used in space craft.",
+    "translation": "הקירות והסיפון עשויים מחומר מרוכב חזק מאוד הנפוץ בשימוש בחלליות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 13,
+    "original": "You gaze out into the near nothingness. The billions and billions of worlds apparent to the eye make you realize how truly insignificant you are.",
+    "translation": "אתה מביט אל תוך הכמעט-כלום. מיליארדי המיליארדים של עולמות הנראים לעין גורמים לך להבין כמה באמת חסר משמעות אתה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 14,
+    "original": "You are wearing the latest in EVA (Extra-Vehicular Activity) wear. The suit provides an oxygenated atmosphere. It is designed to protect the wearer from the extreme temperature differences the suns and shadows can cause, as well as providing a barrier for micrometeoroid traffic.",
+    "translation": "אתה לובש את האחרון באופנת EVA (פעילות חוץ-רכבית). החליפה מספקת אטמוספירה מחומצנת. היא מעוצבת להגן על הלובש מהבדלי הטמפרטורה הקיצוניים שהשמשות והצללים יכולים לגרום, כמו גם לספק מחסום לתנועת מיקרומטאורואידים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 15,
+    "original": "Didn't you learn anything in the last game? You can't expose bare human to the harshness of space!",
+    "translation": "לא למדת שום דבר במשחק הקודם? אתה לא יכול לחשוף אדם חשוף לחומרת החלל!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 16,
+    "original": "Too late for that. You lost it.",
+    "translation": "מאוחר מדי בשביל זה. איבדת אותו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 17,
+    "original": "The airlock is not much to look at. It is activated when the small platform is stepped on.",
+    "translation": "תא האוויר לא הרבה על מה להסתכל. הוא מופעל כאשר צועדים על המשטח הקטן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 18,
+    "original": "Stand on the small platform.",
+    "translation": "תעמוד על המשטח הקטן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 22,
+    "original": "The rails and beams all lead to the unfinished end of the Orbital Station.",
+    "translation": "המעקות והקורות כולן מובילות לקצה הלא-גמור של התחנה המסלולית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 23,
+    "original": "       YOUR HOROSCOPE FOR TODAY:\n\n\n       Keep up the good work! Today\n      could bring that big promotion\n          you think you deserve!\n\n          Don't take any wooden\n               buckazoids!",
+    "translation": "       ההורוסקופ שלך להיום:\n\n\n       תמשיך בעבודה הטובה! היום\n      עשוי להביא את הקידום הגדול\n          שאתה חושב שמגיע לך!\n\n          אל תקח באקזואידים\n               מעץ!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 25,
+    "original": "Good idea!",
+    "translation": "רעיון טוב!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 26,
+    "original": "You are staring at your wrist and, apparently, awaiting some divine guidance.",
+    "translation": "אתה בוהה בפרק יד שלך, וכנראה, מחכה להדרכה אלוהית כלשהי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 27,
+    "original": "Orbital Station 4 is one of many orbiting Xenon, your home planet. It is a transfer point for travelers seeking transportation to the various planets in the Earnon system.",
+    "translation": "תחנה מסלולית 4 היא אחת מרבות המקיפות את זנון, כוכב הבית שלך. היא נקודת מעבר לנוסעים המחפשים הובלה לכוכבי הלכת השונים במערכת ארנון.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 28,
+    "original": "As we begin this chapter of our story, we find you, %s1, ace janitor, doing what you do best.",
+    "translation": "כשאנו מתחילים את הפרק הזה בסיפור שלנו, אנו מוצאים אותך, %s1, שוטף האס, עושה את מה שאתה עושה הכי טוב.",
+    "notes": "",
+    "placeholders": ["%s1"]
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 29,
+    "original": "Since you have no messages waiting, there is no response.",
+    "translation": "מאחר ואין לך הודעות ממתינות, אין תגובה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 31,
+    "original": "Go ahead. You control movement.",
+    "translation": "קדימה. אתה שולט בתנועה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 32,
+    "original": "A light flashes on the watch's upper left corner. It means you have a caller waiting.",
+    "translation": "נורית מהבהבת בפינה השמאלית העליונה של השעון. זה אומר שיש לך מתקשר ממתין.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 33,
+    "original": "It doesn't glow at this time.",
+    "translation": "הוא לא זוהר בזמן הזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 34,
+    "original": "There are three: H, C, & T.",
+    "translation": "יש שלושה: H, C, ו-T.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "2.agilogic",
+    "messageNumber": 35,
+    "original": "Just press F10 or a button.",
+    "translation": "פשוט לחץ F10 או כפתור.",
+    "notes": "",
+    "placeholders": []
+  }
+]

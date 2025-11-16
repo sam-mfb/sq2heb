@@ -1,0 +1,282 @@
+[
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 1,
+    "original": "Being less than careful, you lose your balance and slide off the log. %m10",
+    "translation": "בהיותך פחות מזהיר, אתה מאבד את האיזון ומחליק מהבול. %m10",
+    "notes": "",
+    "placeholders": ["%m10"]
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 2,
+    "original": "This tree is dead and seems to be free of the slick secretions some of the others generate. You begin to shinny your way up the snag.",
+    "translation": "העץ הזה מת ונראה נקי מההפרשות החלקלקות שחלק מהאחרים מייצרים. אתה מתחיל לטפס במעלה הגזע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 3,
+    "original": "The tree is slick with some sort of residue making it impossible to climb.",
+    "translation": "העץ חלקלק עם איזשהו שאריות שהופכות אותו לבלתי אפשרי לטיפוס.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 4,
+    "original": "You are not close enough to a tree.",
+    "translation": "אתה לא קרוב מספיק לעץ.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 5,
+    "original": "You are in a lightly forested area. A large fissure nearby seems to lead straight down.",
+    "translation": "אתה באזור מיוער קלות. בקע גדול בקרבת מקום נראה מוביל ישר למטה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 6,
+    "original": "CRACK!!!",
+    "translation": "קראק!!!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 7,
+    "original": "You can't do that from here.",
+    "translation": "אתה לא יכול לעשות את זה מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 8,
+    "original": "OOOFF!!",
+    "translation": "אוףףף!!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 9,
+    "original": "Holy logjams, Batman! You almost ate the big one!",
+    "translation": "אלוהים ישמור, באטמן! כמעט אכלת את הגדול!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 10,
+    "original": "Gravity has its way with you and you are sucked to the depths of the fissure at a very high rate of speed. Needless to say, you hit the bottom and your mortal remains are redimensioned to the point where life is no longer an option.",
+    "translation": "כוח המשיכה עושה איתך את שלו ואתה נשאב אל תהומות הבקע בקצב מהירות גבוה מאוד. מיותר לציין, אתה פוגע בתחתית ושאריותיך התמותתיות משונות לממדים שבהם החיים כבר לא אופציה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 11,
+    "original": "You smoothly step off the edge of the fissure. %m10 Will you never learn?",
+    "translation": "אתה צועד בחלקלקות מעבר לקצה הבקע. %m10 האם לעולם לא תלמד?",
+    "notes": "",
+    "placeholders": ["%m10"]
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 12,
+    "original": "The fissure appears to be very deep with sheer sides. You can make out no detail as it darkens toward the bottom.",
+    "translation": "הבקע נראה עמוק מאוד עם דפנות מאונכות. אתה לא יכול להבחין בפרטים כשהוא מתכהה לקראת התחתית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 13,
+    "original": "You do not possess the skills or equipment to achieve such a feat safely.",
+    "translation": "אין לך את הכישורים או הציוד כדי להשיג הישג כזה בבטחה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 14,
+    "original": "You head over the edge and down the rope.",
+    "translation": "אתה יוצא מעבר לקצה ויורד על החבל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 15,
+    "original": "You are not near a good place to tie the rope.",
+    "translation": "אתה לא ליד מקום טוב לקשור את החבל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 16,
+    "original": "You'll have to specify whether you want to attach the rope to the stump or the log.",
+    "translation": "אתה תצטרך לציין אם אתה רוצה לחבר את החבל לגזע או לבול.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 17,
+    "original": "Ok.",
+    "translation": "בסדר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 18,
+    "original": "You have climbed back up the rope from the fissure below.",
+    "translation": "טיפסת בחזרה במעלה החבל מהבקע שמתחת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 19,
+    "original": "%m5 A log lies across it. A stump stands guard at the edge.",
+    "translation": "%m5 בול מונח לרוחבו. גזע עומד משמר בקצה.",
+    "notes": "",
+    "placeholders": ["%m5"]
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 20,
+    "original": "A rope is tied to the",
+    "translation": "חבל קשור ל",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 21,
+    "original": "%m20 log.",
+    "translation": "%m20בול.",
+    "notes": "",
+    "placeholders": ["%m20"]
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 22,
+    "original": "%m20 stump.",
+    "translation": "%m20גזע.",
+    "notes": "",
+    "placeholders": ["%m20"]
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 23,
+    "original": "You'll have to specify whether wou want to look at the stump or the log.",
+    "translation": "אתה תצטרך לציין אם אתה רוצה להסתכל על הגזע או על הבול.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 24,
+    "original": "The log is firmly seated between the sides of the fissure.",
+    "translation": "הבול יושב בחוזקה בין הדפנות של הבקע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 25,
+    "original": "The rotted stump is only a reminder of the healthy tree which once stood here.",
+    "translation": "הגזע הרקוב הוא רק תזכורת לעץ הבריא שפעם עמד כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 26,
+    "original": "%m24 There is a rope tied to it.",
+    "translation": "%m24 יש חבל קשור אליו.",
+    "notes": "",
+    "placeholders": ["%m24"]
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 27,
+    "original": "%m25 There is a rope tied to it.",
+    "translation": "%m25 יש חבל קשור אליו.",
+    "notes": "",
+    "placeholders": ["%m25"]
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 28,
+    "original": "This tree is dead. The bark must have fallen off years ago. It bears no foliage.",
+    "translation": "העץ הזה מת. הקליפה בטח נפלה לפני שנים. אין לו עלווה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 29,
+    "original": "The rope is already tied to something.",
+    "translation": "החבל כבר קשור למשהו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 30,
+    "original": "The foliage here is much too dense for you to pass through.",
+    "translation": "העלווה כאן צפופה מדי בשבילך לעבור דרכה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 31,
+    "original": "You have to secure the rope to somthing first.",
+    "translation": "אתה צריך לאבטח את החבל למשהו קודם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 32,
+    "original": "It looks rotted and empty.",
+    "translation": "זה נראה רקוב וריק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 33,
+    "original": "That would advance the game in no way.",
+    "translation": "זה לא יקדם את המשחק בשום צורה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 34,
+    "original": "You'll have to decide between the stump and the log.",
+    "translation": "אתה תצטרך להחליט בין הגזע לבול.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "16.agilogic",
+    "messageNumber": 35,
+    "original": "This tree is too slick for that.",
+    "translation": "העץ הזה חלקלק מדי בשביל זה.",
+    "notes": "",
+    "placeholders": []
+  }
+]

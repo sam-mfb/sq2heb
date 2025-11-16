@@ -1,0 +1,730 @@
+[
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 2,
+    "original": "You need to be further down the rope to cause a good swing.",
+    "translation": "אתה צריך להיות יותר למטה על החבל כדי לגרום לנדנוד טוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 3,
+    "original": "F6 to release grip on rope",
+    "translation": "F6 כדי לשחרר אחיזה בחבל",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 4,
+    "original": "Your timing causes you to jump when the rope is at its least helpful point. Gravity beckons.",
+    "translation": "התזמון שלך גורם לך לקפוץ כשהחבל נמצא בנקודה הכי פחות מועילה. כוח המשיכה קורא לך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 5,
+    "original": "Due to the unyielding nature of solid ground, especially when struck from 50 meters, you now bear the dimensions of a manhole cover.",
+    "translation": "בשל טבעה הבלתי מתפשר של קרקע מוצקה, במיוחד כשמתנגשים איתה מגובה 50 מטר, יש לך כעת את הממדים של מכסה ביוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 6,
+    "original": "You reach the end of the rope. %m11",
+    "translation": "הגעת לקצה החבל. %m11",
+    "notes": "",
+    "placeholders": ["%m11"]
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 7,
+    "original": "You carelessly step from the ledge to the bottom of the fissure. As should be expected from such a stupid stunt, you die.",
+    "translation": "אתה צועד ברשלנות מהמדף לתחתית הבקע. כפי שניתן לצפות מפעלול טיפשי כזה, אתה מת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 8,
+    "original": "It looks like that stump wasn't a good thing to tie on to.",
+    "translation": "נראה שהגזע הזה לא היה דבר טוב לקשור אליו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 9,
+    "original": "He who hesitates is lost. You gave that guy one chance too many and he seized the opportunity, not to mention you. You are consumed in two quick bites.",
+    "translation": "מי שמהסס אבוד. נתת לבחור הזה הזדמנות אחת יותר מדי והוא ניצל את ההזדמנות, שלא לדבר עליך. אתה נבלע בשתי נשיכות מהירות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 10,
+    "original": "You release your grip on the rope. %m11",
+    "translation": "אתה משחרר את אחיזתך בחבל. %m11",
+    "notes": "",
+    "placeholders": ["%m11"]
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 11,
+    "original": "This has a negative effect on your resistance to the urging of gravity.",
+    "translation": "יש לזה השפעה שלילית על ההתנגדות שלך לדרישת כוח המשיכה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 12,
+    "original": "You are in a sheer-sided gorge",
+    "translation": "אתה בתהום עם דפנות מאונכות",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 13,
+    "original": "suspended on a rope between the two rock faces.",
+    "translation": "תלוי על חבל בין שני קירות הסלע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 14,
+    "original": "standing on a small ledge.",
+    "translation": "עומד על מדף קטן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 15,
+    "original": "There is a mammoth member of the local fauna to the right. It looks to be in constant need of nourishment, hence the look being cast you.",
+    "translation": "יש חבר ענק מהחי המקומי מימין. הוא נראה במצב של צורך מתמיד בהזנה, ומכאן המבט שהוא מפנה אליך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 16,
+    "original": "%m12 %m13 %m15",
+    "translation": "%m12 %m13 %m15",
+    "notes": "",
+    "placeholders": ["%m12", "%m13", "%m15"]
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 17,
+    "original": "%m12 %m14 %m15",
+    "translation": "%m12 %m14 %m15",
+    "notes": "",
+    "placeholders": ["%m12", "%m14", "%m15"]
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 20,
+    "original": "He's a hearty sized fellow. You would guess him to be quite an energy guzzler. His stare suggests serious caloric lust.",
+    "translation": "הוא בחור במידה מוצקה. היית מנחש שהוא צרכן אנרגיה לא מבוטל. המבט שלו מרמז על תאווה קלורית רצינית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 21,
+    "original": "You can see nothing but darkness in there.",
+    "translation": "אתה לא יכול לראות שם שום דבר חוץ מחושך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 22,
+    "original": "There is a cave entrance on the west ledge. %m22",
+    "translation": "יש כניסה למערה על המדף המערבי. %m22",
+    "notes": "",
+    "placeholders": ["%m22"]
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 23,
+    "original": "You see nothing reassuring down there.",
+    "translation": "אתה לא רואה שום דבר מרגיע שם למטה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 24,
+    "original": "It hasn't changed lately. It's still long and thin.",
+    "translation": "הוא לא השתנה לאחרונה. הוא עדיין ארוך ודק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 25,
+    "original": "The only response from it is a stomach growl.",
+    "translation": "התגובה היחידה ממנו היא קול קרקור קיבה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 26,
+    "original": "You've done that.",
+    "translation": "כבר עשית את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 27,
+    "original": "How do you intend to do that?",
+    "translation": "איך אתה מתכוון לעשות את זה?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 28,
+    "original": "It just kinda sticks out.",
+    "translation": "הוא פשוט בולט החוצה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 29,
+    "original": "The towering cliff walls are sheer and unclimbable.",
+    "translation": "קירות הצוק המתנשאים הם מאונכים ובלתי ניתנים לטיפוס.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 30,
+    "original": "The rocks and cliffs are too sheer to attempt a climb. Give up.",
+    "translation": "הסלעים והצוקים מאונכים מדי כדי לנסות לטפס. תוותר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 31,
+    "original": "That won't do any good here.",
+    "translation": "זה לא יעזור פה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 32,
+    "original": "It looks hard and useless.",
+    "translation": "הוא נראה קשה וחסר תועלת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "22.agilogic",
+    "messageNumber": 33,
+    "original": "You've no time for that. There's adventuring to be done.",
+    "translation": "אין לך זמן לזה. יש הרפתקאות לעשות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 1,
+    "original": "You are somewhere.",
+    "translation": "אתה איפשהו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 2,
+    "original": "PHEWWW!! You're going to have to stop cutting these escapes so close, %s1.",
+    "translation": "פיוווו!! אתה תצטרך להפסיק לקצץ את הבריחות האלה כל כך צמוד, %s1.",
+    "notes": "",
+    "placeholders": ["%s1"]
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 3,
+    "original": "Well, you must feel pretty good right now. You stopped Vohaul from carrying out his threat of salesman infestation, ultimately destroying the twisted scientist himself.",
+    "translation": "ובכן, אתה בטח מרגיש די טוב עכשיו. עצרת את וואול מלבצע את האיום שלו על מכת אנשי מכירות, ובסופו של דבר השמדת את המדען המעוות בעצמו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 4,
+    "original": "You also managed to save your own skin. And just look at that score. Pretty darned impressive!",
+    "translation": "גם הצלחת להציל את העור שלך. ותסתכל רק על הניקוד הזה. די מרשים לעזאזל!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 5,
+    "original": "Suddenly, a warning signal draws your attention to the oxygen meter on the front panel. It reads low and dropping fast!",
+    "translation": "לפתע, אות אזהרה מפנה את תשומת לבך למד החמצן בלוח הקדמי. הוא מציג רמה נמוכה ויורדת במהירות!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 6,
+    "original": "This is just great! You knew it was all too good to be true. You have, maybe, five minutes of air left. Well, %s1, it was nice knowing you.",
+    "translation": "פשוט נהדר! ידעת שזה היה טוב מדי כדי להיות אמיתי. יש לך, אולי, חמש דקות של אוויר. ובכן, %s1, היה נעים להכיר אותך.",
+    "notes": "",
+    "placeholders": ["%s1"]
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 7,
+    "original": "Now you take the time to view the interior of the pod in more detail. You see a sleep chamber against one wall.",
+    "translation": "עכשיו אתה מקדיש את הזמן להסתכל על פנים התרמיל ביתר פירוט. אתה רואה תא שינה על קיר אחד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 8,
+    "original": "The chamber is a bed, of sorts, enclosed in a large plexiglass cylinder. The occupant of such a chamber would be placed in suspended animation and kept alive for an indefinite period of time.",
+    "translation": "התא הוא מיטה, במובן מסוים, סגורה בתוך צילינדר פלקסיגלס גדול. דייר של תא כזה יוכנס להרדמה מושהית וישמר בחיים לפרק זמן בלתי מוגבל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 9,
+    "original": "You make the split second decision to enter the sleep chamber. It seals automatically.",
+    "translation": "אתה מקבל את ההחלטה המבוזקת להיכנס לתא השינה. הוא נאטם אוטומטית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 10,
+    "original": "Soon, you are overcome by a pleasant drowsiness. This is certainly better than suffocating. You begin to drift away into a deep sleep with the satisfaction of having accomplished your task. You've come through in the clutch and you deserve a nice long rest. (Now if someone would just pick you up somewhere along the way.)",
+    "translation": "בקרוב, אתה מוצף בנמנום נעים. זה בהחלט עדיף על חנק. אתה מתחיל להיסחף לשינה עמוקה עם הסיפוק של השלמת המשימה שלך. הגעת דרך במצב קריטי ומגיע לך מנוחה ארוכה ונעימה. (עכשיו אם רק מישהו היה אוסף אותך איפשהו בדרך.)",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 11,
+    "original": "So long, %s1, and thanks again for saving your people.",
+    "translation": "להתראות, %s1, ותודה שוב על שהצלת את עמך.",
+    "notes": "",
+    "placeholders": ["%s1"]
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 12,
+    "original": "Unfortunately, you failed to stop the launch of the clones dooming Xenon to the most horrible of fates! Way to go, %s1.",
+    "translation": "לרוע המזל, נכשלת לעצור את שיגור המשובטים וגזרת על זנון לנורא שבגורלות! כל הכבוד, %s1.",
+    "notes": "",
+    "placeholders": ["%s1"]
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 20,
+    "original": "Get closer.",
+    "translation": "תתקרב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 21,
+    "original": "That's been handled.",
+    "translation": "זה כבר טופל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 22,
+    "original": "You need to open the chamber.",
+    "translation": "אתה צריך לפתוח את התא.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 23,
+    "original": "You turn back the plexiglass cover.",
+    "translation": "אתה מסיר את כיסוי הפלקסיגלס.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 24,
+    "original": "Thanks For Playing Space Quest II",
+    "translation": "תודה ששיחקת במסע בחלל II",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 25,
+    "original": "Sorry. You've run out of oxygen and are now dead. Your death is a lonely event occurring in an utterly desolate setting. Alone in the knowledge that you have spared Xenon an incredibly horrible fate, you now must deal with the down side of self-sacrifice.",
+    "translation": "סליחה. נגמר לך החמצן ועכשיו אתה מת. המוות שלך הוא אירוע בודד המתרחש בסביבה שוממה לחלוטין. לבדך בידיעה שחסכת לזנון גורל נורא להפליא, עכשיו אתה צריך להתמודד עם הצד השלילי של הקרבה עצמית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 26,
+    "original": "Good Idea!",
+    "translation": "רעיון טוב!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 27,
+    "original": "Unfortunately, as you begin to put it on you notice that the tank is empty. Sorry.",
+    "translation": "לרוע המזל, כשאתה מתחיל לשים את זה אתה שם לב שהמיכל ריק. סליחה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 28,
+    "original": "Space Quest was designed and created by Scott Murphy and Mark Crowe.",
+    "translation": "מסע בחלל עוצב ונוצר על ידי סקוט מרפי ומארק קרו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 29,
+    "original": "You are inside one of the emergency escape vehicles. Before you lies a control panel and a viewport.",
+    "translation": "אתה בתוך אחד מרכבי המילוט לשעת חירום. לפניך מונח לוח בקרה וחלון תצפית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 30,
+    "original": "The only outstanding features on the panel are a launch button and an oxygen meter.",
+    "translation": "המאפיינים הבולטים היחידים על הלוח הם כפתור שיגור ומד חמצן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 31,
+    "original": "Through the viewport you are once again impressed by the empty vastness of space.",
+    "translation": "דרך חלון התצפית אתה מתרשם שוב מהמרחב הריק והעצום של החלל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 32,
+    "original": "It is a push-type launch button.",
+    "translation": "זה כפתור שיגור מסוג לחיצה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 33,
+    "original": "That is not helpful now.",
+    "translation": "זה לא יעזור עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 34,
+    "original": "No way. That would be instant death.",
+    "translation": "בשום פנים. זה יהיה מוות מיידי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 35,
+    "original": "It reads empty.",
+    "translation": "הוא מציג ריק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 36,
+    "original": "You are.",
+    "translation": "אתה כבר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "93.agilogic",
+    "messageNumber": 37,
+    "original": "Why? You just got comfortable.",
+    "translation": "למה? בדיוק נכנסת למצב נוח.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 1,
+    "original": "discard.view(%v18):%m30",
+    "translation": "discard.view(%v18):%m30",
+    "notes": "",
+    "placeholders": ["%v18", "%m30"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 2,
+    "original": "set.view(%v18,_):%m26",
+    "translation": "set.view(%v18,_):%m26",
+    "notes": "",
+    "placeholders": ["%v18", "%m26"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 3,
+    "original": "set.view(_,%v18):%m30",
+    "translation": "set.view(_,%v18):%m30",
+    "notes": "",
+    "placeholders": ["%v18", "%m30"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 4,
+    "original": "set.loop(%v18,_):%m26",
+    "translation": "set.loop(%v18,_):%m26",
+    "notes": "",
+    "placeholders": ["%v18", "%m26"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 5,
+    "original": "set.loop(%v18,_):\nBad loop #.%m25",
+    "translation": "set.loop(%v18,_):\nמספר לולאה שגוי.%m25",
+    "notes": "",
+    "placeholders": ["%v18", "%m25"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 6,
+    "original": "set.loop(%v18,_):%m31",
+    "translation": "set.loop(%v18,_):%m31",
+    "notes": "",
+    "placeholders": ["%v18", "%m31"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 7,
+    "original": "set.cel(%v18,_):%m26",
+    "translation": "set.cel(%v18,_):%m26",
+    "notes": "",
+    "placeholders": ["%v18", "%m26"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 8,
+    "original": "set.cel(%v18,_):\nBad cel #.%m25",
+    "translation": "set.cel(%v18,_):\nמספר תא שגוי.%m25",
+    "notes": "",
+    "placeholders": ["%v18", "%m25"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 9,
+    "original": "sound(%v18):\nSound not loaded.%m25",
+    "translation": "sound(%v18):\nצליל לא נטען.%m25",
+    "notes": "",
+    "placeholders": ["%v18", "%m25"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 10,
+    "original": "set.cel(%v18,_):%m31",
+    "translation": "set.cel(%v18,_):%m31",
+    "notes": "",
+    "placeholders": ["%v18", "%m31"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 11,
+    "original": "Script buffer overflow.\nMaximum size = %v18%m25",
+    "translation": "גלישת מאגר סקריפט.\nגודל מקסימלי = %v18%m25",
+    "notes": "",
+    "placeholders": ["%v18", "%m25"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 12,
+    "original": "erase(%v18):%m26",
+    "translation": "erase(%v18):%m26",
+    "notes": "",
+    "placeholders": ["%v18", "%m26"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 13,
+    "original": "animate.obj(%v18):%m26",
+    "translation": "animate.obj(%v18):%m26",
+    "notes": "",
+    "placeholders": ["%v18", "%m26"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 14,
+    "original": "stop.update(%v18):%m28",
+    "translation": "stop.update(%v18):%m28",
+    "notes": "",
+    "placeholders": ["%v18", "%m28"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 15,
+    "original": "Bad test: %v18%m25",
+    "translation": "בדיקה שגויה: %v18%m25",
+    "notes": "",
+    "placeholders": ["%v18", "%m25"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 16,
+    "original": "Bad action: %v18%m25",
+    "translation": "פעולה שגויה: %v18%m25",
+    "notes": "",
+    "placeholders": ["%v18", "%m25"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 17,
+    "original": "start.update(%v18):%m28",
+    "translation": "start.update(%v18):%m28",
+    "notes": "",
+    "placeholders": ["%v18", "%m28"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 18,
+    "original": "draw.pic(%v18):%m32",
+    "translation": "draw.pic(%v18):%m32",
+    "notes": "",
+    "placeholders": ["%v18", "%m32"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 19,
+    "original": "draw(%v18):%m26",
+    "translation": "draw(%v18):%m26",
+    "notes": "",
+    "placeholders": ["%v18", "%m26"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 20,
+    "original": "draw(%v18):%m31",
+    "translation": "draw(%v18):%m31",
+    "notes": "",
+    "placeholders": ["%v18", "%m31"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 21,
+    "original": "discard.pic(%v18):%m32",
+    "translation": "discard.pic(%v18):%m32",
+    "notes": "",
+    "placeholders": ["%v18", "%m32"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 22,
+    "original": "",
+    "translation": "",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 23,
+    "original": "get(%v18) or put(%v18):%m26",
+    "translation": "get(%v18) or put(%v18):%m26",
+    "notes": "",
+    "placeholders": ["%v18", "%m26"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 25,
+    "original": "\nPress ESC to quit.",
+    "translation": "\nלחץ ESC ליציאה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 26,
+    "original": "%m27.%m25",
+    "translation": "%m27.%m25",
+    "notes": "",
+    "placeholders": ["%m27", "%m25"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 27,
+    "original": "\nBad object number",
+    "translation": "\nמספר אובייקט שגוי",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 28,
+    "original": "%m27 or object not drawn.%m25",
+    "translation": "%m27 או אובייקט לא מצוייר.%m25",
+    "notes": "",
+    "placeholders": ["%m27", "%m25"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 29,
+    "original": "\nView not ",
+    "translation": "\nתצוגה לא ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 30,
+    "original": "%m29loaded.%m25",
+    "translation": "%m29נטענה.%m25",
+    "notes": "",
+    "placeholders": ["%m29", "%m25"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 31,
+    "original": "%m29set.%m25",
+    "translation": "%m29מוגדרת.%m25",
+    "notes": "",
+    "placeholders": ["%m29", "%m25"]
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 32,
+    "original": "Picture not loaded.%m25",
+    "translation": "תמונה לא נטענה.%m25",
+    "notes": "",
+    "placeholders": ["%m25"]
+  }
+]
