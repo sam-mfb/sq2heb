@@ -1,0 +1,290 @@
+[
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 1,
+    "original": "Stand by for decontamination.",
+    "translation": "המתן לחיטוי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 2,
+    "original": "You can't reach it from this position.",
+    "translation": "אתה לא יכול להגיע אליו ממיקום זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 3,
+    "original": "This is the airlock chamber. From here you can gain extra-vehicular access. Spare suits hang on the back wall. Some lockers are mounted on the side wall.",
+    "translation": "זהו תא האוויר. מכאן אתה יכול לקבל גישה חוץ-רכבית. חליפות רזרביות תלויות על הקיר האחורי. כמה לוקרים מותקנים על הקיר הצדדי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 4,
+    "original": "This one is not your size.",
+    "translation": "זו לא המידה שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 5,
+    "original": "On the ceiling is mounted the decontamination mechanism. It cleans any unwanted matter from crewpersons entering the ship through the airlock. Otherwise, the ceiling is plain.",
+    "translation": "על התקרה מותקן מנגנון החיטוי. הוא מנקה כל חומר לא רצוי מאנשי צוות הנכנסים לספינה דרך תא האוויר. חוץ מזה, התקרה רגילה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 6,
+    "original": "That's not needed for cleaning the shuttle!",
+    "translation": "זה לא נדרש לניקוי המעבורת!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 7,
+    "original": "You find nothing.",
+    "translation": "אתה לא מוצא כלום.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 8,
+    "original": "You'll need to get closer to the one you want to search.",
+    "translation": "תצטרך להתקרב לזה שאתה רוצה לחפש.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 9,
+    "original": "There are no controls here. All systems are monitored centrally elsewhere in the orbital station.",
+    "translation": "אין פקדים כאן. כל המערכות מנוטרות מרכזית במקום אחר בתחנת המסלול.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 12,
+    "original": "The floor looks average except for the non-stationary disk in the middle which is composed of the two halves of the airlock port. It is currently closed.",
+    "translation": "הרצפה נראית ממוצעת מלבד הדיסק הלא-נייח באמצע אשר מורכב משני חצאי פתח תא האוויר. הוא סגור כעת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 13,
+    "original": "The suit smells as if the wearer's personal hygiene leaves something to be desired.",
+    "translation": "החליפה מריחה כאילו ההיגיינה האישית של הלובש משאירה מה לרצות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 14,
+    "original": "It's already open.",
+    "translation": "זה כבר פתוח.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 15,
+    "original": "You'll need to get closer.",
+    "translation": "תצטרך להתקרב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 16,
+    "original": "It's already closed.",
+    "translation": "זה כבר סגור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 17,
+    "original": "Ok.",
+    "translation": "בסדר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 18,
+    "original": "The lockers are all closed. There is nothing too interesting about them.",
+    "translation": "הלוקרים כולם סגורים. אין בהם שום דבר מעניין במיוחד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 19,
+    "original": "You'll need x-ray vision for that since they are closed.",
+    "translation": "תצטרך ראיית רנטגן בשביל זה מכיוון שהם סגורים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 20,
+    "original": "You open the only locker for which you have a combination. Phew! Putrid waves of stench waft forth. You can't recall the last cleaning it received.",
+    "translation": "אתה פותח את הלוקר היחיד שיש לך עבורו קומבינציה. פו! גלי צחנה רקובים נושבים החוצה. אתה לא זוכר את הניקוי האחרון שהוא קיבל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 21,
+    "original": "You bravely peer into the locker to find",
+    "translation": "אתה מציץ באומץ לתוך הלוקר כדי למצוא",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 22,
+    "original": "%m21 a cubix rube puzzle and your athletic supporter.",
+    "translation": "%m21 חידת קוביקס רוב ותומך אתלטי שלך.",
+    "notes": "",
+    "placeholders": ["%m21"]
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 23,
+    "original": "%m21 your athletic supporter.",
+    "translation": "%m21 את התומך האתלטי שלך.",
+    "notes": "",
+    "placeholders": ["%m21"]
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 24,
+    "original": "%m21 a cubix rube puzzle.",
+    "translation": "%m21 חידת קוביקס רוב.",
+    "notes": "",
+    "placeholders": ["%m21"]
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 25,
+    "original": "%m21 it empty. You can only wonder what left behind such a foul fragrance.",
+    "translation": "%m21 אותו ריק. אתה יכול רק לתהות מה השאיר מאחוריו ניחוח כה מגעיל.",
+    "notes": "",
+    "placeholders": ["%m21"]
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 26,
+    "original": "There is nothing to get.",
+    "translation": "אין שום דבר לקחת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 27,
+    "original": "You've already performed that act.",
+    "translation": "כבר ביצעת את המעשה הזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 28,
+    "original": "It is permanently attached to the EVA suit. You will find it useless inside.",
+    "translation": "זה מחובר לצמיתות לחליפת החלל. תמצא אותו חסר תועלת בפנים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 29,
+    "original": "Sorry. The used Nancy Reagan autographed \"Just Say No\" condom had to be removed for the shipping version.",
+    "translation": "סליחה. הקונדום המשומש עם חתימת ננסי רייגן \"פשוט תגיד לא\" הוסר לגרסת השיווק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 30,
+    "original": "You can't go back outside. You are expected in the shuttle bay.",
+    "translation": "אתה לא יכול לחזור החוצה. אתה צפוי במפרץ המעבורת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 31,
+    "original": "My, that could hurt.",
+    "translation": "אוי, זה עלול לכאוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 32,
+    "original": "It's all attached. You have to change your suit.",
+    "translation": "הכל מחובר. אתה צריך להחליף את החליפה שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 33,
+    "original": "You don't own one.",
+    "translation": "אין לך אחת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 34,
+    "original": "You can't open the airlock.",
+    "translation": "אתה לא יכול לפתוח את תא האוויר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 35,
+    "original": "%m34 Just walk on through the other door.",
+    "translation": "%m34 פשוט עבור דרך הדלת האחרת.",
+    "notes": "",
+    "placeholders": ["%m34"]
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 36,
+    "original": "What, you haven't smelled enough mold, mildew, or fungus in your life?",
+    "translation": "מה, לא הרחת מספיק עובש, טחב, או פטרייה בחיים שלך?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 37,
+    "original": "Just say what you want to get.",
+    "translation": "פשוט תגיד מה אתה רוצה לקחת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "3.agilogic",
+    "messageNumber": 38,
+    "original": "You'll need to change suits first.",
+    "translation": "תצטרך להחליף חליפות קודם.",
+    "notes": "",
+    "placeholders": []
+  }
+]

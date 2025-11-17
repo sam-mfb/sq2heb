@@ -1,0 +1,570 @@
+[
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 1,
+    "original": "Well, %s1, you've found one more way to snatch humiliation from the jaws of heroism.",
+    "translation": "ובכן, %s1, מצאת עוד דרך אחת לחטוף השפלה מלתוך לסתות הגבורה.",
+    "notes": "",
+    "placeholders": ["%s1"]
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 2,
+    "original": "You have just entered Vohaul's secret chamber. The evil one himself is seated before a large console high on a platform in the center of the room.",
+    "translation": "זה עתה נכנסת לתא הסודי של וואול. המרושע עצמו יושב מול קונסולה גדולה גבוה על במה במרכז החדר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 3,
+    "original": "Standing obliviously ready are many of the dreaded salesman clones.",
+    "translation": "עומדים מוכנים בחוסר מודעות רבים משיבוטי אנשי המכירות המפחידים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 4,
+    "original": "\"So, %s1, we meet again. I must say, I'm quite impressed with your resourcefulness and tenacity. I'd love to chat but I'm busy preparing the last of my salesman clones for their trip to Xenon.\"",
+    "translation": "\"אז, %s1, נפגשים שוב. אני חייב לומר, אני די מתרשם מהתושייה והעקשנות שלך. הייתי אוהב לפטפט אבל אני עסוק בהכנת האחרונים משיבוטי אנשי המכירות שלי לטיול שלהם לזנון.\"",
+    "notes": "",
+    "placeholders": ["%s1"]
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 5,
+    "original": "\"Feel free to stick around and observe the downfall of your civilization, HA, HA, HA!\"",
+    "translation": "\"הרגש חופשי להישאר ולצפות בנפילת הציוויליזציה שלך, הא, הא, הא!\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 6,
+    "original": "As soon as you step on the platform you are struck by a beam of light emitted from a unit in the ceiling. In a matter of seconds you are broken down into micro-particles and extracted from the air.",
+    "translation": "ברגע שאתה צועד על הבמה אתה נפגע מקרן אור הנפלטת מיחידה בתקרה. תוך שניות ספורות אתה מתפרק לחלקיקי מיקרו ונשאב מהאוויר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 7,
+    "original": "Again the beam strikes, this time blasting into a glass jar on the console. It is there that you are molecularly reconstructed in a miniaturized form.",
+    "translation": "שוב הקרן פוגעת, הפעם מתפוצצת לתוך צנצנת זכוכית על הקונסולה. שם אתה משוחזר מולקולרית בצורה ממוזערת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 8,
+    "original": "Get closer.",
+    "translation": "תתקרב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 9,
+    "original": "An examination of his repulsively turgid, fabric-encased mass reveals nothing other than the tubes which supplied him with blood and oxygen. You do notice the letters SHSR written in pen on the back of his left hand.",
+    "translation": "בדיקה של המסה הנפוחה והדוחה שלו, העטופה בבד, לא מגלה דבר מלבד הצינורות שסיפקו לו דם וחמצן. אתה כן שם לב לאותיות SHSR כתובות בעט על גב ידו השמאלית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 10,
+    "original": "This is the keyboard area you visited while much smaller. It is of no importance now.",
+    "translation": "זה אזור המקלדת שביקרת בו כשהיית קטן הרבה יותר. זה לא חשוב עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 11,
+    "original": "You notice the jar you escaped from earlier.",
+    "translation": "אתה שם לב לצנצנת שברחת ממנה קודם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 12,
+    "original": "You see a screen with some text on it, just above a keyboard.",
+    "translation": "אתה רואה מסך עם קצת טקסט עליו, ממש מעל מקלדת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 13,
+    "original": "The console is loaded with indicator lights. Except one on the left, the screens are filled with numbers which would only make sense to Vohaul.",
+    "translation": "הקונסולה עמוסה בנורות חיווי. חוץ מאחד משמאל, המסכים מלאים במספרים שרק לוואול יהיה בהם היגיון.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 14,
+    "original": "You can't make out much detail from here.",
+    "translation": "אתה לא יכול להבחין בפרטים רבים מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 15,
+    "original": "Most of the screens seem to be filled with meaningless numbers. The one on the left is flashing.",
+    "translation": "רוב המסכים נראים מלאים במספרים חסרי משמעות. זה משמאל מהבהב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 16,
+    "original": "Vohaul's overweight, mechanically-maintained self is seated in a chair in the center of his control room. His pudgy, sallow, features sport no hair. He is truly a vision of ugliness.",
+    "translation": "הגוף הכבד והמתוחזק מכנית של וואול יושב בכיסא במרכז חדר הבקרה שלו. התווים השמנמנים והצהבהבים שלו לא מציגים שיער. הוא באמת חזון של כיעור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 17,
+    "original": "Vohaul's dead hulking slab of flesh is loosely arranged at the base of the chair.",
+    "translation": "לוח הבשר הענק והמת של וואול מסודר באופן רופף בבסיס הכיסא.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 18,
+    "original": "You are once again reconstituted, this time to the correct size. You notice that the clones are gone.",
+    "translation": "אתה משוחזר שוב, הפעם לגודל הנכון. אתה שם לב שהשיבוטים נעלמו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 20,
+    "original": "General Status: Orbit Decaying",
+    "translation": "סטטוס כללי: מסלול מתדרדר",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 21,
+    "original": "Prognosis: TERMINAL",
+    "translation": "אבחנה: סופני",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 22,
+    "original": "Interior Environment: OK",
+    "translation": "סביבה פנימית: תקין",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 23,
+    "original": "External Temperature: CRITICAL",
+    "translation": "טמפרטורה חיצונית: קריטי",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 24,
+    "original": "Auxilary Operations:",
+    "translation": "פעולות עזר:",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 25,
+    "original": "Clone Launch: GO",
+    "translation": "שיגור שיבוטים: המשך",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 26,
+    "original": "Clone Launch: ABORTED",
+    "translation": "שיגור שיבוטים: בוטל",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 30,
+    "original": "To Abort Launch Enter Code Below:",
+    "translation": "לביטול השיגור הזן קוד למטה:",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 31,
+    "original": "Abort Denied",
+    "translation": "ביטול נדחה",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 32,
+    "original": "Abort Granted",
+    "translation": "ביטול אושר",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 33,
+    "original": "F6 TO EXIT THIS SCREEN",
+    "translation": "F6 ליציאה מהמסך הזה",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 35,
+    "original": "Way to go, %s1!  You've stopped the launch of the salesman. Now get off this rock while there's still time.",
+    "translation": "כל הכבוד, %s1! עצרת את שיגור אנשי המכירות. עכשיו תצא מהסלע הזה בזמן שעוד יש זמן.",
+    "notes": "",
+    "placeholders": ["%s1"]
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 36,
+    "original": "An eerie glow illuminates the large chamber. Through the massive window you can see out into deep space. Lighted consoles adorn the area behind Vohaul's perch.",
+    "translation": "זוהר מפחיד מאיר את החדר הגדול. דרך החלון העצום אתה יכול לראות החוצה לחלל העמוק. קונסולות מוארות מעטרות את האזור מאחורי מקומו של וואול.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 37,
+    "original": "Vohaul awaits at the top of the stairway.",
+    "translation": "וואול ממתין בראש גרם המדרגות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 38,
+    "original": "%m36 %m37",
+    "translation": "%m36 %m37",
+    "notes": "",
+    "placeholders": ["%m36", "%m37"]
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 39,
+    "original": "Vohaul's motionless mass is heaped loosely at the base of his chair.",
+    "translation": "המסה חסרת התנועה של וואול נערמת באופן רופף בבסיס הכיסא שלו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 40,
+    "original": "%m36 %m39",
+    "translation": "%m36 %m39",
+    "notes": "",
+    "placeholders": ["%m36", "%m39"]
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 41,
+    "original": "He doesn't appear to be in a talking mood.",
+    "translation": "הוא לא נראה במצב רוח לשיחה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 42,
+    "original": "The narrow stairway leads up to Vohaul's platform, then continues to who knows where.",
+    "translation": "גרם המדרגות הצר מוביל למעלה לבמה של וואול, ואז ממשיך למי יודע לאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 43,
+    "original": "These guys are your worst nightmare come true. Imagine hundreds of John Davidsons in magnetically hazardous polyester suits, the color alone capable of rendering helpless the infirm.",
+    "translation": "הבחורים האלה הם הסיוט הגרוע ביותר שלך שהתגשם. דמיין מאות ג'ון דייוידסונים בחליפות פוליאסטר מסוכנות מגנטית, הצבע לבדו מסוגל להפוך חסרי אונים את החלשים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 44,
+    "original": "Topped with permabond hair, the face splashed with that let-me-win-you-over smile, he's a master Guiltsmith programmed with one intent. SELL, SELL, SELL!! Each are encased in pre-programmed, impervious transport capsules.",
+    "translation": "מעוטר בשיער מחובר לתמיד, הפנים מותזות עם החיוך הזה של תן-לי-לזכות-אותך, הוא נפח אשמה מומחה מתוכנת עם כוונה אחת. למכור, למכור, למכור!! כל אחד עטוף בקפסולות תחבורה מתוכנתות מראש ובלתי חדירות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 45,
+    "original": "They're gone!",
+    "translation": "הם נעלמו!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 46,
+    "original": "From down here?",
+    "translation": "מכאן למטה?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 47,
+    "original": "After viewing the condition of the chair that Vohaul sat in for who knows how long, you opt not to.",
+    "translation": "אחרי שצפית במצב הכיסא שוואול ישב בו מי יודע כמה זמן, אתה מעדיף לא.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 48,
+    "original": "-->",
+    "translation": "-->",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 49,
+    "original": ">",
+    "translation": ">",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 51,
+    "original": "0",
+    "translation": "0",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 52,
+    "original": "1",
+    "translation": "1",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 53,
+    "original": "2",
+    "translation": "2",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 54,
+    "original": "3",
+    "translation": "3",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 55,
+    "original": "4",
+    "translation": "4",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 56,
+    "original": "5",
+    "translation": "5",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 57,
+    "original": "6",
+    "translation": "6",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 58,
+    "original": "7",
+    "translation": "7",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 59,
+    "original": "8",
+    "translation": "8",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 60,
+    "original": "9",
+    "translation": "9",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 61,
+    "original": " ",
+    "translation": " ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 62,
+    "original": ":",
+    "translation": ":",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 63,
+    "original": "Launch  Countdown",
+    "translation": "ספירה לאחור לשיגור",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 64,
+    "original": ">>",
+    "translation": ">>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 65,
+    "original": "<<",
+    "translation": "<<",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 66,
+    "original": "It looks like a darn nice chair. However, there does seem to be a distinct outline where Vohaul's bloated bulk once nestled.",
+    "translation": "זה נראה כמו כיסא נחמד לעזאזל. עם זאת, נראה שיש קו מתאר מובהק איפה שהמסה הנפוחה של וואול פעם התקנה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 67,
+    "original": "Through the massive window you can see out into the depths of space, toward distant systems. So many other places out there to be, but here YOU are.",
+    "translation": "דרך החלון העצום אתה יכול לראות החוצה לתוך מעמקי החלל, לעבר מערכות רחוקות. כל כך הרבה מקומות אחרים שם בחוץ להיות בהם, אבל הנה אתה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 68,
+    "original": "\"Going somewhere? Ha Ha Ha!\"",
+    "translation": "\"נוסע לאיזשהו מקום? הא הא הא!\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 69,
+    "original": "There is no sense in messing with that now. It will not prolong your survival.",
+    "translation": "אין טעם לפשפש בזה עכשיו. זה לא יאריך את ההישרדות שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 70,
+    "original": "Go Away!",
+    "translation": "לך מפה!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 71,
+    "original": "Obviously, we didn't learn our lesson in the first chapter about the effects of vacuum on the human body. There are other ways to kill yourself. Try one of them if you want to end it all.",
+    "translation": "כנראה, לא למדנו את הלקח שלנו בפרק הראשון על ההשפעות של ואקום על גוף האדם. יש דרכים אחרות לחסל את עצמך. נסה אחת מהן אם אתה רוצה לסיים את הכל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 72,
+    "original": "You don't have access to them from here.",
+    "translation": "אין לך גישה אליהם מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 73,
+    "original": "You can't cut this super-hard glass.",
+    "translation": "אתה לא יכול לחתוך את הזכוכית הסופר-קשה הזו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 74,
+    "original": "There is no way to do that.",
+    "translation": "אין שום דרך לעשות את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 75,
+    "original": "They sure are pretty.",
+    "translation": "הם בהחלט יפים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 76,
+    "original": "The beached mass is fine where it is.",
+    "translation": "המסה שנפלטה לחוף בסדר איפה שהיא.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "86.agilogic",
+    "messageNumber": 77,
+    "original": "You can't.",
+    "translation": "אתה לא יכול.",
+    "notes": "",
+    "placeholders": []
+  }
+]

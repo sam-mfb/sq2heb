@@ -1,0 +1,570 @@
+[
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 1,
+    "original": "Don't you wish you had one to throw?",
+    "translation": "לא היית רוצה שיהיה לך אחד לזרוק?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 2,
+    "original": "You have caused the guard to be paralyzed. I don't think he's too pleased with you.",
+    "translation": "גרמת לשומר להשתק. אני לא חושב שהוא מרוצה ממך במיוחד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 3,
+    "original": "The hunter seems to ignore you.",
+    "translation": "הציד נראה מתעלם ממך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 4,
+    "original": "The hunter stands and takes a long look in your direction. His face, though strange in its own right, bears an expression one might see on a freak show patron. He moves closer.",
+    "translation": "הצייד עומד ומביט לעברך מבט ארוך. פניו, אף שמוזרות כשלעצמן, נושאות הבעה שאפשר לראות על פרצופו של צופה במופע מפלצות. הוא מתקרב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 5,
+    "original": "You reach through the bars and take possession of the key.",
+    "translation": "אתה מושיט יד דרך הסורגים ולוקח את המפתח.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 6,
+    "original": "You already have it.",
+    "translation": "כבר יש לך את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 7,
+    "original": "You can't reach it. The hunter is too far away.",
+    "translation": "אתה לא יכול להגיע לזה. הצייד רחוק מדי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 8,
+    "original": "How are you going to manage that?",
+    "translation": "איך אתה מתכוון להסתדר עם זה?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 9,
+    "original": "It's not available to you from here.",
+    "translation": "זה לא זמין לך מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 10,
+    "original": "You grab the rope.",
+    "translation": "אתה תופס את החבל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 11,
+    "original": "You slip the key into the lock and give it a turn. The lock snaps open.",
+    "translation": "אתה מכניס את המפתח למנעול ונותן לו סיבוב. המנעול נפתח בקליק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 12,
+    "original": "You open the cage door.",
+    "translation": "אתה פותח את דלת הכלוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 13,
+    "original": "You close the cage door.",
+    "translation": "אתה סוגר את דלת הכלוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 14,
+    "original": "You snap the lock closed.",
+    "translation": "אתה סוגר את המנעול בקליק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 15,
+    "original": "You need to be closer.",
+    "translation": "אתה צריך להיות יותר קרוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 16,
+    "original": "You don't have a key.",
+    "translation": "אין לך מפתח.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 17,
+    "original": "The door is locked.",
+    "translation": "הדלת נעולה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 18,
+    "original": "That's been done already.",
+    "translation": "זה כבר נעשה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 19,
+    "original": "That wouldn't be helpful now.",
+    "translation": "זה לא יעזור עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 20,
+    "original": "You don't have anything to do that with.",
+    "translation": "אין לך שום דבר לעשות את זה איתו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 21,
+    "original": "You should be closer to the door.",
+    "translation": "אתה צריך להיות יותר קרוב לדלת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 22,
+    "original": "Too late.",
+    "translation": "מאוחר מדי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 23,
+    "original": "Your head begins to clear and you realize that you have been imprisoned. Your captor appears to be that large oaf sitting near the fire.",
+    "translation": "הראש שלך מתחיל להתבהר ואתה מבין שנכלאת. נראה שהשובה שלך הוא הטיפש הגדול הזה שיושב ליד המדורה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 24,
+    "original": "The hunter has decided that it's a perfect day for a barbecue. As he slowly turns you over the fire, you begin to turn a beautiful golden brown. Death follows at an agonizingly long distance.",
+    "translation": "הצייד החליט שזה יום מושלם לברביקיו. בזמן שהוא מסובב אותך לאט מעל המדורה, אתה מתחיל להשתזף לגוון חום מוזהב יפהפה. המוות בא אחריך במרחק מייסר ארוך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 25,
+    "original": "That's not helpful now.",
+    "translation": "זה לא עוזר עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 26,
+    "original": "You are in a well hidden clearing. It is surrounded on three sides by large, smooth rock formations with brush to the north. A cage is below one of the formations.",
+    "translation": "אתה בקרחת יער מוסתרת היטב. היא מוקפת משלושה צדדים בתצורות סלע גדולות וחלקות עם שיחים מצפון. כלוב נמצא מתחת לאחת התצורות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 27,
+    "original": "In the center a campfire burns. One has to wonder about the purpose of a fire during a warm day such as this.",
+    "translation": "במרכז בוערת מדורה. אפשר לתמוה על המטרה של מדורה ביום חם כזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 28,
+    "original": "A campfire ring, fire extinguished, is located in the center.",
+    "translation": "מעגל מדורה, המדורה כבויה, נמצא במרכז.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 29,
+    "original": "(You are currently in it.)",
+    "translation": "(אתה נמצא בו כרגע.)",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 30,
+    "original": "A rope sits on one of the boulders.",
+    "translation": "חבל יושב על אחד הסלעים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 31,
+    "original": "%m26 %m29",
+    "translation": "%m26 %m29",
+    "notes": "",
+    "placeholders": ["%m26", "%m29"]
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 32,
+    "original": "%m27 %m30 %m34",
+    "translation": "%m27 %m30 %m34",
+    "notes": "",
+    "placeholders": ["%m27", "%m30", "%m34"]
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 33,
+    "original": "%m28 %m30",
+    "translation": "%m28 %m30",
+    "notes": "",
+    "placeholders": ["%m28", "%m30"]
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 34,
+    "original": "A large beast is nearby.",
+    "translation": "חיה גדולה נמצאת בקרבת מקום.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 35,
+    "original": "A large beast is lying on the ground.",
+    "translation": "חיה גדולה שוכבת על הקרקע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 36,
+    "original": "%m27 %m30 %m35",
+    "translation": "%m27 %m30 %m35",
+    "notes": "",
+    "placeholders": ["%m27", "%m30", "%m35"]
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 37,
+    "original": "%m27 %m34",
+    "translation": "%m27 %m34",
+    "notes": "",
+    "placeholders": ["%m27", "%m34"]
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 38,
+    "original": "%m27 %m35",
+    "translation": "%m27 %m35",
+    "notes": "",
+    "placeholders": ["%m27", "%m35"]
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 39,
+    "original": "%m27 %m30",
+    "translation": "%m27 %m30",
+    "notes": "",
+    "placeholders": ["%m27", "%m30"]
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 40,
+    "original": "You'll have to get his permission first.",
+    "translation": "אתה תצטרך לקבל את ההרשאה שלו קודם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 41,
+    "original": "That's not to be accomplished from here.",
+    "translation": "זה לא להשגה מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 42,
+    "original": "You search the large, not to mention uncleansed, body of the hunter.",
+    "translation": "אתה מחפש בגוף הגדול, שלא לדבר על הלא נקי, של הצייד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 43,
+    "original": "%m42 You find a key which might unlock the cage. Other than that, you find only a few assorted parasites clinging to him.",
+    "translation": "%m42 אתה מוצא מפתח שעשוי לפתוח את הכלוב. מלבד זה, אתה מוצא רק כמה טפילים מסודרים הנצמדים אליו.",
+    "notes": "",
+    "placeholders": ["%m42"]
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 44,
+    "original": "%m42 There is nothing of interest unless tiny parasites do something for you.",
+    "translation": "%m42 אין שום דבר מעניין אלא אם כן טפילים זעירים עושים משהו בשבילך.",
+    "notes": "",
+    "placeholders": ["%m42"]
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 45,
+    "original": "The foliage here is much too dense for you to pass through.",
+    "translation": "העלווה כאן צפופה מדי בשבילך לעבור דרכה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 46,
+    "original": "Upon impact with the ground, the spore opens and spews its dust into the air. The hunter falls to the ground paralyzed.",
+    "translation": "עם הפגיעה בקרקע, הנבג נפתח ופולט את האבק שלו לאוויר. הצייד נופל לקרקע משותק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 47,
+    "original": "What a waste of a perfectly good rope. In his state, he will not prove an impedence.",
+    "translation": "איזה בזבוז של חבל טוב לחלוטין. במצבו, הוא לא יהווה מכשול.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 48,
+    "original": "The spent spore would be of no use to you now.",
+    "translation": "הנבג המנוצל לא יהיה שימושי לך עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 49,
+    "original": "The hunter looks hungry.",
+    "translation": "הצייד נראה רעב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 50,
+    "original": "The hunter is looking right at you, and he's salivating just a tad.",
+    "translation": "הצייד מסתכל ישר עליך, והוא מרייל רק טיפה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 60,
+    "original": "The hunter is lying on the ground unable to move.",
+    "translation": "הצייד שוכב על הקרקע לא מסוגל לזוז.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 61,
+    "original": "%m60 A feeling you can relate to.",
+    "translation": "%m60 תחושה שאתה יכול להזדהות איתה.",
+    "notes": "",
+    "placeholders": ["%m60"]
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 62,
+    "original": "%m60 It looks as though the spore proved quite effective in this instance.",
+    "translation": "%m60 נראה שהנבג הוכיח את עצמו יעיל למדי במקרה הזה.",
+    "notes": "",
+    "placeholders": ["%m60"]
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 63,
+    "original": "You see just an empty fire ring.",
+    "translation": "אתה רואה רק מעגל מדורה ריק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 64,
+    "original": "There are flames dancing above the embers of the fire.",
+    "translation": "יש להבות רוקדות מעל הגחלים של המדורה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 65,
+    "original": "The cage is made of some very hard branches. They might as well be welded steel bars.",
+    "translation": "הכלוב עשוי מענפים קשים מאוד. הם יכולים להיות גם מוטות פלדה מרותכים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 66,
+    "original": "Interesting, but wrong.",
+    "translation": "מעניין, אבל לא נכון.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 67,
+    "original": "You'd only hurt yourself throwing it halfway there.",
+    "translation": "אתה רק תפגע בעצמך אם תזרוק את זה חצי דרך לשם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 68,
+    "original": "Pretty darn solid construction, eh?",
+    "translation": "בנייה די מוצקה לעזאזל, הא?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 69,
+    "original": "Don't bother now.",
+    "translation": "אל תטריח את עצמך עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 70,
+    "original": "It's too heavy for you to get any power behind.",
+    "translation": "זה כבד מדי בשבילך להשיג עוצמה מאחורי זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 71,
+    "original": "It's too cramped in here.",
+    "translation": "זה צפוף מדי כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 72,
+    "original": "Who are you, Smokey the Bear? Leave it alone. It won't help.",
+    "translation": "מי אתה, סמוקי הדוב? תעזוב את זה בשקט. זה לא יעזור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 73,
+    "original": "Nice guy you are!",
+    "translation": "בחור נחמד אתה!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 74,
+    "original": "An interesting idea, but no good here.",
+    "translation": "רעיון מעניין, אבל לא טוב כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 75,
+    "original": "He'd soon figure out that it wasn't food, and you'd be in trouble.",
+    "translation": "הוא היה מגלה מהר שזה לא אוכל, ואתה היית בצרות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 76,
+    "original": "It's crude looking but effective. The rust would prevent anything but the correct key from turning it.",
+    "translation": "זה נראה גס אבל יעיל. החלודה תמנע משום דבר מלבד המפתח הנכון לסובב אותו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 77,
+    "original": "Leave the hunter alone and get on with the adventure.",
+    "translation": "תעזוב את הצייד בשקט ותמשיך בהרפתקה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 78,
+    "original": "That would accomplish nothing.",
+    "translation": "זה לא ישיג כלום.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 79,
+    "original": "Who do you think you are, Roy Rogers?",
+    "translation": "מי אתה חושב שאתה, רוי רוג'רס?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "19.agilogic",
+    "messageNumber": 80,
+    "original": "I think I speak for everyone when I say that's a bad idea.",
+    "translation": "אני חושב שאני מדבר בשם כולם כשאני אומר שזה רעיון גרוע.",
+    "notes": "",
+    "placeholders": []
+  }
+]

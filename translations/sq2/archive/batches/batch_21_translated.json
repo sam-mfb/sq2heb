@@ -1,0 +1,322 @@
+[
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 1,
+    "original": "Good thing that guard broke your fall. He doesn't look too happy about it, though.",
+    "translation": "טוב ששומר שבר את נפילתך. הוא לא נראה מרוצה מכך, עם זאת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 2,
+    "original": "You seem to be in a rather exotic forest. The growth here is unlike anything you are used to. On the ground lies the wreckage of the hovercraft you crashed in.",
+    "translation": "נראה שאתה ביער די אקזוטי. הצמחייה כאן לא דומה לשום דבר שאתה מכיר. על הקרקע מונחת הריסת רחפת הריחוף שהתרסקת בה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 3,
+    "original": "%m2 Nearby are the bodies of your former captors.",
+    "translation": "%m2 בסביבה מונחות גופות השובים שלך לשעבר.",
+    "notes": "",
+    "placeholders": ["%m2"]
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 4,
+    "original": "The hovercraft has been reduced to a mound of twisted wreckage. Everything that was straight is bent. Everything that was bent is benter. There appear to be no salvageable parts.",
+    "translation": "רחפת הריחוף הצטמצמה לערמת הריסות מעוותת. כל מה שהיה ישר כפוף. כל מה שהיה כפוף כפוף יותר. לא נראה שיש חלקים ניתנים לשימוש.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 5,
+    "original": "The guard appears to be less thick than you remember him. Many of his formerly contained body fluids seem to be at large.",
+    "translation": "השומר נראה פחות עבה ממה שאתה זוכר אותו. הרבה מנוזלי הגוף שהיו מוכלים בו נראה שברחו החוצה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 6,
+    "original": "You notice that some smoke is escaping from a fractured energy cell in the wrecked hovercraft.",
+    "translation": "אתה שם לב שעשן בורח מתא אנרגיה סדוק ברחפת הריחוף ההרוסה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 7,
+    "original": "The smoke smells like something that might be emitted from a burning object.",
+    "translation": "העשן מריח כמו משהו שעשוי להיפלט מעצם בוער.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 8,
+    "original": "You attempt to lift the hovercraft. As you heave and grunt you feel something give way in the groin region. You wisely give up.",
+    "translation": "אתה מנסה להרים את רחפת הריחוף. כשאתה מתאמץ וגונח אתה מרגיש שמשהו נותן באזור המפשעה. אתה בחוכמה מוותר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 9,
+    "original": "You aren't strong enough to carry the guard. Besides, in his present state, it would be quite a challenge.",
+    "translation": "אתה לא חזק מספיק לשאת את השומר. חוץ מזה, במצבו הנוכחי, זה יהיה די אתגר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 10,
+    "original": "What an amusing idea. Pardon me while I liberate my most recent meal.",
+    "translation": "איזה רעיון משעשע. סלח לי בזמן שאני משחרר את הארוחה האחרונה שלי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 11,
+    "original": "You search the grotesque body and find",
+    "translation": "אתה מחפש בגופה המחרידה ומוצא",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 12,
+    "original": "%m11 a small, thin magnetic card. It looks like a keycard. You seem to recall seeing one somewhere in the past.",
+    "translation": "%m11 כרטיס מגנטי קטן ודק. זה נראה כמו כרטיס מגנטי. נראה שאתה זוכר שראית אחד כזה איפשהו בעבר.",
+    "notes": "",
+    "placeholders": ["%m11"]
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 14,
+    "original": "%m11 nothing.",
+    "translation": "%m11 כלום.",
+    "notes": "",
+    "placeholders": ["%m11"]
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 15,
+    "original": "Everything inside is twisted and bent.",
+    "translation": "כל מה שבפנים מעוות וכפוף.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 16,
+    "original": "%m15 You do notice a button with a flashing light next to it. It seems to be emitting a high pitched beep.",
+    "translation": "%m15 אתה כן שם לב לכפתור עם נורה מהבהבת לידו. נראה שהוא משמיע ביפ גבוה.",
+    "notes": "",
+    "placeholders": ["%m15"]
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 17,
+    "original": "You press the button.",
+    "translation": "אתה לוחץ על הכפתור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 18,
+    "original": "%m17 Nothing happens.",
+    "translation": "%m17 כלום לא קורה.",
+    "notes": "",
+    "placeholders": ["%m17"]
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 19,
+    "original": "%m17 The light goes dark and you no longer notice the high pitched beep.",
+    "translation": "%m17 האור כבה ואתה כבר לא שם לב לביפ הגבוה.",
+    "notes": "",
+    "placeholders": ["%m17"]
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 20,
+    "original": "You see a normal button and light. The light is currently",
+    "translation": "אתה רואה כפתור ונורה רגילים. הנורה כרגע",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 21,
+    "original": "%m20 on. You didn't notice it during the flight. It must have come on as a result of the crash.",
+    "translation": "%m20 דולקת. לא שמת לב לה במהלך הטיסה. היא כנראה נדלקה כתוצאה מההתרסקות.",
+    "notes": "",
+    "placeholders": ["%m20"]
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 22,
+    "original": "%m20 off.",
+    "translation": "%m20 כבויה.",
+    "notes": "",
+    "placeholders": ["%m20"]
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 23,
+    "original": "You are not where you should be to do that.",
+    "translation": "אתה לא במקום שבו אתה צריך להיות כדי לעשות את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 24,
+    "original": "This guard's body has been fatally damaged by the fall.",
+    "translation": "גופו של השומר הזה נפגע באופן קטלני מהנפילה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 25,
+    "original": "You can't see that from here.",
+    "translation": "אתה לא יכול לראות את זה מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 26,
+    "original": "You have no need for the uniform as it is damaged beyond use. Many of the seams are split and most of the fabric is soaked with a generous cross section of body fluids.",
+    "translation": "אין לך צורך במדים כיוון שהם פגומים מעבר לשימוש. הרבה מהתפרים קרועים ורוב הבד ספוג בחתך נדיב של נוזלי גוף.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 27,
+    "original": "Not necessary. There is nothing important under him.",
+    "translation": "לא נחוץ. אין שום דבר חשוב מתחתיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 28,
+    "original": "The hovercraft is a twisted wreck. Jagged metal protrudes in such a way that entry would be hazardous.",
+    "translation": "רחפת הריחוף היא הריסה מעוותת. מתכת משוננת בולטת באופן שהכניסה תהיה מסוכנת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 29,
+    "original": "Aaaghh! You fall to the bottom of a concealed pit. You might have survived the fall had you not come in contact with the several 30 centimeter long spikes planted vertically along the bottom of the pit.",
+    "translation": "אאאההה! אתה נופל לתחתית בור מוסתר. אולי היית שורד את הנפילה אילו לא היית בא במגע עם מספר קוצים באורך 30 סנטימטר שנטועים אנכית לאורך תחתית הבור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 30,
+    "original": "The foliage here is much too dense for you to pass through.",
+    "translation": "העלווה כאן צפופה מדי עבורך לעבור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 31,
+    "original": "Ok.",
+    "translation": "בסדר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 32,
+    "original": "That's not here.",
+    "translation": "זה לא כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 33,
+    "original": "Ok. To save time later, you turn it on.",
+    "translation": "בסדר. כדי לחסוך זמן מאוחר יותר, אתה מדליק אותו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 34,
+    "original": "You hear a high pitched beep. It seems to be emanating from the wrecked hovercraft.",
+    "translation": "אתה שומע ביפ גבוה. נראה שהוא בא מרחפת הריחוף ההרוסה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 35,
+    "original": "Get closer!",
+    "translation": "תתקרב!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 36,
+    "original": "You're one twisted mofo. The only other person I know who would try that is Mark Crowe.",
+    "translation": "אתה מטורף אחד מעוות. האדם היחיד האחר שאני מכיר שינסה את זה הוא מארק קרו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 37,
+    "original": "The sounds of escaping gases are the only audible offerings from these two.",
+    "translation": "קולות של גזים בורחים הם ההקרבות השמיעות היחידות משניהם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 38,
+    "original": "Trap? Trap? What trap? I don't see a trap! Hey, do you guys see a trap? I didn't think so! You must be mistaken! None of us sees a trap!",
+    "translation": "מלכודת? מלכודת? איזו מלכודת? אני לא רואה מלכודת! היי, אתם רואים מלכודת? לא חשבתי! אתה בטח טועה! אף אחד מאיתנו לא רואה מלכודת!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 39,
+    "original": "You detect no unusual fragrance, at least not yet. Soon though, these bodies may be generating some serious bouquet.",
+    "translation": "אתה לא מזהה ריח חריג, לפחות עדיין לא. עם זאת בקרוב, הגופות האלה עשויות לייצר ניחוח רציני.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 40,
+    "original": "That isn't necessary.",
+    "translation": "זה לא נחוץ.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "10.agilogic",
+    "messageNumber": 41,
+    "original": "There is nothing there to read.",
+    "translation": "אין שם שום דבר לקרוא.",
+    "notes": "",
+    "placeholders": []
+  }
+]

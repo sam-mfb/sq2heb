@@ -1,0 +1,330 @@
+[
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 1,
+    "original": "Well, ain't that a hoot. That guy reduced you to a multi-colored mound of cole slaw-like matter. Better than a Murphco Slice-O-Matic. You are dead, however.",
+    "translation": "ובכן, זה לא מצחיק. הבחור הזה הפך אותך לערמת חומר צבעונית דמוית סלט כרוב. טוב יותר ממכונת החיתוך של מורפקו. אתה מת, עם זאת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 2,
+    "original": "You give the whistle a toot. It makes an odd sound.",
+    "translation": "אתה מצפצף במשרוקית. היא משמיעה צליל מוזר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 3,
+    "original": "You hear an incredible whirring and grinding sound coming from the north.",
+    "translation": "אתה שומע קול זמזום וטחינה מדהים מגיע מצפון.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 4,
+    "original": "You chuck the Cubix Rube puzzle over to the beast.",
+    "translation": "אתה זורק את חידת הקוביקס רוב אל החיה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 5,
+    "original": "You don't possess it.",
+    "translation": "אין זה ברשותך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 6,
+    "original": "You can't do that while swimming. You're lucky if you can think and breathe simultaneously.",
+    "translation": "אתה לא יכול לעשות את זה בזמן שחייה. אתה בר מזל אם אתה יכול לחשוב ולנשום בו זמנית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 7,
+    "original": "The beast appears interested in your offering.",
+    "translation": "נראה שהחיה מתעניינת בהצעה שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 8,
+    "original": "Curiosity gets the better of him as he reaches down for it.",
+    "translation": "הסקרנות גוברת עליו כשהוא מושיט יד מטה אל זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 9,
+    "original": "He seems quite perplexed by the puzzling plastic polyhedron.",
+    "translation": "הוא נראה די מבולבל מהפולידרון הפלסטיק המתסכל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 10,
+    "original": "A good idea, but not just yet.",
+    "translation": "רעיון טוב, אבל עדיין לא.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 11,
+    "original": "You've got one already.",
+    "translation": "כבר יש לך אחד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 12,
+    "original": "You need to be closer.",
+    "translation": "אתה צריך להיות קרוב יותר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 13,
+    "original": "You are in a little clearing which is surrounded by large boulders and impenetrable brush. There is water, in which you entered, at the bottom left. You can just see a landing platform in the distance.",
+    "translation": "אתה בקרחת יער קטנה המוקפת בסלעים גדולים ושיחים בלתי חדירים. יש מים, שבהם נכנסת, בפינה השמאלית התחתונה. אתה יכול בדיוק לראות רציף נחיתה מרחוק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 14,
+    "original": "%m13 There is a hole bored in one of the boulders with a small pile of debris beneath it.",
+    "translation": "%m13 יש חור קדוח באחד הסלעים עם ערמת פסולת קטנה מתחתיו.",
+    "notes": "",
+    "placeholders": ["%m13"]
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 15,
+    "original": "%m14 A bizarre beast is nearby.",
+    "translation": "%m14 חיה מוזרה נמצאת בסביבה.",
+    "notes": "",
+    "placeholders": ["%m14"]
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 16,
+    "original": "The ground looks quite ordinary except for the pile of debris near one of the boulders.",
+    "translation": "הקרקע נראית די רגילה מלבד ערמת הפסולת ליד אחד הסלעים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 17,
+    "original": "It looks kind of wet.",
+    "translation": "זה נראה די רטוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 18,
+    "original": "You pick up a small rock generated during the terror beast's grand entrance.",
+    "translation": "אתה מרים אבן קטנה שנוצרה במהלך הכניסה המפוארת של חיית האימה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 19,
+    "original": "The foliage is too dense for you to go through.",
+    "translation": "העלווה צפופה מדי עבורך לעבור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 20,
+    "original": "If only you could make it to that platform. You might have a chance of stopping Vohaul.",
+    "translation": "אילו רק יכולת להגיע לרציף ההוא. אולי היה לך סיכוי לעצור את וואול.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 21,
+    "original": "There is only a pile of dust left.",
+    "translation": "נותרה רק ערמת אבק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 22,
+    "original": "In the pile of debris lies a stone.",
+    "translation": "בערמת הפסולת מונחת אבן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 23,
+    "original": "And he looks like he could do as much damage as one.",
+    "translation": "והוא נראה כאילו הוא יכול לעשות נזק כמו אחד כזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 24,
+    "original": "The Labion Terror Beast is spinning around like a tornado.",
+    "translation": "חיית האימה מלאביון מסתובבת כמו טורנדו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 25,
+    "original": "Suddenly, a Labion Terror Beast buzzes into the room like a tornado! %m23",
+    "translation": "לפתע, חיית אימה מלאביון זמזמת לתוך החדר כמו טורנדו! %m23",
+    "notes": "",
+    "placeholders": ["%m23"]
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 26,
+    "original": "%m24 %m23",
+    "translation": "%m24 %m23",
+    "notes": "",
+    "placeholders": ["%m24", "%m23"]
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 27,
+    "original": "Boy! He certainly seems interested in that puzzle.",
+    "translation": "בחור! הוא בהחלט נראה מתעניין בחידה הזו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 28,
+    "original": "The ugly beast seems to be surveying the area.",
+    "translation": "החיה המכוערת נראית סוקרת את האזור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 29,
+    "original": "It's not much of a talker.",
+    "translation": "היא לא ממש פטפטנית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 30,
+    "original": "The debris that is left won't help you.",
+    "translation": "הפסולת שנשארה לא תעזור לך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 31,
+    "original": "%m18 You leave the rest alone.",
+    "translation": "%m18 אתה משאיר את השאר בשקט.",
+    "notes": "",
+    "placeholders": ["%m18"]
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 32,
+    "original": "There seems to be a nice, cleanly bored shaft running through the boulder.",
+    "translation": "נראה שיש פיר יפה וחלק קדוח עובר דרך הסלע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 33,
+    "original": "You'd better come up with a brighter idea than that. He'll chew you up and spit you out in 2 seconds.",
+    "translation": "כדאי שתמציא רעיון יותר מבריק מזה. הוא ילעוס אותך וירק אותך החוצה תוך שתי שניות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 34,
+    "original": "Maybe the acoustics are bad in this spot.",
+    "translation": "אולי האקוסטיקה גרועה במקום הזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 35,
+    "original": "You notice some writing on one of the left-most boulders.",
+    "translation": "אתה שם לב לכמה כתובת על אחד הסלעים השמאליים ביותר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 36,
+    "original": "You can't make it out from here.",
+    "translation": "אתה לא יכול לפענח את זה מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 37,
+    "original": "The writing says \"BEWARE: Labion Terror Best zone. Use extreme caution!\"",
+    "translation": "הכתובת אומרת \"זהירות: אזור חיית האימה מלאביון. השתמש בזהירות יתרה!\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 38,
+    "original": "It looks wet.",
+    "translation": "זה נראה רטוב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 39,
+    "original": "There is nothing down there to mess with.",
+    "translation": "אין שם למטה שום דבר להתעסק איתו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 40,
+    "original": "That's not necessary now.",
+    "translation": "זה לא נחוץ עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "44.agilogic",
+    "messageNumber": 42,
+    "original": "Other rocks in view include many large boulders, one with a hole bored through it.",
+    "translation": "סלעים אחרים בשדה הראייה כוללים סלעים גדולים רבים, אחד עם חור קדוח דרכו.",
+    "notes": "",
+    "placeholders": []
+  }
+]

@@ -1,0 +1,354 @@
+[
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 1,
+    "original": "It's quite dark in here.",
+    "translation": "די חשוך כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 2,
+    "original": "%m1 There is a small wastebasket. On the floor next to it is a pair of crusty work overalls.",
+    "translation": "%m1 יש סל אשפה קטן. על הרצפה ליד זה יש זוג אוברולים של עבודה קרושים.",
+    "notes": "",
+    "placeholders": ["%m1"]
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 3,
+    "original": "The hallways on this level are the same as above with the exception of some type of cages. An occasional strange noise is heard. The smell here is stifling. Apparently, the holding cells are not well kept. There is a door on the side wall.",
+    "translation": "המסדרונות ברמה הזו זהים לאלה למעלה למעט כלובים מסוג מסוים. מדי פעם נשמע רעש מוזר. הריח כאן מחניק. כנראה, תאי החזקה לא מתוחזקים היטב. יש דלת על הקיר הצדדי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 4,
+    "original": "Ok.",
+    "translation": "בסדר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 5,
+    "original": "You can't get that here.",
+    "translation": "אתה לא יכול להשיג את זה כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 6,
+    "original": "That isn't here anymore.",
+    "translation": "זה כבר לא כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 7,
+    "original": "Not from here!",
+    "translation": "לא מכאן!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 8,
+    "original": "Aren't you amazed by how much stuff an adventure game hero can carry? You've just got to know how to pack.",
+    "translation": "לא מדהים אותך כמה דברים גיבור משחק הרפתקאות יכול לשאת? אתה פשוט צריך לדעת איך לארוז.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 9,
+    "original": "They won't fit you.",
+    "translation": "הם לא יתאימו לך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 10,
+    "original": "That doesn't seem to be available.",
+    "translation": "זה לא נראה זמין.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 11,
+    "original": "Youch! You feel alarmingly dense!",
+    "translation": "אוץ'! אתה מרגיש צפוף באופן מדאיג!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 12,
+    "original": "Apparently, you were a prime focal point for some aggression channeling by one of the caged creatures. Your compressed composition indicates that your attacker possesses considerable strength, a good guy to avoid in the future.",
+    "translation": "כנראה, היית נקודת מוקד עיקרית להתפרצות תוקפנות על ידי אחד היצורים הכלואים. ההרכב הדחוס שלך מעיד שהתוקף שלך מחזיק בכוח ניכר, בחור טוב להימנע ממנו בעתיד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 13,
+    "original": "Of course, you are damaged beyond repair and the game must end. You've made quite a bit of progress, though. Don't start screwing up now.",
+    "translation": "כמובן, אתה פגוע מעבר לתיקון והמשחק חייב להסתיים. עשית לא מעט התקדמות, עם זאת. אל תתחיל לפשל עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 14,
+    "original": "You pick up the overalls. They are very small and quite worn out, not to mention filthy, and of no use to you. You toss them back on the floor.",
+    "translation": "אתה מרים את האוברולים. הם קטנים מאוד ודי בלויים, שלא לדבר על מלוכלכים, ואין בהם שימוש עבורך. אתה זורק אותם בחזרה על הרצפה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 15,
+    "original": "%m14 As you set them down, something falls to the floor.",
+    "translation": "%m14 בזמן שאתה מניח אותם, משהו נופל לרצפה.",
+    "notes": "",
+    "placeholders": ["%m14"]
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 16,
+    "original": "They are wadded up on the floor.",
+    "translation": "הם מקומטים על הרצפה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 17,
+    "original": "You see some filthy overalls",
+    "translation": "אתה רואה כמה אוברולים מלוכלכים",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 18,
+    "original": "%m17 and a lighter.",
+    "translation": "%m17 ומצית.",
+    "notes": "",
+    "placeholders": ["%m17"]
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 19,
+    "original": "a wastebasket",
+    "translation": "סל אשפה",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 20,
+    "original": "%m17, %m19, and a lighter.",
+    "translation": "%m17, %m19, ומצית.",
+    "notes": "",
+    "placeholders": ["%m17", "%m19"]
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 21,
+    "original": "%m17 and %m19.",
+    "translation": "%m17 ו%m19.",
+    "notes": "",
+    "placeholders": ["%m17", "%m19"]
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 22,
+    "original": "%m17.",
+    "translation": "%m17.",
+    "notes": "",
+    "placeholders": ["%m17"]
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 23,
+    "original": "%m14 You put them back.",
+    "translation": "%m14 אתה מחזיר אותם למקום.",
+    "notes": "",
+    "placeholders": ["%m14"]
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 24,
+    "original": "%m1 On the floor is a pair of crusty work overalls.",
+    "translation": "%m1 על הרצפה יש זוג אוברולים של עבודה קרושים.",
+    "notes": "",
+    "placeholders": ["%m1"]
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 25,
+    "original": "%m24 There is a lighter near those.",
+    "translation": "%m24 יש מצית ליד אלה.",
+    "notes": "",
+    "placeholders": ["%m24"]
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 26,
+    "original": "%m2 There is a lighter near those.",
+    "translation": "%m2 יש מצית ליד אלה.",
+    "notes": "",
+    "placeholders": ["%m2"]
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 27,
+    "original": "There is a button situated next to it.",
+    "translation": "יש כפתור ממוקם לידו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 28,
+    "original": "The door is closed. %m8",
+    "translation": "הדלת סגורה. %m8",
+    "notes": "",
+    "placeholders": ["%m8"]
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 29,
+    "original": "The door is open.",
+    "translation": "הדלת פתוחה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 30,
+    "original": "The door is open. %m8",
+    "translation": "הדלת פתוחה. %m8",
+    "notes": "",
+    "placeholders": ["%m8"]
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 31,
+    "original": "Ah, ha! You know a janitorial closet when you smell one. Almost at once you sense an emptiness, a melancholy longing. You begin to feel homesick.",
+    "translation": "אהה! אתה מכיר ארון ניקיון כשאתה מריח אחד. כמעט מיד אתה חש ריקנות, כיסופים עצובים. אתה מתחיל להרגיש געגועים הביתה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 32,
+    "original": "It's quite dark in here. You can find no light switch.",
+    "translation": "די חשוך כאן. אתה לא יכול למצוא מתג אור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 33,
+    "original": "Oh, sure! Like you've never seen a button before.",
+    "translation": "אה, בטח! כאילו מעולם לא ראית כפתור לפני כן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 34,
+    "original": "You can't see much but can hear something stirring in the darkness.",
+    "translation": "אתה לא יכול לראות הרבה אבל יכול לשמוע משהו מזדעזע בחושך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 35,
+    "original": "As is common in all periods of cage design, vertical bars of a sturdy nature dominate the design. They look quite impenetrable. One of them has some fur wrapped around a couple sections of bar.",
+    "translation": "כמקובל בכל תקופות עיצוב הכלובים, מוטות אנכיים בעלי אופי חזק שולטים בעיצוב. הם נראים די בלתי חדירים. לאחד מהם יש קצת פרווה כרוכה סביב כמה קטעי מוט.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 36,
+    "original": "You'll need to get closer.",
+    "translation": "אתה תצטרך להתקרב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 37,
+    "original": "There is no possible way for you to do that.",
+    "translation": "אין שום דרך אפשרית עבורך לעשות את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 38,
+    "original": "They look like large amounts of fur. No other features are evident from here.",
+    "translation": "הם נראים כמו כמויות גדולות של פרווה. אין תכונות אחרות נראות לעין מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 39,
+    "original": "They look like big paws.",
+    "translation": "הם נראים כמו כפות גדולות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 40,
+    "original": "That's not possible from in here.",
+    "translation": "זה לא אפשרי מתוך כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 41,
+    "original": "It doesn't look like much from here.",
+    "translation": "זה לא נראה הרבה מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 42,
+    "original": "That would be easier to do if you had it.",
+    "translation": "זה יהיה קל יותר לעשות אם היה לך את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 43,
+    "original": "It's not dark enough here to be effective.",
+    "translation": "זה לא מספיק חשוך כאן כדי להיות אפקטיבי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "83.agilogic",
+    "messageNumber": 51,
+    "original": "That isn't how to do it.",
+    "translation": "זו לא הדרך לעשות את זה.",
+    "notes": "",
+    "placeholders": []
+  }
+]

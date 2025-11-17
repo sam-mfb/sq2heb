@@ -1,0 +1,570 @@
+[
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 1,
+    "original": "You have stepped into a porcelain palace of sorts. It is obviously a rest room. A place which, in an interesting fashion, serves to exhibit the physical diversity of the universe.",
+    "translation": "נכנסת לארמון חרסינה מסוג מסוים. זה בבירור שירותים. מקום שבאופן מעניין, משמש להציג את המגוון הפיזי של היקום.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 2,
+    "original": "The walls are covered in an easy-to-hose-down synthetic material. Attached to them in various locations are devices designed to efficiently collect waste products from the life forms which are able to physically match up to them.",
+    "translation": "הקירות מכוסים בחומר סינתטי שקל לשטוף בצינור. מחוברים אליהם במקומות שונים מכשירים שתוכננו לאסוף ביעילות פסולת מצורות החיים המסוגלות להתאים אליהם פיזית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 3,
+    "original": "On the back wall are stalls. Three of them are in use judging by the various feet which show beneath the stall doors. To the left are sinks.",
+    "translation": "על הקיר האחורי יש תאים. שלושה מהם בשימוש לפי הרגליים השונות שנראות מתחת לדלתות התאים. משמאל יש כיורים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 4,
+    "original": "As you can see, that's already been handled.",
+    "translation": "כפי שאתה יכול לראות, זה כבר טופל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 6,
+    "original": "The door won't budge.",
+    "translation": "הדלת לא זזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 7,
+    "original": "The stall door is marked \"Out of Order.\"",
+    "translation": "דלת התא מסומנת \"לא תקין.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 8,
+    "original": "The inside of the stall is a sight to behold. There is writing of various languages etched on the walls. The floor has an interesting coating of some type of congealed dreck. It appears that the toilet may have been white once. A toilet paper dispenser hangs on one wall.",
+    "translation": "פנים התא הוא מראה לראות. יש כתובות בשפות שונות חרוטות על הקירות. לרצפה יש ציפוי מעניין של איזשהו זבל קרוש. נראה שהאסלה הייתה לבנה פעם. מתקן נייר טואלט תלוי על קיר אחד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 9,
+    "original": "The writing etched on the wall is in various languages. One large message you can read says \"Vohaul Sucks!\" Someone has tried, in vain, to cross it out.",
+    "translation": "הכתובת החרוטה על הקיר היא בשפות שונות. הודעה גדולה אחת שאתה יכול לקרוא אומרת \"וואול מבאס!\" מישהו ניסה, לשווא, למחוק אותה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 10,
+    "original": "The toilet looks very much like the ones you were used to back on Xenon, at least the ones YOU were responsible for cleaning. It has a handle which hasn't been used in awhile.",
+    "translation": "האסלה נראית מאוד כמו אלה שהיית רגיל אליהן בזנון, לפחות אלה שאתה היית אחראי לנקות. יש לה ידית שלא השתמשו בה מזה זמן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 11,
+    "original": "The grimy wall has writing on it.",
+    "translation": "לקיר המזוהם יש כתובות עליו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 12,
+    "original": "A closer look makes you believe the paper should have a grit rating.",
+    "translation": "מבט קרוב יותר גורם לך להאמין שלנייר צריך להיות דירוג חספוס.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 13,
+    "original": "The toilet paper dispenser is of the single sheet variety. %m12",
+    "translation": "מתקן נייר הטואלט הוא מהסוג של דף בודד. %m12",
+    "notes": "",
+    "placeholders": ["%m12"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 14,
+    "original": "OK.",
+    "translation": "בסדר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 15,
+    "original": "You already have that.",
+    "translation": "כבר יש לך את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 16,
+    "original": "Your urge is more serious than that.",
+    "translation": "הדחף שלך רציני יותר מזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 17,
+    "original": "You slide your uniform pants down and settle onto the cool ring.",
+    "translation": "אתה מוריד את מכנסי המדים שלך ומתיישב על הטבעת הקרירה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 18,
+    "original": "What are you, livestock? Be civilized. Try using a toilet.",
+    "translation": "מה אתה, בהמה? תהיה מתוקן. נסה להשתמש באסלה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 19,
+    "original": "You've satisfied that urge for now.",
+    "translation": "סיפקת את הדחף הזה לעת עתה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 20,
+    "original": "You go through whatever motions might be normal for you during this act.",
+    "translation": "אתה עובר את התנועות שעשויות להיות נורמליות עבורך במהלך המעשה הזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 21,
+    "original": "During your close encounter with the toilet paper, you theorize that this brand of wipe was designed to thwart overuse and theft.",
+    "translation": "במהלך המפגש הקרוב שלך עם נייר הטואלט, אתה משער שהמותג הזה של ניגוב תוכנן למנוע שימוש יתר וגניבה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 22,
+    "original": "Refreshed, you grab your pants and compose yourself.",
+    "translation": "רענן, אתה תופס את המכנסיים שלך ומסדר את עצמך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 23,
+    "original": "Have some decency, man! Close the door!",
+    "translation": "תתנהג בכבוד, בנאדם! סגור את הדלת!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 24,
+    "original": "Well %s1, I guess you'll be paying methane a little more respect in the future. If Mr. Science were here, he would have explained that open flame and high concentrations of methane gas don't mix. Since you're dead you'd best get to restoring.",
+    "translation": "ובכן %s1, אני מניח שתיתן למתאן קצת יותר כבוד בעתיד. אם מר מדע היה כאן, הוא היה מסביר שלהבה פתוחה וריכוזים גבוהים של גז מתאן לא מתערבבים. מאחר ואתה מת, כדאי שתתחיל לשחזר.",
+    "notes": "",
+    "placeholders": ["%s1"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 25,
+    "original": "There are several stalls on the east wall, none of which are designed to accommodate humans.",
+    "translation": "יש כמה תאים על הקיר המזרחי, אף אחד מהם לא מתוכנן להכיל בני אדם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 26,
+    "original": "This one looks like a quadport high performance urinal manifold. Especially useful for those multitudinously equipped. Also used in a pinch by up to four single digit beings when the place is really packed.",
+    "translation": "זה נראה כמו סעפת משתנה ארבעה פתחים בביצועים גבוהים. שימושי במיוחד לאלה המצוידים בריבוי. משמש גם במצוקה על ידי עד ארבע יצורים חד ספרתיים כשהמקום באמת צפוף.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 27,
+    "original": "This one is interesting. It has a bi-level arrangement, with the upper opening about chin height on you. You might be careful about getting too close. Hopefully, you'll not run into the being this fits.",
+    "translation": "זה מעניין. יש לו סידור דו-רמתי, עם הפתח העליון בערך בגובה הסנטר שלך. אולי תהיה זהיר לא להתקרב יותר מדי. בתקווה, לא תיתקל ביצור שזה מתאים לו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 28,
+    "original": "There are fixtures of many types scattered throughout the room, all designed to efficiently collect waste.",
+    "translation": "יש אביזרים מסוגים רבים פזורים ברחבי החדר, כולם מתוכננים לאסוף פסולת ביעילות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 29,
+    "original": "PFFFFT",
+    "translation": "פרררר",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 30,
+    "original": "The sound comes from one of the occupied stalls, you think.",
+    "translation": "הצליל בא מאחד התאים התפוסים, אתה חושב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 31,
+    "original": "Suddenly, one of your senses down-loads an extremely negative air quality report. For some reason, the name John springs to mind.",
+    "translation": "פתאום, אחד החושים שלך מוריד דוח איכות אוויר שלילי ביותר. מסיבה כלשהי, השם ג'ון עולה במוחך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 32,
+    "original": "Severe grunting from the stalls indicates that this is an inappropriate time to strike up any conversations. Maybe they've got a case of Vohaul's Revenge. VOHAUL'S REVENGE, get it!?",
+    "translation": "נהימות חמורות מהתאים מעידות שזה זמן לא מתאים להתחיל שיחות. אולי יש להם מקרה של נקמת וואול. נקמת וואול, הבנת!?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 33,
+    "original": "The dispenser doesn't need to be opened.",
+    "translation": "המתקן לא צריך להיפתח.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 34,
+    "original": "There's a giant space herpe sitting on the seat. It takes one look at you and flees in terror.",
+    "translation": "יש הרפס חלל ענק יושב על המושב. הוא מביט בך פעם אחת ובורח באימה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 35,
+    "original": "The herpe is huge and somewhat gelatinous. It looks at you once and flees in terror.",
+    "translation": "ההרפס ענק וג'לטיני במקצת. הוא מסתכל עליך פעם אחת ובורח באימה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 36,
+    "original": "You don't see one.",
+    "translation": "אתה לא רואה אחד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 39,
+    "original": "The writing etched on the wall is in various languages. One large message reads",
+    "translation": "הכתובת החרוטה על הקיר היא בשפות שונות. הודעה גדולה אחת קוראת",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 40,
+    "original": "%m39 \"Vohaul's mother wears Stellar Patrol boots!\"",
+    "translation": "%m39 \"אמא של וואול נועלת מגפיים של סיור כוכבי!\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 41,
+    "original": "%m39 \"Vohaul plays text adventures!\"",
+    "translation": "%m39 \"וואול משחק הרפתקאות טקסט!\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 42,
+    "original": "%m39 \"Ken was here! (So was Al, but we had to repaint afterward.)\"",
+    "translation": "%m39 \"קן היה כאן! (גם אל, אבל היינו צריכים לצבוע מחדש אחרי.)\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 43,
+    "original": "%m39 \"Vohaul Sucks!\"",
+    "translation": "%m39 \"וואול מבאס!\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 44,
+    "original": "%m39 \"Here I sit lonely hearted, had to bolt but only darted.\"",
+    "translation": "%m39 \"הנה אני יושב בודד ולב שבור, נאלצתי לברוח אבל רק התחמקתי.\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 45,
+    "original": "%m39 \"Came in here to unleash a beast, just to find my colon creased!\"",
+    "translation": "%m39 \"נכנסתי לכאן לשחרר חיה, רק כדי למצוא את המעי הגס שלי קמוט!\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 46,
+    "original": "%m39 \"For a good time, call Jerry! Ask for Leonard.\"",
+    "translation": "%m39 \"לזמן טוב, התקשר לג'רי! בקש את לאונרד.\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 47,
+    "original": "%m39 \"You're right, R.D.! Sierra is an alien outpost! (And it certainly puts to rest some myths regarding superior life forms.)\"",
+    "translation": "%m39 \"אתה צודק, ר.ד.! סיירה היא עמדת חוץ חייזרית! (וזה בהחלט מפריך כמה מיתוסים לגבי צורות חיים עליונות.)\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 48,
+    "original": "%m39 \"Sir Graham Cross Dresses!\"",
+    "translation": "%m39 \"סר גרהם מתלבש בבגדי נשים!\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 49,
+    "original": "%m39 \"T. Bendrohiezehn Was Here.\"",
+    "translation": "%m39 \"ט. בנדרוהיזן היה כאן.\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 53,
+    "original": "%m39 \"For a good time, call the Helmet Master!\"",
+    "translation": "%m39 \"לזמן טוב, התקשר לאדון הקסדה!\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 54,
+    "original": "%m39 \"Beware! The Tadpole Master Lurks!\"",
+    "translation": "%m39 \"היזהר! אדון הראשנים אורב!\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 55,
+    "original": "%m39 \"Scott? Is it done yet? Get outta the head and back to work. Christmas doesn't move!\"",
+    "translation": "%m39 \"סקוט? זה מוכן כבר? צא משירותים וחזור לעבודה. חג המולד לא זז!\"",
+    "notes": "",
+    "placeholders": ["%m39"]
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 56,
+    "original": "Oh, No! That was a mistake. It's more gross than anything I've described to you in the past. Let's just say that it's a good thing you didn't chow down recently.",
+    "translation": "הו, לא! זו הייתה טעות. זה יותר גרוע מכל דבר שתיארתי לך בעבר. בוא רק נגיד שזה טוב שלא חפרת לאחרונה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 57,
+    "original": "You notice nothing of particular disgust from here.",
+    "translation": "אתה לא שם לב לשום דבר מגעיל במיוחד מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 58,
+    "original": "(Did you ever wonder how your boss looks doing this?)",
+    "translation": "(אי פעם תהית איך הבוס שלך נראה עושה את זה?)",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 59,
+    "original": "(Did you ever wonder why people look afterward?)",
+    "translation": "(אי פעם תהית למה אנשים מסתכלים אחר כך?)",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 60,
+    "original": "The sinks are nice sinks, nothing fancy. Faucets sit above them.",
+    "translation": "הכיורים הם כיורים יפים, שום דבר מפואר. ברזים יושבים מעליהם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 61,
+    "original": "The faucets aren't operational. Vohaul didn't seem big on personal hygiene.",
+    "translation": "הברזים לא פועלים. וואול לא נראה גדול על היגיינה אישית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 62,
+    "original": "Darn! Another pimple.",
+    "translation": "לעזאזל! עוד פצעון.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 63,
+    "original": "Get closer.",
+    "translation": "תתקרב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 64,
+    "original": "PHEWW!! It smells worse than John Williams' office in here! You glance around the room for dead Canaries.",
+    "translation": "פיווו!! זה מריח יותר גרוע מהמשרד של ג'ון ויליאמס כאן! אתה מעיף מבט מסביב בחדר אחר קנריות מתות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 65,
+    "original": "The floor has an interesting coating of some type of congealed dreck. Imbedded within it you see everything from tiny fish-type scales to short curly hairs to dandruff flakes the size of toe nails. (And don't even bother to try getting any of it.) In the middle is a drain.",
+    "translation": "לרצפה יש ציפוי מעניין של איזשהו זבל קרוש. משובץ בתוכו אתה רואה הכל מקשקשים קטנים דמויי דגים ועד שערות קצרות מקורזלות ועד פתיתי קשקשת בגודל ציפורניים. (ואל תטרח בכלל לנסות לקחת מזה.) באמצע יש ניקוז.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 66,
+    "original": "The drain has a cover welded in place. You can see nothing in the darkness below.",
+    "translation": "לניקוז יש מכסה מרותך למקום. אתה לא יכול לראות כלום בחושך מתחת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 67,
+    "original": "Why? Is it the stench or did you look in the mirror?",
+    "translation": "למה? זה הסירחון או שהסתכלת במראה?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 68,
+    "original": "Why? No one else has. And it would probably be risky to attempt without  a flotation device handy.",
+    "translation": "למה? אף אחד אחר לא עשה. וזה כנראה יהיה מסוכן לנסות בלי מכשיר ציפה בהישג יד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 69,
+    "original": "You're not in a good place for that.",
+    "translation": "אתה לא במקום טוב בשביל זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 70,
+    "original": "They run into the ceiling and disappear.",
+    "translation": "הם רצים לתוך התקרה ונעלמים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 71,
+    "original": "Sorry. You can't do that.",
+    "translation": "סליחה. אתה לא יכול לעשות את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 72,
+    "original": "That isn't necessary now.",
+    "translation": "זה לא הכרחי עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 73,
+    "original": "It looks real door-like.",
+    "translation": "זה נראה ממש כמו דלת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 74,
+    "original": "Leave the mirror alone.",
+    "translation": "תעזוב את המראה בשקט.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 75,
+    "original": "There is nothing in here that a mere plunger can help.",
+    "translation": "אין כאן שום דבר ששואב פקקים רגיל יכול לעזור לו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 76,
+    "original": "GO AWAY!",
+    "translation": "לך מפה!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "76.agilogic",
+    "messageNumber": 77,
+    "original": "That's not possible.",
+    "translation": "זה לא אפשרי.",
+    "notes": "",
+    "placeholders": []
+  }
+]

@@ -1,0 +1,418 @@
+[
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 1,
+    "original": "Dang. Allowing the guard to observe you was not very swift. He has disassembled you, probably adding a little excitement to his otherwise dull day.",
+    "translation": "לעזאזל. לאפשר לשומר לצפות בך לא היה חכם במיוחד. הוא פירק אותך, כנראה הוסיף קצת התרגשות ליום המשעמם שלו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 2,
+    "original": "Nothing happens.",
+    "translation": "שום דבר לא קורה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 3,
+    "original": "The elevator is nothing spectacular to look at. On the left side is a thin slot.",
+    "translation": "המעלית היא שום דבר מרהיב להסתכל עליו. בצד שמאל יש חריץ דק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 4,
+    "original": "You should be a little closer for that.",
+    "translation": "אתה צריך להיות קצת יותר קרוב בשביל זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 5,
+    "original": "You slide the keycard into the slot, then remove it.",
+    "translation": "אתה מחליק את הכרטיס המגנטי לתוך החריץ, ואז מוציא אותו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 6,
+    "original": "It appears, however, that the elevator is in use at this time.",
+    "translation": "נראה, עם זאת, שהמעלית בשימוש כרגע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 7,
+    "original": "You can't do that from here.",
+    "translation": "אתה לא יכול לעשות את זה מכאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 8,
+    "original": "You send the rock flying into the bushes. You hear it land.",
+    "translation": "אתה שולח את הסלע עף לתוך השיחים. אתה שומע אותו נוחת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 9,
+    "original": "You send the stone flying into the bushes. You hear it land.",
+    "translation": "אתה שולח את האבן עפה לתוך השיחים. אתה שומע אותה נוחתת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 10,
+    "original": "You throw the rock in the direction of the guard. Unfortunately, it falls well short of its target. The guard responds by firing in the direction he thought it came from.",
+    "translation": "אתה זורק את הסלע לכיוון השומר. לרוע המזל, הוא נופל הרבה לפני המטרה שלו. השומר מגיב על ידי ירי בכיוון שהוא חשב שזה הגיע ממנו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 11,
+    "original": "Doesn't that bite!?. The guard caught a glimpse when you chucked the rock and, with impressive accuracy, wasted you.",
+    "translation": "זה לא מעצבן!? השומר קלט הצצה כשזרקת את הסלע, ובדיוק מרשים, חיסל אותך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 12,
+    "original": "You cleverly use the athletic supporter to sling the rock at the guard. It makes serious contact with the side of his head. (We like the way you think.)",
+    "translation": "אתה משתמש בחוכמה בתומך האתלטי כדי לקלוע את הסלע לכיוון השומר. זה עושה מגע רציני עם צד הראש שלו. (אנחנו אוהבים את הדרך שבה אתה חושב.)",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 13,
+    "original": "With the guard being out of your line of sight, the rock sails harmlessly into the brush.",
+    "translation": "עם השומר מחוץ לקו הראייה שלך, הסלע שט בלי לפגוע לתוך השיח.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 14,
+    "original": "He drops like a lead parakeet. The ripe thud of impact is momentarily sickening. He is perfectly still.",
+    "translation": "הוא נופל כמו תוכון עופרת. החבטה הבשלה של הפגיעה מחלה רגעית. הוא שקט לחלוטין.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 15,
+    "original": "From here the guard looks quite similar to the ones which you traveled with.",
+    "translation": "מכאן השומר נראה די דומה לאלה שנסעת איתם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 16,
+    "original": "The guard is quite unconscious. It looks like he'll be out for awhile.",
+    "translation": "השומר די מחוסר הכרה. נראה שהוא יהיה בחוץ לזמן מה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 17,
+    "original": "You find nothing.",
+    "translation": "אתה לא מוצא כלום.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 18,
+    "original": "You find a small, thin magnetic card. It looks like a keycard. You seem to recall seeing one somewhere in the past.",
+    "translation": "אתה מוצא כרטיס מגנטי קטן ודק. זה נראה כמו כרטיס מגנטי. נראה שאתה זוכר שראית אחד כזה איפשהו בעבר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 19,
+    "original": "From where do you wish to get another one of those?.",
+    "translation": "מאיפה אתה רוצה להשיג עוד אחד כזה?.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 20,
+    "original": "Ok.",
+    "translation": "בסדר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 21,
+    "original": "You don't have one of those.",
+    "translation": "אין לך אחד כזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 22,
+    "original": "\"Hey!. What the heck's the deal here?\" As the guard wonders, the elevator begins moving you upward.",
+    "translation": "\"היי! מה העניין פה?\" בזמן שהשומר תוהה, המעלית מתחילה להזיז אותך למעלה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 23,
+    "original": "You are in a cramped elevator. The door is closed and you are moving.",
+    "translation": "אתה במעלית צפופה. הדלת סגורה ואתה זז.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 24,
+    "original": "As soon as the elevator door closes behind you, the platform on which you rest begins to rise.",
+    "translation": "ברגע שדלת המעלית נסגרת מאחוריך, הבמה שעליה אתה נח מתחילה לעלות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 25,
+    "original": "He's too near. You would be shot before you could let it go. Keep quiet.",
+    "translation": "הוא קרוב מדי. היית נורה לפני שהיית יכול לשחרר את זה. תשאר בשקט.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 26,
+    "original": "You don't have anything to sling.",
+    "translation": "אין לך שום דבר לקלוע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 27,
+    "original": "You don't have one to throw.",
+    "translation": "אין לך אחד לזרוק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 28,
+    "original": "You don't have anything to sling with.",
+    "translation": "אין לך שום דבר לקלוע איתו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 29,
+    "original": "You call out a universal expletive.",
+    "translation": "אתה קורא קללה אוניברסלית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 30,
+    "original": "That would not be effective now.",
+    "translation": "זה לא יהיה אפקטיבי עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 31,
+    "original": "The being fires in the general direction of the sound. Unfortunately, that happens to be where you are. You know the rest.",
+    "translation": "היצור יורה בכיוון הכללי של הצליל. לרוע המזל, זה במקרה איפה שאתה נמצא. אתה יודע את השאר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 32,
+    "original": "You are in a small clearing. Before you stands a large elevated platform, much like the one on which you landed when arriving on this planet. On one leg of the platform is an elevator door.",
+    "translation": "אתה בקרחת יער קטנה. לפניך עומדת במה מוגבהת גדולה, ממש כמו זו שעליה נחתת כשהגעת לכוכב הזה. על רגל אחת של הבמה יש דלת מעלית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 33,
+    "original": "A guard patrols the midlevel.",
+    "translation": "שומר מסייר ברמה האמצעית.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 34,
+    "original": "An unconscious guard lies at the base of the platform.",
+    "translation": "שומר מחוסר הכרה שוכב בבסיס הבמה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 35,
+    "original": "%m32 %m34",
+    "translation": "%m32 %m34",
+    "notes": "",
+    "placeholders": ["%m32", "%m34"]
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 36,
+    "original": "%m32 %m33",
+    "translation": "%m32 %m33",
+    "notes": "",
+    "placeholders": ["%m32", "%m33"]
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 40,
+    "original": "You don't see one here.",
+    "translation": "אתה לא רואה אחד כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 41,
+    "original": "The growth is too thick for you to travel through.",
+    "translation": "הצמחייה עבה מדי בשבילך לעבור דרכה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 42,
+    "original": "It's a tall impressive structure.",
+    "translation": "זה מבנה גבוה ומרשים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 43,
+    "original": "%m42 There's a guard posted on the lower level.",
+    "translation": "%m42 יש שומר מוצב ברמה התחתונה.",
+    "notes": "",
+    "placeholders": ["%m42"]
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 44,
+    "original": "That doesn't seem necessary right now.",
+    "translation": "זה לא נראה הכרחי כרגע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 45,
+    "original": "The only visible means of opening the door is a keycard slot.",
+    "translation": "האמצעי היחיד הנראה לפתוח את הדלת הוא חריץ כרטיס מגנטי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 46,
+    "original": "You just can't bear to part with your glowing gem. It's too heavy anyway. If only you had a small stone.",
+    "translation": "אתה פשוט לא יכול לסבול להיפרד מאבן החן הזוהרת שלך. היא כבדה מדי בכל מקרה. לוא רק היה לך אבן קטנה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 47,
+    "original": "Good idea! If only you had a small stone to sling.",
+    "translation": "רעיון טוב! לוא רק היה לך אבן קטנה לקלוע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 48,
+    "original": "Strolling south you run into the guard from the tower. He doesn't seem to appreciate your comments regarding todays weather.",
+    "translation": "טיילת דרומה אתה נתקל בשומר מהמגדל. הוא לא נראה מעריך את ההערות שלך לגבי מזג האוויר של היום.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 49,
+    "original": "BANG!",
+    "translation": "בום!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 50,
+    "original": "It was pretty dumb to follow a non-friend bearing a lethal weapon. As you should have expected, he still desired you non-functional. Keep trying, %s1.",
+    "translation": "זה היה די טיפשי לעקוב אחרי לא-חבר הנושא נשק קטלני. כפי שהיית צריך לצפות, הוא עדיין רצה אותך לא פונקציונלי. תמשיך לנסות, %s1.",
+    "notes": "",
+    "placeholders": ["%s1"]
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 51,
+    "original": "Be more specific about that.",
+    "translation": "תהיה יותר ספציפי לגבי זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 52,
+    "original": "It's very narrow.",
+    "translation": "זה מאוד צר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 53,
+    "original": "%m42 %m33",
+    "translation": "%m42 %m33",
+    "notes": "",
+    "placeholders": ["%m42", "%m33"]
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 54,
+    "original": "That won't help.",
+    "translation": "זה לא יעזור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "45.agilogic",
+    "messageNumber": 55,
+    "original": "%m32 A guard patrols nearby.",
+    "translation": "%m32 שומר מסייר בקרבת מקום.",
+    "notes": "",
+    "placeholders": ["%m32"]
+  }
+]

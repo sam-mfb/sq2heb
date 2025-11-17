@@ -1,0 +1,98 @@
+[
+  {
+    "logicFile": "6.agilogic",
+    "messageNumber": 10,
+    "original": "\\\"My plan was to kill you, but I've had a change of heart. ha, ha, ha... Get it?\\\" He peers down at the hoses protruding from his chest and connected to a life support system. \\\"Forgive me. I'm a kidder.\\\"",
+    "translation": "\\\"התוכנית שלי הייתה להרוג אותך, אבל עברתי שינוי לב. חה, חה, חה... תפסת?\\\" הוא מציץ מטה על הצינורות הבולטים מהחזה שלו והמחוברים למערכת תומכת חיים. \\\"סלח לי. אני צחקן.\\\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "6.agilogic",
+    "messageNumber": 15,
+    "original": "A sagging mass of flesh that appears to have been human at one time, tubes and wires extend from his body leading to machines which keep him alive. Suddenly, his visage stirs and he begins to speak.",
+    "translation": "גוש בשר נפול שנראה שהיה אנושי פעם, צינורות וחוטים משתרעים מגופו ומובילים למכונות השומרות אותו בחיים. לפתע, פניו זזים והוא מתחיל לדבר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 11,
+    "original": "You're not fooling me with that phoney stupid act. You know you're in the water already.",
+    "translation": "אתה לא מטעה אותי עם המשחק המטופש והמזויף הזה. אתה יודע שאתה כבר במים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 12,
+    "original": "You see the water. Head for it.",
+    "translation": "אתה רואה את המים. תפנה לשם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 13,
+    "original": "Beautiful subterranean waterfalls and cascades drop before. The luminous liquid churns at the base before flowing downstream.",
+    "translation": "מפלים ומפלונים תת-קרקעיים יפים צונחים לפניך. הנוזל הזוהר מתערבל בבסיס לפני שזורם במורד הזרם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "39.agilogic",
+    "messageNumber": 14,
+    "original": "Attempting to scale the sharp, moisture laden walls of rock would be too dangerous.",
+    "translation": "לנסות לטפס על קירות הסלע החדים והספוגים בלחות יהיה מסוכן מדי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "100.agilogic",
+    "messageNumber": 2,
+    "original": "",
+    "translation": "",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "101.agilogic",
+    "messageNumber": 22,
+    "original": "",
+    "translation": "",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "105.agilogic",
+    "messageNumber": 3,
+    "original": "You hack up a good one from way down deep. You, carefully, draw in some air and let it fly. ",
+    "translation": "אתה מעלה אחד טוב מעמוק בפנים. אתה, בזהירות, שואף קצת אוויר ונותן לו לעוף. ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "105.agilogic",
+    "messageNumber": 4,
+    "original": "Using relatively poor judgement... Oh, lets face it... Your an idiot. You have stuccoed the inside of your helmet's face mask with a large, and rather viscous, quantity of throat balm. Nice going.",
+    "translation": "משתמש בשיקול דעת גרוע יחסית... אה, בוא נודה... אתה אידיוט. ציפית את החלק הפנימי של מסכת הפנים של הקסדה שלך בכמות גדולה, ודי צמיגה, של מזור גרון. יפה עבודה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "105.agilogic",
+    "messageNumber": 8,
+    "original": "You don't own one.",
+    "translation": "אין לך אחד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "140.agilogic",
+    "messageNumber": 9,
+    "original": "Sweating like a pork-beast in a\\n pressure suit while relocating space\\n debris in zero-gravity, just wasn't\\n your idea of a good time.",
+    "translation": "להזיע כמו חזיר-חיה\\n בחליפת לחץ תוך כדי העברת\\n פסולת חלל באפס כבידה,\\n פשוט לא היה הרעיון שלך לבילוי טוב.",
+    "notes": "",
+    "placeholders": []
+  }
+]

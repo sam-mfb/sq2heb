@@ -1,0 +1,898 @@
+[
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 2,
+    "original": "Ok.",
+    "translation": "בסדר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 3,
+    "original": "You don't have the paper.",
+    "translation": "אין לך את הנייר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 4,
+    "original": "You are ",
+    "translation": "אתה ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 5,
+    "original": "You don't have the basket.",
+    "translation": "אין לך את הסל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 6,
+    "original": "There is nothing there that you can't already see.",
+    "translation": "אין שם שום דבר שאתה לא יכול לראות כבר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 7,
+    "original": "That does not ",
+    "translation": "זה לא ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 8,
+    "original": "I don't understand ",
+    "translation": "אני לא מבין ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 10,
+    "original": "%m8\"%w1\"",
+    "translation": "%m8\"%w1\"",
+    "notes": "",
+    "placeholders": ["%m8", "%w1"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 11,
+    "original": "%m8\"%w2\"",
+    "translation": "%m8\"%w2\"",
+    "notes": "",
+    "placeholders": ["%m8", "%w2"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 12,
+    "original": "%m8\"%w3\"",
+    "translation": "%m8\"%w3\"",
+    "notes": "",
+    "placeholders": ["%m8", "%w3"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 13,
+    "original": "%m8\"%w4\"",
+    "translation": "%m8\"%w4\"",
+    "notes": "",
+    "placeholders": ["%m8", "%w4"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 14,
+    "original": "I'll get naked if you get naked. You go first.",
+    "translation": "אני אתפשט אם אתה תתפשט. אתה קודם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 15,
+    "original": "%m4%s1. Don't you remember?",
+    "translation": "%m4%s1. אתה לא זוכר?",
+    "notes": "",
+    "placeholders": ["%m4", "%s1"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 16,
+    "original": "You foul-mouthed slime bucket. You're a living garbage skow. ",
+    "translation": "פה מלוכלך דלי של רפש. אתה ספינת אשפה מהלכת. ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 19,
+    "original": "There isn't much fuel. You might want to save it.",
+    "translation": "אין הרבה דלק. אולי כדאי לך לשמור אותו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 20,
+    "original": "%v81,%v82  %v96      ",
+    "translation": "%v81,%v82  %v96      ",
+    "notes": "",
+    "placeholders": ["%v81", "%v82", "%v96"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 21,
+    "original": "You rub the berries all over your body. You now smell like a walking ammonia inhalant.",
+    "translation": "אתה משפשף את פירות היער על כל גופך. עכשיו אתה מריח כמו מכשיר שאיפת אמוניה מהלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 22,
+    "original": "You don't have those.",
+    "translation": "אין לך את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 23,
+    "original": "Not right now.",
+    "translation": "לא עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 24,
+    "original": "That would not be advisable at this time.",
+    "translation": "זה לא יהיה מומלץ כרגע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 25,
+    "original": "Due to paralysis, you are only capable of displacing air.",
+    "translation": "בגלל שיתוק, אתה מסוגל רק להזיז אוויר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 26,
+    "original": "The paper in the basket is just fine.",
+    "translation": "הנייר בסל בסדר גמור.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 28,
+    "original": "Sorry. %m23",
+    "translation": "סליחה. %m23",
+    "notes": "",
+    "placeholders": ["%m23"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 29,
+    "original": "There is no need to mess with that.",
+    "translation": "אין צורך לפשפש בזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 30,
+    "original": "You do not possess the designated item.",
+    "translation": "אין לך את הפריט המיועד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 31,
+    "original": "You'll have to be more specific.",
+    "translation": "אתה צריך להיות יותר ספציפי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 32,
+    "original": "You don't need to do that now.",
+    "translation": "אתה לא צריך לעשות את זה עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 33,
+    "original": "Nobody is interested in your stupid gem.",
+    "translation": "לאף אחד לא אכפת מהאבן החן המטומטמת שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 34,
+    "original": "That isn't necessary in this game.",
+    "translation": "זה לא הכרחי במשחק הזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 36,
+    "original": "%m4dressed in the standard issue excursion garment.",
+    "translation": "%m4לבוש בבגד הטיול הסטנדרטי.",
+    "notes": "",
+    "placeholders": ["%m4"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 37,
+    "original": "You are attired in the smart-looking uniform of a Xenon Orbital Station employee.",
+    "translation": "אתה לבוש במדי העובד המשובחים של תחנת מסלול זנון.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 38,
+    "original": "You would endanger yourself by doing that.",
+    "translation": "אתה תסכן את עצמך אם תעשה את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 39,
+    "original": "That wouldn't be helpful now.",
+    "translation": "זה לא יעזור עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 40,
+    "original": "Don't mess with the",
+    "translation": "אל תפשפש ב",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 41,
+    "original": "%m40 spore.",
+    "translation": "%m40נבג.",
+    "notes": "",
+    "placeholders": ["%m40"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 42,
+    "original": "\"%v148 MINUTES UNTIL MELTDOWN,\" a synthesized voice cheerfully announces.",
+    "translation": "\"%v148 דקות עד התמוטטות,\" קול מסונתז מכריז בעליזות.",
+    "notes": "",
+    "placeholders": ["%v148"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 43,
+    "original": "\"1 MINUTE LEFT. IT'S BEEN NICE KNOWING YOU.\"",
+    "translation": "\"נשארה דקה אחת. היה נעים להכיר אותך.\"",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 46,
+    "original": "Would you want your mother to hear you say that?",
+    "translation": "היית רוצה שאמא שלך תשמע אותך אומר את זה?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 47,
+    "original": "You pull the puzzle out and give it a few spins. Instead of improving, it seems to be worse. Irritated, you stash it and go on with the adventure.",
+    "translation": "אתה מוציא את הפאזל ונותן לו כמה סיבובים. במקום להשתפר, נראה שזה רק מחמיר. במרוצה, אתה דוחף אותו בחזרה וממשיך בהרפתקה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 48,
+    "original": "Phew! These babies are pungent. You'll get no dates with these.",
+    "translation": "פיו! המותקים האלה חזקים. לא תשיג דייטים עם אלה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 49,
+    "original": "Everything is already snug and secure. No need to wear it now.",
+    "translation": "הכל כבר מהודק ומאובטח. אין צורך ללבוש את זה עכשיו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 50,
+    "original": "It's fine where it is.",
+    "translation": "זה בסדר איפה שזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 51,
+    "original": "You get them near your mouth and notice the pungent scent. Wisely, you change your mind.",
+    "translation": "אתה מקרב אותם לפה שלך ומבחין בריח החזק. בחוכמה, אתה מתחרט.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 52,
+    "original": "You bear your normal manly scent.",
+    "translation": "אתה נושא את הריח הגברי הרגיל שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 53,
+    "original": "%m52 Not to mention what could be a powerful skunk repellent.",
+    "translation": "%m52 שלא לדבר על מה שיכול להיות דוחה בואש חזק.",
+    "notes": "",
+    "placeholders": ["%m52"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 54,
+    "original": "I'll act like I didn't hear that.",
+    "translation": "אני אעשה כאילו לא שמעתי את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 55,
+    "original": "Don't waste your time.",
+    "translation": "אל תבזבז את הזמן שלך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 56,
+    "original": "That's been done.",
+    "translation": "זה כבר נעשה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 59,
+    "original": "Sorry. This game is in a NO JUMPING zone.",
+    "translation": "סליחה. המשחק הזה באזור ללא קפיצות.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 60,
+    "original": "You can't run.",
+    "translation": "אתה לא יכול לרוץ.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 63,
+    "original": "No way! You've already gotten in enough trouble in the past doing that.",
+    "translation": "בשום פנים! כבר נכנסת למספיק צרות בעבר בגלל זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 66,
+    "original": "Let's don't, and say we did.",
+    "translation": "בואו לא נעשה, ונגיד שעשינו.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 67,
+    "original": "That doesn't seem to be the correct action in this case.",
+    "translation": "זה לא נראה כמו הפעולה הנכונה במקרה הזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 70,
+    "original": "%m7seem to be in your sight now.",
+    "translation": "%m7נראה בשדה הראייה שלך עכשיו.",
+    "notes": "",
+    "placeholders": ["%m7"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 71,
+    "original": "%m7appear to be here to view.",
+    "translation": "%m7נראה כאן לצפייה.",
+    "notes": "",
+    "placeholders": ["%m7"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 72,
+    "original": "I don't think that is in view right now.",
+    "translation": "אני לא חושב שזה בטווח הראייה כרגע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 73,
+    "original": "%m7seem to be available at this time.",
+    "translation": "%m7נראה זמין כרגע.",
+    "notes": "",
+    "placeholders": ["%m7"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 74,
+    "original": "There is nothing here by that name which can be acquired.",
+    "translation": "אין כאן שום דבר בשם הזה שאפשר לקחת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 75,
+    "original": "You can't obtain that here.",
+    "translation": "אתה לא יכול להשיג את זה כאן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 76,
+    "original": "Your legs will take you where you want to go (in most cases, anyway).",
+    "translation": "הרגליים שלך יקחו אותך לאן שאתה רוצה ללכת (ברוב המקרים, בכל מקרה).",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 77,
+    "original": "That's not the way to get there.",
+    "translation": "זו לא הדרך להגיע לשם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 79,
+    "original": "That is not currently one of your options.",
+    "translation": "זה לא אחת מהאפשרויות שלך כרגע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 80,
+    "original": "How would you like to do that?",
+    "translation": "איך היית רוצה לעשות את זה?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 81,
+    "original": "That was pleasant.",
+    "translation": "זה היה נעים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 82,
+    "original": "That act would lack any serious gratification.",
+    "translation": "המעשה הזה יחסר כל סיפוק רציני.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 83,
+    "original": "You possess nothing that could help you accomplish this.",
+    "translation": "אין לך שום דבר שיכול לעזור לך להשיג את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 84,
+    "original": "This isn't a text adventure!",
+    "translation": "זה לא הרפתקת טקסט!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 85,
+    "original": "Leave the supporter alone!",
+    "translation": "תעזוב את התומך בשקט!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 86,
+    "original": "You can trust me to let you know when something stinks.",
+    "translation": "אתה יכול לסמוך עליי שאני אספר לך כשמשהו מסריח.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 87,
+    "original": "That isn't what you should do with it.",
+    "translation": "זה לא מה שאתה צריך לעשות עם זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 88,
+    "original": "You learn nothing new through this act.",
+    "translation": "אתה לא לומד שום דבר חדש מהמעשה הזה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 89,
+    "original": "%m8your request.",
+    "translation": "%m8את הבקשה שלך.",
+    "notes": "",
+    "placeholders": ["%m8"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 90,
+    "original": "%m7compute.",
+    "translation": "%m7מחשב.",
+    "notes": "",
+    "placeholders": ["%m7"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 91,
+    "original": "Say What?",
+    "translation": "מה אמרת?",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 96,
+    "original": "You'll have to go there to do that.",
+    "translation": "אתה תצטרך ללכת לשם כדי לעשות את זה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 102,
+    "original": "You see no one of interest.",
+    "translation": "אתה לא רואה אף אחד מעניין.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 109,
+    "original": " %v13:%v12|2:%v11|2  ",
+    "translation": " %v13:%v12|2:%v11|2  ",
+    "notes": "",
+    "placeholders": ["%v13", "%v12", "%v11"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 115,
+    "original": "%s4",
+    "translation": "%s4",
+    "notes": "",
+    "placeholders": ["%s4"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 116,
+    "original": "Exit Game? (Y/N) ",
+    "translation": "לצאת מהמשחק? (Y/N) ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 140,
+    "original": "Word not known: ",
+    "translation": "מילה לא מוכרת: ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 141,
+    "original": "%m140\"%w1\"",
+    "translation": "%m140\"%w1\"",
+    "notes": "",
+    "placeholders": ["%m140", "%w1"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 142,
+    "original": "%m140\"%w2\"",
+    "translation": "%m140\"%w2\"",
+    "notes": "",
+    "placeholders": ["%m140", "%w2"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 143,
+    "original": "%m140\"%w3\"",
+    "translation": "%m140\"%w3\"",
+    "notes": "",
+    "placeholders": ["%m140", "%w3"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 144,
+    "original": "%m140\"%w4\"",
+    "translation": "%m140\"%w4\"",
+    "notes": "",
+    "placeholders": ["%m140", "%w4"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 145,
+    "original": "%m140\"%w5\"",
+    "translation": "%m140\"%w5\"",
+    "notes": "",
+    "placeholders": ["%m140", "%w5"]
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 149,
+    "original": "No response to input.",
+    "translation": "אין תגובה לקלט.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 150,
+    "original": "Sierra",
+    "translation": "Sierra",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 151,
+    "original": "About SQ2",
+    "translation": "אודות SQ2",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 152,
+    "original": "Help     ",
+    "translation": "עזרה     ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 153,
+    "original": "File",
+    "translation": "קובץ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 154,
+    "original": "Save     <F5>",
+    "translation": "שמירה     <F5>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 155,
+    "original": "Restore  <F7>",
+    "translation": "שחזור  <F7>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 156,
+    "original": "-------------",
+    "translation": "-------------",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 157,
+    "original": "Restart  <F9>",
+    "translation": "התחל מחדש  <F9>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 158,
+    "original": "Quit  <Alt-Z>",
+    "translation": "יציאה  <Alt-Z>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 159,
+    "original": "Action",
+    "translation": "פעולה",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 161,
+    "original": "See Object  <F4>",
+    "translation": "ראה אובייקט  <F4>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 162,
+    "original": "Inventory  <Tab>",
+    "translation": "מלאי  <Tab>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 163,
+    "original": "Special",
+    "translation": "מיוחד",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 164,
+    "original": "Sound On/Off       <F2>",
+    "translation": "צליל דלוק/כבוי       <F2>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 165,
+    "original": "Color/BW       <Ctrl R>",
+    "translation": "צבע/שחור-לבן       <Ctrl R>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 166,
+    "original": "Clock On/Off   <F6>",
+    "translation": "שעון דלוק/כבוי   <F6>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 167,
+    "original": "Joystick       <Ctrl J>",
+    "translation": "ג'ויסטיק       <Ctrl J>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 168,
+    "original": "Joystick/Mouse <Ctrl J>",
+    "translation": "ג'ויסטיק/עכבר <Ctrl J>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 169,
+    "original": "Pause             <Esc>",
+    "translation": "השהיה             <Esc>",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 170,
+    "original": "Speed",
+    "translation": "מהירות",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 171,
+    "original": "Normal ",
+    "translation": "רגיל ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 172,
+    "original": "Slow   ",
+    "translation": "איטי   ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 173,
+    "original": "Fast   ",
+    "translation": "מהיר   ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 174,
+    "original": "Fastest",
+    "translation": "הכי מהיר",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 175,
+    "original": "By ",
+    "translation": "מאת ",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "0.agilogic",
+    "messageNumber": 176,
+    "original": "MARK CROWE and SCOTT MURPHY",
+    "translation": "מארק קרו וסקוט מרפי",
+    "notes": "",
+    "placeholders": []
+  }
+]

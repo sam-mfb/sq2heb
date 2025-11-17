@@ -1,0 +1,290 @@
+[
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 1,
+    "original": "Yes. You see before you a tree.",
+    "translation": "כן. אתה רואה לפניך עץ.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 2,
+    "original": "The bushes seem to be composed of leaves and small branches. Nothing interesting about them.",
+    "translation": "השיחים נראים מורכבים מעלים וענפים קטנים. אין בהם שום דבר מעניין.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 3,
+    "original": "The ground is soiled.",
+    "translation": "הקרקע מלוכלכת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 4,
+    "original": "The tree is coated with a thin slimy film making it unclimbable.",
+    "translation": "העץ מצופה בשכבה דקה וחלקלקה שהופכת אותו לבלתי ניתן לטיפוס.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 5,
+    "original": "The tree is very solid. You have no implement with which to penetrate it and you're no beaver.",
+    "translation": "העץ מוצק מאוד. אין לך כלי איתו לחדור אותו ואתה לא בונה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 6,
+    "original": "What ever you say, Mr. Atlas.",
+    "translation": "מה שתגיד, מר אטלס.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 7,
+    "original": "Sunlight filters through the dense, leafy crown of the forest. The sky appears to be clear.",
+    "translation": "אור השמש מסתנן דרך החופה העבה והמעולפת של היער. השמיים נראים בהירים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 8,
+    "original": "You are not near any gatherable leaves.",
+    "translation": "אתה לא קרוב לאף עלים ניתנים לאיסוף.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 9,
+    "original": "They're all in use right now. Sorry.",
+    "translation": "כולם בשימוש כרגע. סליחה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 10,
+    "original": "That won't help you right now.",
+    "translation": "זה לא יעזור לך כרגע.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 11,
+    "original": "Leave the dirt alone.",
+    "translation": "עזוב את העפר בשקט.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 12,
+    "original": "You hear the soft music of a million leaves in the gentle breeze.",
+    "translation": "אתה שומע את המוזיקה הרכה של מיליון עלים ברוח העדינה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 13,
+    "original": "You already have some leaves.",
+    "translation": "כבר יש לך כמה עלים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 14,
+    "original": "The rocks in this region are all gray and fairly rounded. There appears to be nothing of interest about them.",
+    "translation": "הסלעים באזור זה כולם אפורים ועגולים למדי. לא נראה שיש בהם שום דבר מעניין.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 15,
+    "original": "You peer into the dense thicket, but see only denser thicket.",
+    "translation": "אתה מציץ לתוך הסבך הצפוף, אבל רואה רק סבך צפוף יותר.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 16,
+    "original": "The juicy bark appears fiberous beneath the slick coating.",
+    "translation": "הקליפה העסיסית נראית סיבית מתחת לציפוי החלקלק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 17,
+    "original": "You can't remove the bark.",
+    "translation": "אתה לא יכול להסיר את הקליפה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 18,
+    "original": "The vines appear to be very thin and fragile.",
+    "translation": "הגפנים נראות דקות ושבירות מאוד.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 19,
+    "original": "You are unable to reach the vines.",
+    "translation": "אתה לא מסוגל להגיע לגפנים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 20,
+    "original": "The rocks here are too large to move.",
+    "translation": "הסלעים כאן גדולים מדי כדי להזיז.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 21,
+    "original": "The bank is an exposed section of packed brown dirt.",
+    "translation": "הגדה היא קטע חשוף של עפר חום דחוס.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 22,
+    "original": "The bank is too steep to climb.",
+    "translation": "הגדה תלולה מדי לטיפוס.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 23,
+    "original": "The foliage is too dense to travel through.",
+    "translation": "העלווה צפופה מדי כדי לעבור דרכה.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 24,
+    "original": "The moss on the trees is thick, green, and slimey.",
+    "translation": "הטחב על העצים עבה, ירוק וחלקלק.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 25,
+    "original": "The moss is too slimey to get.",
+    "translation": "הטחב חלקלק מדי כדי לקחת.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 26,
+    "original": "The roots of the trees are very uninteresting.",
+    "translation": "שורשי העצים מאוד לא מעניינים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 27,
+    "original": "Leave the root alone.",
+    "translation": "עזוב את השורש בשקט.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 28,
+    "original": "You can't see the forest for the trees.",
+    "translation": "אתה לא יכול לראות את היער מרוב עצים.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 29,
+    "original": "That wouldn't be helpful.",
+    "translation": "זה לא יהיה מועיל.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 30,
+    "original": "Hey, you're no 6 Million Buckazoid man!",
+    "translation": "היי, אתה לא איש 6 מיליון באקזואיד!",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 31,
+    "original": "Trying to dig a hole in this solid ground is a waste of time.",
+    "translation": "לנסות לחפור חור באדמה המוצקה הזו זה בזבוז זמן.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 32,
+    "original": "You can't move them to look under them.",
+    "translation": "אתה לא יכול להזיז אותם כדי להסתכל מתחתם.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 33,
+    "original": "Be more specific.",
+    "translation": "תהיה יותר ספציפי.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 34,
+    "original": "Too many leaves in the way.",
+    "translation": "יותר מדי עלים בדרך.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 35,
+    "original": "There isn't much to see, as you may have noticed.",
+    "translation": "אין הרבה מה לראות, כפי שאולי שמת לב.",
+    "notes": "",
+    "placeholders": []
+  },
+  {
+    "logicFile": "106.agilogic",
+    "messageNumber": 36,
+    "original": "It's too thick in there.",
+    "translation": "זה עבה מדי שם.",
+    "notes": "",
+    "placeholders": []
+  }
+]
