@@ -27,7 +27,8 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "index-objects": "vite-node scripts/index-objects.ts",
-    "index-messages": "vite-node scripts/index-messages.ts"
+    "index-messages": "vite-node scripts/index-messages.ts",
+    "decode-picture": "vite-node scripts/decode-picture.ts"
   },
   "keywords": [],
   "author": "",
