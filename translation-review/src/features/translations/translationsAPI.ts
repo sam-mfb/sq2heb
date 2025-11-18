@@ -1,6 +1,6 @@
 import type { MessagesFile, ObjectsFile, VocabularyFile } from '@/types/translations';
 
-const BASE_PATH = '/translations/project';
+const BASE_PATH = `${import.meta.env.BASE_URL}translations/project`;
 
 export async function fetchMessages(): Promise<MessagesFile> {
   const response = await fetch(`${BASE_PATH}/messages.json`);
