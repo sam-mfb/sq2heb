@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'translation-review/**'
+      - 'translations/project/**'
       - '.github/workflows/deploy.yml'
 
 permissions:
@@ -38,6 +39,11 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: translation-review
+
+      - name: Copy translation data
+        run: |
+          mkdir -p translation-review/dist/translations
+          cp translations/project/*.json translation-review/dist/translations/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
