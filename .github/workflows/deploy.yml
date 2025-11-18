@@ -42,8 +42,8 @@ jobs:
 
       - name: Copy translation data
         run: |
-          mkdir -p translation-review/dist/translations
-          cp translations/project/*.json translation-review/dist/translations/
+          mkdir -p translation-review/dist/translations/project
+          cp translations/project/*.json translation-review/dist/translations/project/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

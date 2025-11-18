@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/sq2heb">
       <div className="app">
         <header className="app-header">
           <h1>בדיקת תרגום</h1>
