@@ -1,6 +1,7 @@
 # Translation Instructions
 
 You are translating the Sierra game **Space Quest 2** into Hebrew. Specifically you will be translating:
+
 - **Inventory items/objects** - Item names and descriptions
 - **Messages in the game** - Narration, dialogue, descriptions
 - **Vocabulary words** - Commands the user can type (look, take, open, etc.)
@@ -22,9 +23,10 @@ Space Quest was a humorous science fiction adventure game from the late 80s. Its
 King's Quest games have a very different vibe than Space Quest, but they had a similar text parser interface. **Hebrew translations of standard commands and action words should be consistent across all Sierra games.**
 
 Available reference files:
-- `translations/kq1Words.csv` - King's Quest 1 vocabulary
-- `translations/kq2Words.csv` - King's Quest 2 vocabulary
-- `translations/kq3Words.csv` - King's Quest 3 vocabulary
+
+- `translations/references/kq1Words.csv` - King's Quest 1 vocabulary
+- `translations/references/kq2Words.csv` - King's Quest 2 vocabulary
+- `translations/references/kq3Words.csv` - King's Quest 3 vocabulary
 
 **Format:** CSV with columns: אינדקס (index), מקור (source/English), תרגום (translation/Hebrew), הערות (notes)
 
@@ -33,16 +35,19 @@ Available reference files:
 For **nouns**, the AGI compiler will automatically generate variations with prepositional prefixes (ל, ה, ב, מ, etc.). Only provide the base noun form.
 
 For **verbs**, provide the forms that users are most likely to type. This includes:
+
 - Imperative forms (command forms): הבט, קח, פתח
 - Infinitive forms: לראות, לקחת, לפתוח
 - Future tense forms: תראה, תקח, תפתח
 - Any conjugation a player might naturally type
 
 **Examples:**
+
 - Nouns: דלת (not הדלת, לדלת - prefixes auto-generated)
 - Verbs: הבט / תסתכל / לראות (include common typing variations)
 
 **Key verbs to keep consistent:**
+
 - look/examine/see → הבט / תסתכל / לראות / תראה
 - take/get → קח / לקחת / תקח / השג
 - open → פתח / לפתוח / תפתח
@@ -53,11 +58,13 @@ For **verbs**, provide the forms that users are most likely to type. This includ
 ### Messages and Game Text
 
 Space Quest 1 has been translated and serves as the primary reference for:
+
 - **Tone and style** - How to handle sci-fi humor in Hebrew
 - **Recurring characters/terms** - Roger Wilco, Sarien, etc.
 - **Common game messages** - Death messages, navigation text, etc.
 
 Available reference file:
+
 - `translations/references/sq1Strings.csv` - Space Quest 1 complete translation
 
 **Important:** The SQ1 translators were experienced and their choices should be respected. Familiarize yourself with their work before starting.
@@ -89,9 +96,11 @@ Located in `sq2/`:
 Located in `sq2/reference/`:
 
 #### **1. translation_reference.json** - PRIMARY REFERENCE
+
 **Use this file constantly during message translation!**
 
 Comprehensive glossary with 200+ entries organized by category:
+
 - **characters** (11) - Character names: Sludge Vohaul → סלדג' וואול, Sarien → סריאני, Roger Wilco → רוג'ר ווילקו
 - **locations** (6) - Planet/place names: Kerona → קרונה, Labion → לאביון, Orat → אורט
 - **objects** (23) - All inventory items: keycard → כרטיס מגנטי, oxygen mask → מסכת חמצן
@@ -105,7 +114,9 @@ Comprehensive glossary with 200+ entries organized by category:
 - **sq2SpecificTerms** (10) - SQ2-unique terms (walbot, insurance salesman clones, etc.)
 
 #### **2. vocabulary_translation_notes.md**
+
 Translation decisions and rationale for vocabulary choices:
+
 - Why certain Hebrew terms were selected
 - KQ1-3 cross-references for standard verbs
 - SQ1 consistency notes
@@ -113,19 +124,24 @@ Translation decisions and rationale for vocabulary choices:
 - Special cases and ambiguities
 
 #### **3. vocabulary_complete_analysis.md**
+
 Statistical analysis of all vocabulary translations:
+
 - Breakdown by word type (verbs, nouns, sci-fi, etc.)
 - Cross-phase consistency verification
 - Quality metrics
 
 #### **4. vocabulary_51-200_quick_reference.md**
+
 Quick lookup table for common terms:
+
 - Character names
 - Location names
 - Profanity/humor translations
 - Technology terms
 
 #### **5. README.md, USAGE_EXAMPLES.md, INDEX.md**
+
 Documentation explaining how to use the reference materials effectively.
 
 ### Translation Workflow for Messages (Phase 3)
@@ -195,25 +211,30 @@ Step 4: Add to messages.json with translation and blank notes
 ## Common Pitfalls to Avoid
 
 ❌ **Don't translate:**
+
 - Variable placeholders (`%v0`, `%s1`, etc.)
 - Resource references (`i0`, `i1`, etc.)
 - Command syntax in logic files
 
 ❌ **Don't add prefixes to nouns:**
+
 - For nouns only, the compiler auto-generates variations with ל, ה, ב, מ, etc.
 - For verbs, DO include forms users might type (imperatives, infinitives, conjugations)
 
 ❌ **Don't modernize:**
+
 - Use 80s-era Hebrew, not 2020s slang
 - Keep the retro sci-fi feel
 
 ❌ **Don't ignore references:**
+
 - Always check SQ1 translation for recurring elements
 - Always check KQ translations for standard verbs
 
 ## Questions?
 
 If you're unsure about a translation choice:
+
 1. Check the reference files first
 2. Consider the character and context
 3. Prioritize humor and playability over literal accuracy
