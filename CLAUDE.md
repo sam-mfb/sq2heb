@@ -217,6 +217,37 @@ npm run viewer:dev   # Hot reload enabled
 # Changes auto-reload in browser
 ```
 
+### Building AGI Game with Encoding
+
+This project uses **agikit-slim** with Windows-1255 encoding support for Hebrew translations.
+
+```bash
+# Build main project (uses --encoding windows-1255)
+npm run build
+
+# Build example project (uses --encoding windows-1255)
+npm run example:build
+
+# Build indexed translations (uses --encoding windows-1255)
+npm run build-index
+npm run example:build-index
+```
+
+**What gets encoded:**
+- Logic file messages (`#message` declarations)
+- Object names (inventory items)
+- View descriptions (embedded text in graphics)
+
+**Encoding support:**
+- All build commands use `--encoding windows-1255` by default
+- Supports any single-byte encoding (windows-1251, iso-8859-8, etc.)
+- Multi-byte encodings (UTF-8, UTF-16) are NOT supported by AGI
+
+**Manual build command:**
+```bash
+agikit build <projectdir> --encoding windows-1255
+```
+
 ---
 
 ## File Format Quick Reference
@@ -242,7 +273,8 @@ npm run viewer:dev   # Hot reload enabled
 
 ## Useful Links
 
-- **agikit:** https://github.com/nbudin/agikit
+- **agikit-slim:** https://github.com/sam-mfb/agikit-slim (used in this project - supports Windows-1255 encoding)
+- **agikit:** https://github.com/nbudin/agikit (original project)
 - **AGI Wiki:** http://agiwiki.sierrahelp.com/
 - **AGIHebrew Reference:** https://github.com/SegMash/AGIHebrew
 - **ScummVM:** https://www.scummvm.org/

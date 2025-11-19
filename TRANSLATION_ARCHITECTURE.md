@@ -435,6 +435,36 @@ Gameplay (ScummVM):
 
 **Critical point:** The AGI compiler and game engine expect specific byte values for extended characters. Logic files and extended vocabulary must be saved in the target code page so that the compiler/engine interprets characters correctly.
 
+### Compilation with agikit-slim
+
+**This project uses agikit-slim**, which has built-in support for Windows-1255 and other single-byte encodings.
+
+**Build Command:**
+```bash
+agikit build <projectdir> --encoding windows-1255
+```
+
+**What it compiles with encoding:**
+- Logic files (`.agilogic`) - Messages are encoded using Windows-1255
+- Object file (`object.json`) - Object names are encoded
+- View resources (`.agiview`) - View descriptions are encoded
+
+**Supported encodings:**
+- `windows-1255` (Hebrew)
+- `windows-1251` (Cyrillic)
+- `windows-1252` (Western European)
+- `iso-8859-1`, `iso-8859-8`, and other single-byte encodings
+- **Note:** Multi-byte encodings (UTF-8, UTF-16) are NOT recommended as AGI only supports single-byte character sets
+
+**Project scripts:**
+```bash
+npm run build              # Build main project with Windows-1255
+npm run build-index        # Build indexed translation with Windows-1255
+npm run example:build      # Build example project with Windows-1255
+```
+
+All build scripts in this project are configured to use `--encoding windows-1255` by default.
+
 ### Special Character Handling
 
 **Variable Placeholders:**
