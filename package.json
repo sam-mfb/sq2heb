@@ -37,7 +37,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@agikit-slim/cli": "^1.1.0",
+    "@agikit-slim/cli": "^1.2.0",
     "@agikit/react-editors": "^0.8.2",
     "@reduxjs/toolkit": "^2.10.1",
     "buffer": "^6.0.3",
